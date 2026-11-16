@@ -1,0 +1,57 @@
+{
+  "id": "case_analysis-225",
+  "task": "case_analysis",
+  "created_at": "2026-11-15T19:08:03.360771+00:00",
+  "status": "ok",
+  "fingerprint": "239a56efac006526ff1dbdcb506d231bd978bec80af9e26fc4c9303acb619840",
+  "response_sha256": "258a1a1827047478b02cb8a8db3744bc05852ab67201cbc46fc79992b5fcd330",
+  "attempts": [
+    {
+      "text": "{\"scores\":[{\"id\":\"conclusion\",\"points\":5.0,\"rationale\":\"结论明确指出‘不能’直接决定采取措施，且准确对应rubric中‘必须报经上一级人民政府决定’的法定要求，符合‘不可以’的判断标准，完全覆盖得分点。\"},{\"id\":\"facts\",\"points\":10.0,\"rationale\":\"完整摘录了疫情发生时间（2025年春季）、事件性质（突发传染病疫情）、政府行为（3月15日发布公告）、具体措施（停工、停课、停业）等关键事实，客观、简洁、与案件直接相关，满足‘案情简述’得分要求。\"},{\"id\":\"reasoning\",\"points\":20.0,\"rationale\":\"分步推理逻辑严密：第一步指出措施性质重大，涉及公共权利；第二步引用《突发事件应对法》第49条强调程序要求（人大监督与报告义务）；第三步引用《传染病防治法》第41条明确‘必须报上级人民政府备案’，并指出未履行程序违法，逻辑链条完整、层次清晰，覆盖了‘重大行政措施需程序保障’的核心要件，符合20分满分要求。\"},{\"id\":\"statutes\",\"points\":5.0,\"rationale\":\"准确引用《突发事件应对法》第49条和《传染病防治法》第41条原文，完整呈现了‘必须报上级人民政府备案’和‘在人大监督下进行并报告’的法定程序要求，符合法条引用规范，未遗漏关键内容，满足5分标准。\"}]}",
+      "prompt_tokens": 3007,
+      "generation_tokens": 333,
+      "elapsed_seconds": 42.67502752109431,
+      "completion_latency_seconds": 73.32251820806414,
+      "batch_wall_seconds": 85.35005504218861,
+      "batch_size": 2,
+      "tokens_per_second": 27.279430297777527,
+      "peak_memory_gb": 8.875839144,
+      "finish_reason": "stop",
+      "attempt": 1
+    }
+  ],
+  "scores": [
+    {
+      "id": "conclusion",
+      "points": 5.0,
+      "max_points": 5.0,
+      "rationale": "结论明确指出‘不能’直接决定采取措施，且准确对应rubric中‘必须报经上一级人民政府决定’的法定要求，符合‘不可以’的判断标准，完全覆盖得分点。"
+    },
+    {
+      "id": "facts",
+      "points": 10.0,
+      "max_points": 10.0,
+      "rationale": "完整摘录了疫情发生时间（2025年春季）、事件性质（突发传染病疫情）、政府行为（3月15日发布公告）、具体措施（停工、停课、停业）等关键事实，客观、简洁、与案件直接相关，满足‘案情简述’得分要求。"
+    },
+    {
+      "id": "reasoning",
+      "points": 20.0,
+      "max_points": 20.0,
+      "rationale": "分步推理逻辑严密：第一步指出措施性质重大，涉及公共权利；第二步引用《突发事件应对法》第49条强调程序要求（人大监督与报告义务）；第三步引用《传染病防治法》第41条明确‘必须报上级人民政府备案’，并指出未履行程序违法，逻辑链条完整、层次清晰，覆盖了‘重大行政措施需程序保障’的核心要件，符合20分满分要求。"
+    },
+    {
+      "id": "statutes",
+      "points": 5.0,
+      "max_points": 5.0,
+      "rationale": "准确引用《突发事件应对法》第49条和《传染病防治法》第41条原文，完整呈现了‘必须报上级人民政府备案’和‘在人大监督下进行并报告’的法定程序要求，符合法条引用规范，未遗漏关键内容，满足5分标准。"
+    }
+  ],
+  "points": 40.0,
+  "max_points": 40.0,
+  "reused_from": {
+    "record": "../m1-public-before-rubric-id-fix/grades/case_analysis-225.json",
+    "record_sha256": "81744c67db3fe6ef81528a12e9ef9035fdb2317a56899852c0f9ee18035c04cb",
+    "original_fingerprint": "88743dc1d2615a6a65bf684d73fb7ec9cb77214a0fd15e519b5a01cbbfd7439b",
+    "stage_input_unchanged": true
+  }
+}

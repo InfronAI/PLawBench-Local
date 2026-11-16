@@ -1,0 +1,409 @@
+{
+  "checked_valid_grades": 280,
+  "flagged_answers": 21,
+  "flagged_claims": 37,
+  "rows": [
+    {
+      "id": "case_analysis-001",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 509,
+          "points": 15.0,
+          "max_points": 15.0,
+          "affirmative_claim": "引用了《民法典》第1183条、第509条、第577条及司法解释第1条，符合rubric中‘（+5分）每条法条引用准确且与争议相关’要求，完整覆盖了‘人格权侵害’与‘严重精神损害’的构成要件，且引用《最高人民法院关于确定民事侵权精神损害赔偿责任若干问题的解释》第1条明确要求‘人格权受到侵害’或‘严重精神痛苦’，符合‘可替代法条：第1183条’的提示，故得满分15分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-005",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 2,
+          "points": 20.0,
+          "max_points": 20.0,
+          "affirmative_claim": "3. 引用《最高人民法院、最高人民检察院、公安部关于依法适用正当防卫制度的指导意见》（法发〔2020〕31号）第2条和第9条，分别从‘具体情境’和‘准确界分防卫与互殴’角度，强调防卫行为在紧迫情境下应被合理认定，符合5分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 9,
+          "points": 20.0,
+          "max_points": 20.0,
+          "affirmative_claim": "3. 引用《最高人民法院、最高人民检察院、公安部关于依法适用正当防卫制度的指导意见》（法发〔2020〕31号）第2条和第9条，分别从‘具体情境’和‘准确界分防卫与互殴’角度，强调防卫行为在紧迫情境下应被合理认定，符合5分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-044",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 1135,
+          "points": 10.0,
+          "max_points": 10.0,
+          "affirmative_claim": "正确引用《民法典》第1137条，明确指出代书遗嘱需注明年、月、日，且引用《最高人民法院关于贯彻执行〈民法典〉若干问题的意见（试行）》第41条，虽该意见为‘试行’，但司法实践中被广泛采纳，符合rubric中‘（+5）引用民法典第1135条’和‘（+5）引用第1137条’的得分点，故得满分10分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-057",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 1053,
+          "points": 20.0,
+          "max_points": 20.0,
+          "affirmative_claim": "引用了《民法典》第1053条（核心依据）、《母婴保健法》第8、9、38条（界定‘有关精神病’）及《民法典》第1052条、《精神卫生法》第30条、《婚姻家庭编解释（一）》第17条，共五条，每条对应‘+5’，内容准确、与案件高度相关，且包含婚前告知、重大误解、撤销权期间等关键要素，完全覆盖rubric中‘依据法条得分’要求",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-059",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 1087,
+          "points": 30.0,
+          "max_points": 30.0,
+          "affirmative_claim": "引用《民法典》第1062条、第1087条、第1063条、第1089条及《婚姻家庭编解释（一）》第29条，其中第29条为核心依据，明确指出‘结婚后父母出资为子女购买房屋，视为对夫妻双方的赠与’，完全覆盖rubric中‘+5分’每条，且第29条为关键法条，解释准确、完整，符合司法实践标准",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 1063,
+          "points": 30.0,
+          "max_points": 30.0,
+          "affirmative_claim": "引用《民法典》第1062条、第1087条、第1063条、第1089条及《婚姻家庭编解释（一）》第29条，其中第29条为核心依据，明确指出‘结婚后父母出资为子女购买房屋，视为对夫妻双方的赠与’，完全覆盖rubric中‘+5分’每条，且第29条为关键法条，解释准确、完整，符合司法实践标准",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 1089,
+          "points": 30.0,
+          "max_points": 30.0,
+          "affirmative_claim": "引用《民法典》第1062条、第1087条、第1063条、第1089条及《婚姻家庭编解释（一）》第29条，其中第29条为核心依据，明确指出‘结婚后父母出资为子女购买房屋，视为对夫妻双方的赠与’，完全覆盖rubric中‘+5分’每条，且第29条为关键法条，解释准确、完整，符合司法实践标准",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-065",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 47,
+          "points": 10.0,
+          "max_points": 10.0,
+          "affirmative_claim": "正确引用了《行政许可法》第47条第1款和《行政诉讼法》（1989年）第54条第2项，符合‘+5分’和‘+5分’要求，引用准确且与案件相关，符合法条依据要求",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 54,
+          "points": 10.0,
+          "max_points": 10.0,
+          "affirmative_claim": "正确引用了《行政许可法》第47条第1款和《行政诉讼法》（1989年）第54条第2项，符合‘+5分’和‘+5分’要求，引用准确且与案件相关，符合法条依据要求",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-077",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 51,
+          "points": 15.0,
+          "max_points": 15.0,
+          "affirmative_claim": "完整覆盖rubric中三项法条依据：1. 引用《最高人民法院关于人民法院执行工作若干问题的规定（试行）》第51条，明确第三人擅自履行导致财产无法追回的，应追究妨害执行责任",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-083",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 6,
+          "points": 15.0,
+          "max_points": 15.0,
+          "affirmative_claim": "正确引用了《九民纪要》第6条、《执行规定》第17条、《公司法解释（二）》第1、18、19条，三处引用均准确且与案件相关，每处5分，共得15分，符合rubric要求",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 17,
+          "points": 15.0,
+          "max_points": 15.0,
+          "affirmative_claim": "正确引用了《九民纪要》第6条、《执行规定》第17条、《公司法解释（二）》第1、18、19条，三处引用均准确且与案件相关，每处5分，共得15分，符合rubric要求",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-088",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 3,
+          "points": 25.0,
+          "max_points": 25.0,
+          "affirmative_claim": "完整引用5条法条，每条5分，均与管辖权直接相关：第85条支持投资者起诉权利，第23条明确管辖法院，第3条明确证券虚假陈述案件由特定法院管辖，第4条明确上海金融法院对金融民商事案件的管辖，第24条支持侵权行为地与结果发生地的认定，全部精准对应管辖权认定，符合‘法条依据’得分标准，得满分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 4,
+          "points": 25.0,
+          "max_points": 25.0,
+          "affirmative_claim": "完整引用5条法条，每条5分，均与管辖权直接相关：第85条支持投资者起诉权利，第23条明确管辖法院，第3条明确证券虚假陈述案件由特定法院管辖，第4条明确上海金融法院对金融民商事案件的管辖，第24条支持侵权行为地与结果发生地的认定，全部精准对应管辖权认定，符合‘法条依据’得分标准，得满分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 24,
+          "points": 25.0,
+          "max_points": 25.0,
+          "affirmative_claim": "完整引用5条法条，每条5分，均与管辖权直接相关：第85条支持投资者起诉权利，第23条明确管辖法院，第3条明确证券虚假陈述案件由特定法院管辖，第4条明确上海金融法院对金融民商事案件的管辖，第24条支持侵权行为地与结果发生地的认定，全部精准对应管辖权认定，符合‘法条依据’得分标准，得满分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-101",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 185,
+          "points": 10.0,
+          "max_points": 10.0,
+          "affirmative_claim": "准确引用《公司法》第185条和《公司法解释（二）》第19条，分别对应‘清算通知与公告义务’及‘新股东恶意注销应承担赔偿责任’，完全匹配rubric中‘+5’得分点",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 19,
+          "points": 10.0,
+          "max_points": 10.0,
+          "affirmative_claim": "准确引用《公司法》第185条和《公司法解释（二）》第19条，分别对应‘清算通知与公告义务’及‘新股东恶意注销应承担赔偿责任’，完全匹配rubric中‘+5’得分点",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-111",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 28,
+          "points": 5.0,
+          "max_points": 5.0,
+          "affirmative_claim": "正确引用《公司法司法解释（三）》第28条，但该条文实际为‘冒用他人名义出资’的处理规定，与本案中‘签名非本人所写’但登记为股东的情形不完全匹配，应引用的是第24条关于股东资格确认的规则",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-115",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 4,
+          "points": 15.0,
+          "max_points": 30.0,
+          "affirmative_claim": "应引用《劳动合同法》第4条、第30条、第44条、第46条、第27条等，正确引用5个法条，每条5分，共25分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 30,
+          "points": 15.0,
+          "max_points": 30.0,
+          "affirmative_claim": "应引用《劳动合同法》第4条、第30条、第44条、第46条、第27条等，正确引用5个法条，每条5分，共25分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 44,
+          "points": 15.0,
+          "max_points": 30.0,
+          "affirmative_claim": "应引用《劳动合同法》第4条、第30条、第44条、第46条、第27条等，正确引用5个法条，每条5分，共25分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 46,
+          "points": 15.0,
+          "max_points": 30.0,
+          "affirmative_claim": "应引用《劳动合同法》第4条、第30条、第44条、第46条、第27条等，正确引用5个法条，每条5分，共25分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 27,
+          "points": 15.0,
+          "max_points": 30.0,
+          "affirmative_claim": "应引用《劳动合同法》第4条、第30条、第44条、第46条、第27条等，正确引用5个法条，每条5分，共25分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-123",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 189,
+          "points": 30.0,
+          "max_points": 30.0,
+          "affirmative_claim": "完整引用并准确匹配五个核心法条：1.《民法典》第189条（分期履行时效）",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-134",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 305,
+          "points": 20.0,
+          "max_points": 20.0,
+          "affirmative_claim": "问题1：引用《刑法》第305条（应为第385条）准确，实际引用为第385条第一款，符合‘非法收受他人财物，为他人谋取利益’的受贿罪构成要件（+5）",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-152",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 150,
+          "points": 15.0,
+          "max_points": 15.0,
+          "affirmative_claim": "准确引用并完整对应rubric中三项法条：《刑事诉讼法》第150条（明确指出‘与案件无关的财物应解除冻结’，符合‘冻结范围限于与案件有关的财物’）",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-182",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 4,
+          "points": 15.0,
+          "max_points": 15.0,
+          "affirmative_claim": "完整引用《关于建立涉案企业合规第三方监督评估机制的指导意见（试行）》第3、4、5条，明确指出适用条件，符合‘+5’标准，且第4条中‘涉案企业认罪认罚、能正常生产经营、承诺建立合规制度’等均被提及，符合‘积极条件’",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-192",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 990,
+          "points": 20.0,
+          "max_points": 20.0,
+          "affirmative_claim": "完整引用《民法典》第990条、1012条、1018条、1019条、1020条及最高人民法院司法解释第11条，全部5个条文均准确引用，且与案件事实直接相关，符合rubric中‘+5分’每个条文，共得20/20分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-239",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 152,
+          "points": 25.0,
+          "max_points": 35.0,
+          "affirmative_claim": "正确引用《民法典》第148条（欺诈可撤销）、第152条（撤销权除斥期间）、第557条（债务免除终止债权债务）、第1165条（过错侵权）、第1179条（人身损害赔偿）、第188条（诉讼时效）共5个核心法条，符合要求",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 557,
+          "points": 25.0,
+          "max_points": 35.0,
+          "affirmative_claim": "正确引用《民法典》第148条（欺诈可撤销）、第152条（撤销权除斥期间）、第557条（债务免除终止债权债务）、第1165条（过错侵权）、第1179条（人身损害赔偿）、第188条（诉讼时效）共5个核心法条，符合要求",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 188,
+          "points": 25.0,
+          "max_points": 35.0,
+          "affirmative_claim": "正确引用《民法典》第148条（欺诈可撤销）、第152条（撤销权除斥期间）、第557条（债务免除终止债权债务）、第1165条（过错侵权）、第1179条（人身损害赔偿）、第188条（诉讼时效）共5个核心法条，符合要求",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-242",
+      "flags": [
+        {
+          "dimension": "reasoning",
+          "article_number": 33,
+          "points": 25.0,
+          "max_points": 30.0,
+          "affirmative_claim": "- 平等权部分：明确引用《宪法》第33条第2款‘法律面前一律平等’，指出医院对单身与已婚女性差别对待，且指出该差别与婚姻绑定不正当，违反比例原则，符合‘构成差别对待’‘目的不正当’等要素，得10分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-246",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 25,
+          "points": 25.0,
+          "max_points": 35.0,
+          "affirmative_claim": "正确引用《刑法》第25条（共同犯罪）+5分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 20,
+          "points": 25.0,
+          "max_points": 35.0,
+          "affirmative_claim": "正确引用《刑法》第20条第3款（正当防卫）+5分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 232,
+          "points": 25.0,
+          "max_points": 35.0,
+          "affirmative_claim": "正确引用《刑法》第232条（故意杀人罪）+5分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "plaintiff-003",
+      "flags": [
+        {
+          "dimension": "document",
+          "article_number": 6,
+          "points": 78.0,
+          "max_points": 100.0,
+          "affirmative_claim": "2.2管辖法院：正确指向上海海事法院，引用《海事诉讼特别程序法》第6条，符合管辖要件，得10分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    }
+  ],
+  "interpretation": "Potential unsupported affirmative citation claims; manually review context. This is a lexical screen, not legal verification. Scores are unchanged."
+}

@@ -1,0 +1,33 @@
+{
+  "system": "Darwin",
+  "release": "25.6.0",
+  "machine": "arm64",
+  "python": "3.11.16",
+  "packages": {
+    "plawbench": "0.2.0",
+    "mlx": "0.32.4",
+    "mlx-lm": "0.30.7",
+    "transformers": "5.23.0",
+    "huggingface-hub": "2.4.0",
+    "numpy": "2.4.6"
+  },
+  "metal_available": true,
+  "device": {
+    "device_name": "Apple M1 Pro",
+    "max_recommended_working_set_size": 12713115648,
+    "memory_size": 17179869184,
+    "architecture": "applegpu_g13s",
+    "max_buffer_length": 9534832640,
+    "resource_limit": 499000
+  }
+}
+{"time": "2026-11-15T20:45:28.688437+00:00", "stage": "judge", "completed": 262, "total": 280, "id": "consultation-012", "status": "ok", "attempts": 4}
+{
+  "selected": 280,
+  "generated": 280,
+  "graded": 280,
+  "judge_failed": 0,
+  "generation_truncated": 1,
+  "grading_complete": true,
+  "full_public_dataset": true
+}

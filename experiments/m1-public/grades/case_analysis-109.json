@@ -1,0 +1,57 @@
+{
+  "id": "case_analysis-109",
+  "task": "case_analysis",
+  "created_at": "2026-11-15T16:44:48.692415+00:00",
+  "status": "ok",
+  "fingerprint": "239a56efac006526ff1dbdcb506d231bd978bec80af9e26fc4c9303acb619840",
+  "response_sha256": "01b94cbee5e835b89404dd3780c31757a7538540d8348f0cfcc9ac095b63e03f",
+  "attempts": [
+    {
+      "text": "{\"scores\": [{\"id\":\"conclusion\",\"points\":5.0,\"rationale\":\"直接回答‘法院应当审查’，符合rubric中‘应当审查’的正向判断，完全覆盖得分点，无遗漏或错误。\"},{\"id\":\"facts\",\"points\":15.0,\"rationale\":\"完整提取了与诉讼时效相关的事实要素：投资款支付时间（2013年8月）、红利支付（2014年2月）、表决权行使（2014年2月）、起诉时间（2019年7月）、公司停业时间（2014年9月底），且未添加推测。所有关键事实均被准确摘录，符合rubric中‘+5’标准，未扣分。\"},{\"id\":\"reasoning\",\"points\":30.0,\"rationale\":\"分步推理逻辑清晰：第一步明确债权性质为投资款返还请求权，第二步引用民法典第188条确立三年诉讼时效，第三步计算时效期间（2013年8月16日→2016年8月16日），第四步指出文某起诉时间（2019年7月）已超时效，第五步说明股东红利和表决权不构成时效中断，第六步引用最高法司法解释第17条强调法院应审查诉讼时效，第七步得出结论。完整覆盖rubric中‘第一步：诉讼时效抗辩是否被放弃’‘第二步：未过时效为权利条件’‘第三步：时效是否适用’三部分，每步各得10分，逻辑严密，无跳跃或遗漏。\"},{\"id\":\"statutes\",\"points\":10.0,\"rationale\":\"准确引用《民法典》第188条和最高法司法解释第17条，且均与诉讼时效审查直接相关，符合rubric中‘+5’要求，未遗漏或错误引用。\"}]}",
+      "prompt_tokens": 3503,
+      "generation_tokens": 414,
+      "elapsed_seconds": 42.51158227096312,
+      "completion_latency_seconds": 83.99302220903337,
+      "batch_wall_seconds": 85.02316454192623,
+      "batch_size": 2,
+      "tokens_per_second": 29.047541132943053,
+      "peak_memory_gb": 8.875839144,
+      "finish_reason": "stop",
+      "attempt": 1
+    }
+  ],
+  "scores": [
+    {
+      "id": "conclusion",
+      "points": 5.0,
+      "max_points": 5.0,
+      "rationale": "直接回答‘法院应当审查’，符合rubric中‘应当审查’的正向判断，完全覆盖得分点，无遗漏或错误。"
+    },
+    {
+      "id": "facts",
+      "points": 15.0,
+      "max_points": 15.0,
+      "rationale": "完整提取了与诉讼时效相关的事实要素：投资款支付时间（2013年8月）、红利支付（2014年2月）、表决权行使（2014年2月）、起诉时间（2019年7月）、公司停业时间（2014年9月底），且未添加推测。所有关键事实均被准确摘录，符合rubric中‘+5’标准，未扣分。"
+    },
+    {
+      "id": "reasoning",
+      "points": 30.0,
+      "max_points": 30.0,
+      "rationale": "分步推理逻辑清晰：第一步明确债权性质为投资款返还请求权，第二步引用民法典第188条确立三年诉讼时效，第三步计算时效期间（2013年8月16日→2016年8月16日），第四步指出文某起诉时间（2019年7月）已超时效，第五步说明股东红利和表决权不构成时效中断，第六步引用最高法司法解释第17条强调法院应审查诉讼时效，第七步得出结论。完整覆盖rubric中‘第一步：诉讼时效抗辩是否被放弃’‘第二步：未过时效为权利条件’‘第三步：时效是否适用’三部分，每步各得10分，逻辑严密，无跳跃或遗漏。"
+    },
+    {
+      "id": "statutes",
+      "points": 10.0,
+      "max_points": 10.0,
+      "rationale": "准确引用《民法典》第188条和最高法司法解释第17条，且均与诉讼时效审查直接相关，符合rubric中‘+5’要求，未遗漏或错误引用。"
+    }
+  ],
+  "points": 60.0,
+  "max_points": 60.0,
+  "reused_from": {
+    "record": "../m1-public-before-rubric-id-fix/grades/case_analysis-109.json",
+    "record_sha256": "94677ee72f3efe7446e4982b02ea92d0451ed525120b8fbbd6e20e01efbc52dc",
+    "original_fingerprint": "88743dc1d2615a6a65bf684d73fb7ec9cb77214a0fd15e519b5a01cbbfd7439b",
+    "stage_input_unchanged": true
+  }
+}

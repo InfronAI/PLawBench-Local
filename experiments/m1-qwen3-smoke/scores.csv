@@ -1,0 +1,5 @@
+id,task,status,points,max_points,score_percent
+case_analysis-001,case_analysis,ok,45.0,60.0,75.0
+consultation-001,consultation,ok,16.0,16.0,100.0
+plaintiff-001,plaintiff,ok,78.0,100.0,78.0
+defendant-001,defendant,ok,70.0,80.0,87.5

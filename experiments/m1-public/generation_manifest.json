@@ -1,0 +1,61 @@
+{
+  "config": {
+    "max_tokens": 16384,
+    "document_max_tokens": 16384,
+    "temperature": 0.0,
+    "seed": 42,
+    "protocol": "original-generation-v1",
+    "batch_size": 4
+  },
+  "samples_sha256": "a11eb248ad61fc11fe9dbf3ecf80b591af9200fa2d66f36d34f3c7dd89a33019",
+  "model": {
+    "backend": "mlx",
+    "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+    "memory_limit_bytes": 6442450944,
+    "cache_limit_bytes": 134217728,
+    "resolved_revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+    "files": {
+      "README.md": "7b17ce562d7ea121c86d2ffdf660eed3726ac5b52cacfa9f1de11a65969f5657",
+      "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+      "chat_template.jinja": "40c21f34cf67d8c760ef72f8ad3ae5afad514299d4b06e91dd9a8d705af7b541",
+      "config.json": "574349e5a343236546fda55e4744a76e181f534182d7dc60ff1bad7e7a502849",
+      "generation_config.json": "835fffe355c9438e7a25be099b3fccaa98350b83451f9fd2d99512e74f1ade48",
+      "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "model.safetensors": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+      "model.safetensors.index.json": "388d811b8b7c2608dd04cce1bcb04a8bf715d19b42790894e6d3427ff429a777",
+      "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+      "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "tokenizer_config.json": "4397cc477eb6d79715ccd2000accd6b3531928f30029665832fa1b255f24d2b9",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "fingerprint": "80579fb4edbabdcc193986ccfad058b2557a0bb52bb16eb08cd6008d1300ed24",
+  "created_at": "2026-11-15T20:44:39.624201+00:00",
+  "environment": {
+    "system": "Darwin",
+    "release": "25.6.0",
+    "machine": "arm64",
+    "python": "3.11.16",
+    "packages": {
+      "plawbench": "0.2.0",
+      "mlx": "0.32.4",
+      "mlx-lm": "0.30.7",
+      "transformers": "5.23.0",
+      "huggingface-hub": "2.4.0",
+      "numpy": "2.4.6"
+    }
+  },
+  "source_code_sha256": {
+    "__init__.py": "9ce5886d672629dcfa7017ea46e450ab089d66621bbccc3046e395ae7a94fe38",
+    "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "analysis.py": "ed29ec89cef7414c51f1351caddcef518a5acafc8169538652cbffdc9dacd092",
+    "backends.py": "96da06579c7415cf5b671b2ecc120a30082ab3ad2a2c396e2ac682efeab5cf94",
+    "cli.py": "e480f8164cc4400165e8df58ba1495be1e32a0b543cc6fb98a76962df67bc604",
+    "data.py": "4c91ba2ef5b1e2f000eedab5342372356ccdb0b6de8a4638e6fa96aee5ad5fe5",
+    "io.py": "441f421ac20a8a04f295c69ca8f0442b2262885c8700da56cdddd9b3b74b8473",
+    "pilot.py": "3b13831c3cbe4a9d78aa43aa95a9ac850f1b6404053691ec281fe08e36a014d7",
+    "pipeline.py": "cc454e45438d61285191a975ce2513acf85be9033adfeaceb1652aacaf7a5d63",
+    "scoring.py": "efddefbe600f2bf44253b2fe1ed149e22bda040638551413afd9c1d80b031928",
+    "templates.py": "8dc8b0ff7c489cdf131f59dc2cfc684276ebd0ef01ec84b2d2cfd214c193da2e"
+  }
+}

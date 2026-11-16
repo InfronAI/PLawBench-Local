@@ -1,0 +1,30 @@
+{
+  "selected": 280,
+  "issues": [
+    {
+      "id": "consultation-012",
+      "kind": "consultation_numbering_repaired",
+      "source_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        10,
+        10
+      ],
+      "policy": "Unique positional IDs; original text and every point allocation preserved"
+    },
+    {
+      "id": "consultation-017",
+      "kind": "consultation_total_mismatch",
+      "declared": 12.0,
+      "allocated": 13.0
+    }
+  ]
+}

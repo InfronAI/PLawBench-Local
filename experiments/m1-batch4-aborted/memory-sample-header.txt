@@ -1,0 +1,24 @@
+Analysis of sampling Python (pid 81784) every 1 millisecond
+Process:         Python [81784]
+Path:            /opt/homebrew/*/Python.framework/Versions/3.11/Resources/Python.app/Contents/MacOS/Python
+Load Address:    0x1044f4000
+Identifier:      org.python.python
+Version:         3.11.16 (3.11.16)
+Code Type:       ARM64
+Platform:        macOS
+Parent Process:  bash [81777]
+Target Type:     live task
+
+Date/Time:       2026-11-15 18:55:54.132 +0800
+Launch Time:     2026-11-15 18:45:36.428 +0800
+OS Version:      macOS 26.6.1 (25G76)
+Report Version:  7
+Analysis Tool:   /usr/bin/sample
+
+Physical footprint:         11.4G
+Physical footprint (peak):  11.5G
+Idle exit:                  untracked
+----
+
+Call graph:
+    728 Thread_54073529   DispatchQueue_1: com.apple.main-thread  (serial)

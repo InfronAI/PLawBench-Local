@@ -1,0 +1,42 @@
+{
+  "checked_valid_grades": 20,
+  "flagged_answers": 2,
+  "flagged_claims": 3,
+  "rows": [
+    {
+      "id": "case_analysis-001",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 509,
+          "points": 15.0,
+          "max_points": 15.0,
+          "affirmative_claim": "引用了《民法典》第1183条、第509条、第577条及司法解释第1条，符合rubric中‘（+5分）每条法条引用准确且与争议相关’要求，完整覆盖了‘人格权侵害’与‘严重精神损害’的构成要件，且引用《最高人民法院关于确定民事侵权精神损害赔偿责任若干问题的解释》第1条明确要求‘人格权受到侵害’或‘严重精神痛苦’，符合‘可替代法条：第1183条’的提示，故得满分15分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-005",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 2,
+          "points": 20.0,
+          "max_points": 20.0,
+          "affirmative_claim": "3. 引用《最高人民法院、最高人民检察院、公安部关于依法适用正当防卫制度的指导意见》（法发〔2020〕31号）第2条和第9条，分别从‘具体情境’和‘准确界分防卫与互殴’角度，强调防卫行为在紧迫情境下应被合理认定，符合5分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 9,
+          "points": 20.0,
+          "max_points": 20.0,
+          "affirmative_claim": "3. 引用《最高人民法院、最高人民检察院、公安部关于依法适用正当防卫制度的指导意见》（法发〔2020〕31号）第2条和第9条，分别从‘具体情境’和‘准确界分防卫与互殴’角度，强调防卫行为在紧迫情境下应被合理认定，符合5分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    }
+  ],
+  "interpretation": "Potential unsupported affirmative citation claims; manually review context. This is a lexical screen, not legal verification. Scores are unchanged."
+}

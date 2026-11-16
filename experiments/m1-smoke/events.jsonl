@@ -1,0 +1,4 @@
+{"time": "2026-11-15T10:27:32.569362+00:00", "stage": "generate", "completed": 1, "total": 4, "id": "case_analysis-001", "tokens": 635, "seconds": 8.19, "finish_reason": "stop"}
+{"time": "2026-11-15T10:28:09.739308+00:00", "stage": "generate", "completed": 2, "total": 4, "id": "consultation-001", "tokens": 4096, "seconds": 37.16, "finish_reason": "length"}
+{"time": "2026-11-15T10:29:06.674863+00:00", "stage": "generate", "completed": 3, "total": 4, "id": "plaintiff-001", "tokens": 6144, "seconds": 56.91, "finish_reason": "length"}
+{"time": "2026-11-15T10:29:19.670406+00:00", "stage": "generate", "completed": 4, "total": 4, "id": "defendant-001", "tokens": 1041, "seconds": 12.96, "finish_reason": "stop"}

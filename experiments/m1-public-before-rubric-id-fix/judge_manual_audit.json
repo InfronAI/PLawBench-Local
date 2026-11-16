@@ -1,0 +1,69 @@
+{
+  "created_at": "2026-11-15T14:58:59.594458+00:00",
+  "judge_protocol": "rubric-json-v2-full-instructions",
+  "reviewer": "Codex, textual evidence check; not a human legal expert",
+  "sampling": "Two flags in the first 20 completed main-run judgments; not a random or exhaustive audit",
+  "reviewed_answers": 2,
+  "confirmed_unsupported_attributions": 3,
+  "rows": [
+    {
+      "id": "case_analysis-001",
+      "prediction_sha256": "ad2b8e31479ee7832d365ea5e986d5eb23d1b68a265890dce8c2c5da559b7c41",
+      "grade_sha256": "c883b77a05e3368fb34ee353d5aa3e5ec62672d548fc035bcb19264acdf14ed8",
+      "candidate_citation_section": "【法条依据】  \n● 《中华人民共和国民法典》第一千一百八十三条：  \n“损害自然人人身权益造成严重精神损害的，被侵权人有权请求精神损害赔偿。”  \n（注：该条文适用前提是“严重精神损害”且“侵害的是人格权”或“具有特定人格利益”）  \n\n● 《中华人民共和国民法典》第五百七十七条：  \n“当事人一方不履行合同义务或者履行不符合约定，应当承担继续履行、采取补救措施或者赔偿损失等违约责任。”  \n（本案中，摄影服务公司未履行“全程跟拍”义务，构成违约，应承担违约责任，但不构成人格权侵害，故不支持精神损害赔偿）  \n\n● 《最高人民法院关于确定民事侵权精神损害赔偿责任若干问题的解释》（法释〔2020〕5号）第一条规定：  \n“自然人因人格权受到侵害，或者因其他侵权行为造成严重精神痛苦的，可以请求精神损害赔偿。”  \n（明确要求“人格权受到侵害”或“严重精神痛苦”且“具有可识别的特定人格利益”）  \n\n● 《最高人民法院关于审理人身损害赔偿案件适用法律若干问题的解释》（法释〔2022〕17号）第1条：  \n“精神损害赔偿适用于因侵权行为造成受害人严重精神痛苦的情形，不适用于单纯服务瑕疵或合同履行不完全。”  \n\n（注：法院在类似婚庆服务纠纷中普遍认为，未明确约定的录像丢失不构成“严重精神损害”，故不支持精神损害赔偿请求。）",
+      "checks": [
+        {
+          "dimension": "statutes",
+          "article_number": 509,
+          "points": 15.0,
+          "max_points": 15.0,
+          "affirmative_claim": "引用了《民法典》第1183条、第509条、第577条及司法解释第1条，符合rubric中‘（+5分）每条法条引用准确且与争议相关’要求，完整覆盖了‘人格权侵害’与‘严重精神损害’的构成要件，且引用《最高人民法院关于确定民事侵权精神损害赔偿责任若干问题的解释》第1条明确要求‘人格权受到侵害’或‘严重精神痛苦’，符合‘可替代法条：第1183条’的提示，故得满分15分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text",
+          "checked_citation_forms": [
+            "第509条",
+            "第五百零九条"
+          ],
+          "present_in_full_prediction": false,
+          "review_finding": "The affirmative claim attributes an explicit article citation to the candidate that is absent from its complete saved text. This checks attribution only, not legal correctness or the appropriate score."
+        }
+      ]
+    },
+    {
+      "id": "case_analysis-005",
+      "prediction_sha256": "8c0a3c07d6d4c3042edfdbc2a5181f1efc16be40134066525db8e5fe2d1dd40e",
+      "grade_sha256": "30cc349f8095e8a08918af75915d4ea26e5b92562ead70741f8cbd73b3d4106b",
+      "candidate_citation_section": "【法条依据】  \n● 《中华人民共和国治安管理处罚法》第四十三条：殴打他人的，或者故意伤害他人身体的，处五日以上十日以下拘留，并处二百元以上五百元以下罚款；情节较轻的，处五日以下拘留或者五百元以下罚款。  \n（注：该条所称“殴打他人”应以主观故意、暴力性、攻击性为要件，若行为系在现实暴力下为自保而实施的即时防卫，不构成“殴打他人”）  \n\n● 《中华人民共和国刑法》第二十条（正当防卫）：为了使国家、公共利益、本人或者他人的人身、财产和其他权利免受正在进行的不法侵害，而采取的制止不法侵害的行为，对不法侵害人造成损害的，属于正当防卫，不负刑事责任。  \n（注：虽本案为行政案件，但正当防卫的法律精神可作为判断行为性质的参考，尤其在行为是否具有攻击性、是否具有主观过错方面）  \n\n● 《中华人民共和国行政诉讼法》第七十条：行政行为有下列情形之一的，人民法院判决撤销或者部分撤销，并可以判决被告重新作出行政行为：  \n（一）主要证据不足的；  \n（二）适用法律、法规错误的；  \n（三）违反法定程序的；  \n（四）超越职权的；  \n（五）滥用职权的。  \n\n本案中，公安机关以“互殴”为由对张某处以行政处罚，存在适用法律错误（将自卫行为认定为“殴打他人”），且未充分考虑行为发生的背景和情境，属于“适用法律错误”和“事实认定不清”，符合《行政诉讼法》第七十条第（二）项规定，应依法判决撤销。  \n\n（注：若公安机关能提供充分证据证明张某存在蓄意攻击、故意伤害等主观故意，或其行为造成严重后果，方可认定为“殴打他人”。但本案中无此类证据，且视频显示其行为具有即时性、被动性、自保性，应认定为正当防卫或防卫行为，不构成违法。）",
+      "checks": [
+        {
+          "dimension": "statutes",
+          "article_number": 2,
+          "points": 20.0,
+          "max_points": 20.0,
+          "affirmative_claim": "3. 引用《最高人民法院、最高人民检察院、公安部关于依法适用正当防卫制度的指导意见》（法发〔2020〕31号）第2条和第9条，分别从‘具体情境’和‘准确界分防卫与互殴’角度，强调防卫行为在紧迫情境下应被合理认定，符合5分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text",
+          "checked_citation_forms": [
+            "第2条",
+            "第二条"
+          ],
+          "present_in_full_prediction": false,
+          "review_finding": "The affirmative claim attributes an explicit article citation to the candidate that is absent from its complete saved text. This checks attribution only, not legal correctness or the appropriate score."
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 9,
+          "points": 20.0,
+          "max_points": 20.0,
+          "affirmative_claim": "3. 引用《最高人民法院、最高人民检察院、公安部关于依法适用正当防卫制度的指导意见》（法发〔2020〕31号）第2条和第9条，分别从‘具体情境’和‘准确界分防卫与互殴’角度，强调防卫行为在紧迫情境下应被合理认定，符合5分",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text",
+          "checked_citation_forms": [
+            "第9条",
+            "第九条"
+          ],
+          "present_in_full_prediction": false,
+          "review_finding": "The affirmative claim attributes an explicit article citation to the candidate that is absent from its complete saved text. This checks attribution only, not legal correctness or the appropriate score."
+        }
+      ]
+    }
+  ],
+  "scores_changed": false
+}

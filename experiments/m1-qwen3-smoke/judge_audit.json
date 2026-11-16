@@ -1,0 +1,23 @@
+{
+  "id": "case_analysis-001",
+  "dimension": "statutes",
+  "observed_score": 15.0,
+  "max_points": 15.0,
+  "checks": {
+    "509": {
+      "claimed_in_rationale": true,
+      "present_as_citation_in_prediction": false
+    },
+    "996": {
+      "claimed_in_rationale": true,
+      "present_as_citation_in_prediction": false
+    },
+    "1183": {
+      "claimed_in_rationale": true,
+      "present_as_citation_in_prediction": false
+    }
+  },
+  "rationale": "正确引用《民法典》第509条（全面履行）、第996条（违约+人格权+精神损害可并行主张）、第1183条（具有人身意义的特定物可主张精神损害赔偿）及《最高人民法院关于确定民事侵权精神损害赔偿责任若干问题的解释》第一条、第五条，覆盖全部5个得分点，每点5分，共15分，完全符合rubric要求。",
+  "finding": "The preliminary local judge claims citations absent from the candidate answer. This is an observed judge evidence error, not a verified legal assessment. No automatic legal score correction is applied.",
+  "scope": "Four-item preliminary smoke, earlier judge context. Full-run scores also require independent validation."
+}

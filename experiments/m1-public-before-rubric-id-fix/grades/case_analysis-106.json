@@ -1,0 +1,51 @@
+{
+  "id": "case_analysis-106",
+  "task": "case_analysis",
+  "created_at": "2026-11-15T16:41:24.518425+00:00",
+  "status": "ok",
+  "fingerprint": "88743dc1d2615a6a65bf684d73fb7ec9cb77214a0fd15e519b5a01cbbfd7439b",
+  "response_sha256": "aae02c1d1c11e660b0efe36d92691ae3014f8c741fe01825029aa19c9212cc0b",
+  "attempts": [
+    {
+      "text": "{\"scores\":[{\"id\":\"conclusion\",\"points\":5.0,\"rationale\":\"直接明确判断《转让协议》不成立，符合rubric中‘+5’得分点，且与案件事实和法条依据相匹配。\"},{\"id\":\"facts\",\"points\":20.0,\"rationale\":\"完整覆盖rubric中五个‘+5’得分点：王某霁原为股东、2019年10月1日协议及决议内容、王某霁不知情、签名非本人所签、工商档案中长期无本人签名，全部事实要素均被准确、客观摘录，无遗漏或虚构。\"},{\"id\":\"reasoning\",\"points\":20.0,\"rationale\":\"分两层分析：第一层分析王某霁为股东时，指出其未签署、签名非本人所签，缺乏真实意思表示；第二层分析其非实际股东时，指出无交易双方，股权无处分基础。逻辑清晰，符合‘+10’每层要求，且引用法条支撑充分，推理链条完整，未跳跃或遗漏关键环节。\"},{\"id\":\"statutes\",\"points\":5.0,\"rationale\":\"准确引用《民法典》第143、146条及公司法第31条，符合rubric中‘+5’要求，且与推理过程形成闭环，未引入无效或超出范围的法条。\"}]}",
+      "prompt_tokens": 3917,
+      "generation_tokens": 297,
+      "elapsed_seconds": 42.80016739596613,
+      "completion_latency_seconds": 80.19778187479824,
+      "batch_wall_seconds": 85.60033479193226,
+      "batch_size": 2,
+      "tokens_per_second": 27.600616920055778,
+      "peak_memory_gb": 8.875839144,
+      "finish_reason": "stop",
+      "attempt": 1
+    }
+  ],
+  "scores": [
+    {
+      "id": "conclusion",
+      "points": 5.0,
+      "max_points": 5.0,
+      "rationale": "直接明确判断《转让协议》不成立，符合rubric中‘+5’得分点，且与案件事实和法条依据相匹配。"
+    },
+    {
+      "id": "facts",
+      "points": 20.0,
+      "max_points": 20.0,
+      "rationale": "完整覆盖rubric中五个‘+5’得分点：王某霁原为股东、2019年10月1日协议及决议内容、王某霁不知情、签名非本人所签、工商档案中长期无本人签名，全部事实要素均被准确、客观摘录，无遗漏或虚构。"
+    },
+    {
+      "id": "reasoning",
+      "points": 20.0,
+      "max_points": 20.0,
+      "rationale": "分两层分析：第一层分析王某霁为股东时，指出其未签署、签名非本人所签，缺乏真实意思表示；第二层分析其非实际股东时，指出无交易双方，股权无处分基础。逻辑清晰，符合‘+10’每层要求，且引用法条支撑充分，推理链条完整，未跳跃或遗漏关键环节。"
+    },
+    {
+      "id": "statutes",
+      "points": 5.0,
+      "max_points": 5.0,
+      "rationale": "准确引用《民法典》第143、146条及公司法第31条，符合rubric中‘+5’要求，且与推理过程形成闭环，未引入无效或超出范围的法条。"
+    }
+  ],
+  "points": 50.0,
+  "max_points": 50.0
+}

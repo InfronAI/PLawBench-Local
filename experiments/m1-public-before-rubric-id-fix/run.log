@@ -1,0 +1,641 @@
+{
+  "system": "Darwin",
+  "release": "25.6.0",
+  "machine": "arm64",
+  "python": "3.11.16",
+  "packages": {
+    "plawbench": "0.2.0",
+    "mlx": "0.32.4",
+    "mlx-lm": "0.30.7",
+    "transformers": "5.23.0",
+    "huggingface-hub": "2.4.0",
+    "numpy": "2.4.6"
+  },
+  "metal_available": true,
+  "device": {
+    "device_name": "Apple M1 Pro",
+    "max_recommended_working_set_size": 12713115648,
+    "memory_size": 17179869184,
+    "architecture": "applegpu_g13s",
+    "max_buffer_length": 9534832640,
+    "resource_limit": 499000
+  }
+}
+{"time": "2026-11-15T11:07:41.909006+00:00", "stage": "generate", "completed": 1, "total": 280, "id": "case_analysis-001", "tokens": 995, "seconds": 24.93, "finish_reason": "stop"}
+{"time": "2026-11-15T11:07:41.909731+00:00", "stage": "generate", "completed": 2, "total": 280, "id": "case_analysis-002", "tokens": 832, "seconds": 24.93, "finish_reason": "stop"}
+{"time": "2026-11-15T11:07:41.910154+00:00", "stage": "generate", "completed": 3, "total": 280, "id": "case_analysis-003", "tokens": 1875, "seconds": 24.93, "finish_reason": "stop"}
+{"time": "2026-11-15T11:07:41.910463+00:00", "stage": "generate", "completed": 4, "total": 280, "id": "case_analysis-004", "tokens": 1198, "seconds": 24.93, "finish_reason": "stop"}
+{"time": "2026-11-15T11:09:13.078373+00:00", "stage": "generate", "completed": 5, "total": 280, "id": "case_analysis-005", "tokens": 1109, "seconds": 22.78, "finish_reason": "stop"}
+{"time": "2026-11-15T11:09:13.079531+00:00", "stage": "generate", "completed": 6, "total": 280, "id": "case_analysis-006", "tokens": 679, "seconds": 22.78, "finish_reason": "stop"}
+{"time": "2026-11-15T11:09:13.080165+00:00", "stage": "generate", "completed": 7, "total": 280, "id": "case_analysis-007", "tokens": 1331, "seconds": 22.78, "finish_reason": "stop"}
+{"time": "2026-11-15T11:09:13.080778+00:00", "stage": "generate", "completed": 8, "total": 280, "id": "case_analysis-008", "tokens": 1157, "seconds": 22.78, "finish_reason": "stop"}
+{"time": "2026-11-15T11:10:49.184710+00:00", "stage": "generate", "completed": 9, "total": 280, "id": "case_analysis-009", "tokens": 958, "seconds": 24.01, "finish_reason": "stop"}
+{"time": "2026-11-15T11:10:49.186083+00:00", "stage": "generate", "completed": 10, "total": 280, "id": "case_analysis-010", "tokens": 1406, "seconds": 24.01, "finish_reason": "stop"}
+{"time": "2026-11-15T11:10:49.188076+00:00", "stage": "generate", "completed": 11, "total": 280, "id": "case_analysis-011", "tokens": 1026, "seconds": 24.01, "finish_reason": "stop"}
+{"time": "2026-11-15T11:10:49.188961+00:00", "stage": "generate", "completed": 12, "total": 280, "id": "case_analysis-012", "tokens": 1285, "seconds": 24.01, "finish_reason": "stop"}
+{"time": "2026-11-15T11:12:39.733679+00:00", "stage": "generate", "completed": 13, "total": 280, "id": "case_analysis-013", "tokens": 1491, "seconds": 27.62, "finish_reason": "stop"}
+{"time": "2026-11-15T11:12:39.735205+00:00", "stage": "generate", "completed": 14, "total": 280, "id": "case_analysis-014", "tokens": 1316, "seconds": 27.62, "finish_reason": "stop"}
+{"time": "2026-11-15T11:12:39.738084+00:00", "stage": "generate", "completed": 15, "total": 280, "id": "case_analysis-015", "tokens": 1132, "seconds": 27.62, "finish_reason": "stop"}
+{"time": "2026-11-15T11:12:39.739174+00:00", "stage": "generate", "completed": 16, "total": 280, "id": "case_analysis-016", "tokens": 1206, "seconds": 27.62, "finish_reason": "stop"}
+{"time": "2026-11-15T11:14:28.680879+00:00", "stage": "generate", "completed": 17, "total": 280, "id": "case_analysis-017", "tokens": 1683, "seconds": 27.23, "finish_reason": "stop"}
+{"time": "2026-11-15T11:14:28.685127+00:00", "stage": "generate", "completed": 18, "total": 280, "id": "case_analysis-018", "tokens": 1377, "seconds": 27.23, "finish_reason": "stop"}
+{"time": "2026-11-15T11:14:28.685739+00:00", "stage": "generate", "completed": 19, "total": 280, "id": "case_analysis-019", "tokens": 936, "seconds": 27.23, "finish_reason": "stop"}
+{"time": "2026-11-15T11:14:28.687432+00:00", "stage": "generate", "completed": 20, "total": 280, "id": "case_analysis-020", "tokens": 1508, "seconds": 27.23, "finish_reason": "stop"}
+{"time": "2026-11-15T11:15:56.686216+00:00", "stage": "generate", "completed": 21, "total": 280, "id": "case_analysis-021", "tokens": 1366, "seconds": 21.99, "finish_reason": "stop"}
+{"time": "2026-11-15T11:15:56.687144+00:00", "stage": "generate", "completed": 22, "total": 280, "id": "case_analysis-022", "tokens": 971, "seconds": 21.99, "finish_reason": "stop"}
+{"time": "2026-11-15T11:15:56.687900+00:00", "stage": "generate", "completed": 23, "total": 280, "id": "case_analysis-023", "tokens": 1068, "seconds": 21.99, "finish_reason": "stop"}
+{"time": "2026-11-15T11:15:56.689675+00:00", "stage": "generate", "completed": 24, "total": 280, "id": "case_analysis-024", "tokens": 1160, "seconds": 21.99, "finish_reason": "stop"}
+{"time": "2026-11-15T11:17:22.209008+00:00", "stage": "generate", "completed": 25, "total": 280, "id": "case_analysis-025", "tokens": 1310, "seconds": 21.37, "finish_reason": "stop"}
+{"time": "2026-11-15T11:17:22.210249+00:00", "stage": "generate", "completed": 26, "total": 280, "id": "case_analysis-026", "tokens": 1074, "seconds": 21.37, "finish_reason": "stop"}
+{"time": "2026-11-15T11:17:22.210700+00:00", "stage": "generate", "completed": 27, "total": 280, "id": "case_analysis-027", "tokens": 931, "seconds": 21.37, "finish_reason": "stop"}
+{"time": "2026-11-15T11:17:22.211762+00:00", "stage": "generate", "completed": 28, "total": 280, "id": "case_analysis-028", "tokens": 1175, "seconds": 21.37, "finish_reason": "stop"}
+{"time": "2026-11-15T11:18:40.454422+00:00", "stage": "generate", "completed": 29, "total": 280, "id": "case_analysis-029", "tokens": 1157, "seconds": 19.56, "finish_reason": "stop"}
+{"time": "2026-11-15T11:18:40.456435+00:00", "stage": "generate", "completed": 30, "total": 280, "id": "case_analysis-030", "tokens": 795, "seconds": 19.56, "finish_reason": "stop"}
+{"time": "2026-11-15T11:18:40.458540+00:00", "stage": "generate", "completed": 31, "total": 280, "id": "case_analysis-031", "tokens": 938, "seconds": 19.56, "finish_reason": "stop"}
+{"time": "2026-11-15T11:18:40.459517+00:00", "stage": "generate", "completed": 32, "total": 280, "id": "case_analysis-032", "tokens": 1146, "seconds": 19.56, "finish_reason": "stop"}
+{"time": "2026-11-15T11:20:08.964482+00:00", "stage": "generate", "completed": 33, "total": 280, "id": "case_analysis-033", "tokens": 1023, "seconds": 22.12, "finish_reason": "stop"}
+{"time": "2026-11-15T11:20:08.965606+00:00", "stage": "generate", "completed": 34, "total": 280, "id": "case_analysis-034", "tokens": 952, "seconds": 22.12, "finish_reason": "stop"}
+{"time": "2026-11-15T11:20:08.967187+00:00", "stage": "generate", "completed": 35, "total": 280, "id": "case_analysis-035", "tokens": 1697, "seconds": 22.12, "finish_reason": "stop"}
+{"time": "2026-11-15T11:20:08.968148+00:00", "stage": "generate", "completed": 36, "total": 280, "id": "case_analysis-036", "tokens": 812, "seconds": 22.12, "finish_reason": "stop"}
+{"time": "2026-11-15T11:21:28.303961+00:00", "stage": "generate", "completed": 37, "total": 280, "id": "case_analysis-037", "tokens": 885, "seconds": 19.83, "finish_reason": "stop"}
+{"time": "2026-11-15T11:21:28.305129+00:00", "stage": "generate", "completed": 38, "total": 280, "id": "case_analysis-038", "tokens": 1368, "seconds": 19.83, "finish_reason": "stop"}
+{"time": "2026-11-15T11:21:28.305762+00:00", "stage": "generate", "completed": 39, "total": 280, "id": "case_analysis-039", "tokens": 790, "seconds": 19.83, "finish_reason": "stop"}
+{"time": "2026-11-15T11:21:28.306073+00:00", "stage": "generate", "completed": 40, "total": 280, "id": "case_analysis-040", "tokens": 952, "seconds": 19.83, "finish_reason": "stop"}
+{"time": "2026-11-15T11:23:26.579051+00:00", "stage": "generate", "completed": 41, "total": 280, "id": "case_analysis-041", "tokens": 1438, "seconds": 29.56, "finish_reason": "stop"}
+{"time": "2026-11-15T11:23:26.581062+00:00", "stage": "generate", "completed": 42, "total": 280, "id": "case_analysis-042", "tokens": 1904, "seconds": 29.56, "finish_reason": "stop"}
+{"time": "2026-11-15T11:23:26.581847+00:00", "stage": "generate", "completed": 43, "total": 280, "id": "case_analysis-043", "tokens": 1928, "seconds": 29.56, "finish_reason": "stop"}
+{"time": "2026-11-15T11:23:26.582635+00:00", "stage": "generate", "completed": 44, "total": 280, "id": "case_analysis-044", "tokens": 1000, "seconds": 29.56, "finish_reason": "stop"}
+{"time": "2026-11-15T11:25:22.117988+00:00", "stage": "generate", "completed": 45, "total": 280, "id": "case_analysis-045", "tokens": 1284, "seconds": 28.88, "finish_reason": "stop"}
+{"time": "2026-11-15T11:25:22.119372+00:00", "stage": "generate", "completed": 46, "total": 280, "id": "case_analysis-046", "tokens": 1266, "seconds": 28.88, "finish_reason": "stop"}
+{"time": "2026-11-15T11:25:22.120396+00:00", "stage": "generate", "completed": 47, "total": 280, "id": "case_analysis-047", "tokens": 1538, "seconds": 28.88, "finish_reason": "stop"}
+{"time": "2026-11-15T11:25:22.121262+00:00", "stage": "generate", "completed": 48, "total": 280, "id": "case_analysis-048", "tokens": 1804, "seconds": 28.88, "finish_reason": "stop"}
+{"time": "2026-11-15T11:27:29.005369+00:00", "stage": "generate", "completed": 49, "total": 280, "id": "case_analysis-049", "tokens": 1438, "seconds": 31.71, "finish_reason": "stop"}
+{"time": "2026-11-15T11:27:29.006111+00:00", "stage": "generate", "completed": 50, "total": 280, "id": "case_analysis-050", "tokens": 1904, "seconds": 31.71, "finish_reason": "stop"}
+{"time": "2026-11-15T11:27:29.007185+00:00", "stage": "generate", "completed": 51, "total": 280, "id": "case_analysis-051", "tokens": 1247, "seconds": 31.71, "finish_reason": "stop"}
+{"time": "2026-11-15T11:27:29.007803+00:00", "stage": "generate", "completed": 52, "total": 280, "id": "case_analysis-052", "tokens": 2044, "seconds": 31.71, "finish_reason": "stop"}
+{"time": "2026-11-15T11:29:34.244835+00:00", "stage": "generate", "completed": 53, "total": 280, "id": "case_analysis-053", "tokens": 1757, "seconds": 31.3, "finish_reason": "stop"}
+{"time": "2026-11-15T11:29:34.246549+00:00", "stage": "generate", "completed": 54, "total": 280, "id": "case_analysis-054", "tokens": 1794, "seconds": 31.3, "finish_reason": "stop"}
+{"time": "2026-11-15T11:29:34.247878+00:00", "stage": "generate", "completed": 55, "total": 280, "id": "case_analysis-055", "tokens": 1276, "seconds": 31.3, "finish_reason": "stop"}
+{"time": "2026-11-15T11:29:34.248918+00:00", "stage": "generate", "completed": 56, "total": 280, "id": "case_analysis-056", "tokens": 1621, "seconds": 31.3, "finish_reason": "stop"}
+{"time": "2026-11-15T11:30:51.469280+00:00", "stage": "generate", "completed": 57, "total": 280, "id": "case_analysis-057", "tokens": 1035, "seconds": 19.29, "finish_reason": "stop"}
+{"time": "2026-11-15T11:30:51.470510+00:00", "stage": "generate", "completed": 58, "total": 280, "id": "case_analysis-058", "tokens": 1066, "seconds": 19.29, "finish_reason": "stop"}
+{"time": "2026-11-15T11:30:51.470868+00:00", "stage": "generate", "completed": 59, "total": 280, "id": "case_analysis-059", "tokens": 837, "seconds": 19.29, "finish_reason": "stop"}
+{"time": "2026-11-15T11:30:51.471538+00:00", "stage": "generate", "completed": 60, "total": 280, "id": "case_analysis-060", "tokens": 1030, "seconds": 19.29, "finish_reason": "stop"}
+{"time": "2026-11-15T11:32:19.982042+00:00", "stage": "generate", "completed": 61, "total": 280, "id": "case_analysis-061", "tokens": 1225, "seconds": 22.12, "finish_reason": "stop"}
+{"time": "2026-11-15T11:32:19.983624+00:00", "stage": "generate", "completed": 62, "total": 280, "id": "case_analysis-062", "tokens": 1248, "seconds": 22.12, "finish_reason": "stop"}
+{"time": "2026-11-15T11:32:19.984252+00:00", "stage": "generate", "completed": 63, "total": 280, "id": "case_analysis-063", "tokens": 1080, "seconds": 22.12, "finish_reason": "stop"}
+{"time": "2026-11-15T11:32:19.985481+00:00", "stage": "generate", "completed": 64, "total": 280, "id": "case_analysis-064", "tokens": 1018, "seconds": 22.12, "finish_reason": "stop"}
+{"time": "2026-11-15T11:33:38.130881+00:00", "stage": "generate", "completed": 65, "total": 280, "id": "case_analysis-065", "tokens": 857, "seconds": 19.53, "finish_reason": "stop"}
+{"time": "2026-11-15T11:33:38.132855+00:00", "stage": "generate", "completed": 66, "total": 280, "id": "case_analysis-066", "tokens": 807, "seconds": 19.53, "finish_reason": "stop"}
+{"time": "2026-11-15T11:33:38.134005+00:00", "stage": "generate", "completed": 67, "total": 280, "id": "case_analysis-067", "tokens": 1045, "seconds": 19.53, "finish_reason": "stop"}
+{"time": "2026-11-15T11:33:38.134478+00:00", "stage": "generate", "completed": 68, "total": 280, "id": "case_analysis-068", "tokens": 1240, "seconds": 19.53, "finish_reason": "stop"}
+scripts/reproduce.sh: line 12: 83248 Terminated: 15          "$PYTHON" -m plawbench run --model mlx-community/Qwen3-4B-Instruct-2507-4bit --model-revision 50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b --judge-model mlx-community/Qwen3-4B-Instruct-2507-4bit --judge-revision 50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b --max-tokens 16384 --document-max-tokens 16384 --judge-max-tokens 2048 --batch-size 4 --seed 42 --output "${PLAWBENCH_OUTPUT:-experiments/m1-public}" "$@"
+{
+  "system": "Darwin",
+  "release": "25.6.0",
+  "machine": "arm64",
+  "python": "3.11.16",
+  "packages": {
+    "plawbench": "0.2.0",
+    "mlx": "0.32.4",
+    "mlx-lm": "0.30.7",
+    "transformers": "5.23.0",
+    "huggingface-hub": "2.4.0",
+    "numpy": "2.4.6"
+  },
+  "metal_available": true,
+  "device": {
+    "device_name": "Apple M1 Pro",
+    "max_recommended_working_set_size": 12713115648,
+    "memory_size": 17179869184,
+    "architecture": "applegpu_g13s",
+    "max_buffer_length": 9534832640,
+    "resource_limit": 499000
+  }
+}
+{"time": "2026-11-15T11:35:23.982691+00:00", "stage": "generate", "completed": 69, "total": 280, "id": "case_analysis-069", "tokens": 1311, "seconds": 23.82, "finish_reason": "stop"}
+{"time": "2026-11-15T11:35:23.983777+00:00", "stage": "generate", "completed": 70, "total": 280, "id": "case_analysis-070", "tokens": 675, "seconds": 23.82, "finish_reason": "stop"}
+{"time": "2026-11-15T11:35:23.984116+00:00", "stage": "generate", "completed": 71, "total": 280, "id": "case_analysis-071", "tokens": 881, "seconds": 23.82, "finish_reason": "stop"}
+{"time": "2026-11-15T11:35:23.984805+00:00", "stage": "generate", "completed": 72, "total": 280, "id": "case_analysis-072", "tokens": 1742, "seconds": 23.82, "finish_reason": "stop"}
+{"time": "2026-11-15T11:37:11.065450+00:00", "stage": "generate", "completed": 73, "total": 280, "id": "case_analysis-073", "tokens": 1573, "seconds": 26.76, "finish_reason": "stop"}
+{"time": "2026-11-15T11:37:11.067801+00:00", "stage": "generate", "completed": 74, "total": 280, "id": "case_analysis-074", "tokens": 1174, "seconds": 26.76, "finish_reason": "stop"}
+{"time": "2026-11-15T11:37:11.068621+00:00", "stage": "generate", "completed": 75, "total": 280, "id": "case_analysis-075", "tokens": 1018, "seconds": 26.76, "finish_reason": "stop"}
+{"time": "2026-11-15T11:37:11.069267+00:00", "stage": "generate", "completed": 76, "total": 280, "id": "case_analysis-076", "tokens": 1618, "seconds": 26.76, "finish_reason": "stop"}
+{"time": "2026-11-15T11:39:21.923085+00:00", "stage": "generate", "completed": 77, "total": 280, "id": "case_analysis-077", "tokens": 1590, "seconds": 32.69, "finish_reason": "stop"}
+{"time": "2026-11-15T11:39:21.926572+00:00", "stage": "generate", "completed": 78, "total": 280, "id": "case_analysis-078", "tokens": 1491, "seconds": 32.69, "finish_reason": "stop"}
+{"time": "2026-11-15T11:39:21.927688+00:00", "stage": "generate", "completed": 79, "total": 280, "id": "case_analysis-079", "tokens": 1422, "seconds": 32.69, "finish_reason": "stop"}
+{"time": "2026-11-15T11:39:21.930005+00:00", "stage": "generate", "completed": 80, "total": 280, "id": "case_analysis-080", "tokens": 1606, "seconds": 32.69, "finish_reason": "stop"}
+{"time": "2026-11-15T11:41:45.251751+00:00", "stage": "generate", "completed": 81, "total": 280, "id": "case_analysis-081", "tokens": 1475, "seconds": 35.81, "finish_reason": "stop"}
+{"time": "2026-11-15T11:41:45.255823+00:00", "stage": "generate", "completed": 82, "total": 280, "id": "case_analysis-082", "tokens": 1581, "seconds": 35.81, "finish_reason": "stop"}
+{"time": "2026-11-15T11:41:45.258056+00:00", "stage": "generate", "completed": 83, "total": 280, "id": "case_analysis-083", "tokens": 2008, "seconds": 35.81, "finish_reason": "stop"}
+{"time": "2026-11-15T11:41:45.260933+00:00", "stage": "generate", "completed": 84, "total": 280, "id": "case_analysis-084", "tokens": 1523, "seconds": 35.81, "finish_reason": "stop"}
+{"time": "2026-11-15T11:43:17.834029+00:00", "stage": "generate", "completed": 85, "total": 280, "id": "case_analysis-085", "tokens": 850, "seconds": 23.13, "finish_reason": "stop"}
+{"time": "2026-11-15T11:43:17.835272+00:00", "stage": "generate", "completed": 86, "total": 280, "id": "case_analysis-086", "tokens": 1320, "seconds": 23.13, "finish_reason": "stop"}
+{"time": "2026-11-15T11:43:17.836724+00:00", "stage": "generate", "completed": 87, "total": 280, "id": "case_analysis-087", "tokens": 900, "seconds": 23.13, "finish_reason": "stop"}
+{"time": "2026-11-15T11:43:17.837041+00:00", "stage": "generate", "completed": 88, "total": 280, "id": "case_analysis-088", "tokens": 1345, "seconds": 23.13, "finish_reason": "stop"}
+{"time": "2026-11-15T11:45:39.143129+00:00", "stage": "generate", "completed": 89, "total": 280, "id": "case_analysis-089", "tokens": 1371, "seconds": 35.32, "finish_reason": "stop"}
+{"time": "2026-11-15T11:45:39.145260+00:00", "stage": "generate", "completed": 90, "total": 280, "id": "case_analysis-090", "tokens": 1930, "seconds": 35.32, "finish_reason": "stop"}
+{"time": "2026-11-15T11:45:39.146466+00:00", "stage": "generate", "completed": 91, "total": 280, "id": "case_analysis-091", "tokens": 1479, "seconds": 35.32, "finish_reason": "stop"}
+{"time": "2026-11-15T11:45:39.147583+00:00", "stage": "generate", "completed": 92, "total": 280, "id": "case_analysis-092", "tokens": 2445, "seconds": 35.32, "finish_reason": "stop"}
+{"time": "2026-11-15T11:47:27.385085+00:00", "stage": "generate", "completed": 93, "total": 280, "id": "case_analysis-093", "tokens": 1606, "seconds": 27.04, "finish_reason": "stop"}
+{"time": "2026-11-15T11:47:27.388050+00:00", "stage": "generate", "completed": 94, "total": 280, "id": "case_analysis-094", "tokens": 995, "seconds": 27.04, "finish_reason": "stop"}
+{"time": "2026-11-15T11:47:27.389517+00:00", "stage": "generate", "completed": 95, "total": 280, "id": "case_analysis-095", "tokens": 1275, "seconds": 27.04, "finish_reason": "stop"}
+{"time": "2026-11-15T11:47:27.390256+00:00", "stage": "generate", "completed": 96, "total": 280, "id": "case_analysis-096", "tokens": 1544, "seconds": 27.04, "finish_reason": "stop"}
+{"time": "2026-11-15T11:49:14.863988+00:00", "stage": "generate", "completed": 97, "total": 280, "id": "case_analysis-097", "tokens": 1039, "seconds": 26.86, "finish_reason": "stop"}
+{"time": "2026-11-15T11:49:14.865670+00:00", "stage": "generate", "completed": 98, "total": 280, "id": "case_analysis-098", "tokens": 1162, "seconds": 26.86, "finish_reason": "stop"}
+{"time": "2026-11-15T11:49:14.866632+00:00", "stage": "generate", "completed": 99, "total": 280, "id": "case_analysis-099", "tokens": 1521, "seconds": 26.86, "finish_reason": "stop"}
+{"time": "2026-11-15T11:49:14.866970+00:00", "stage": "generate", "completed": 100, "total": 280, "id": "case_analysis-100", "tokens": 1217, "seconds": 26.86, "finish_reason": "stop"}
+{"time": "2026-11-15T11:50:49.252416+00:00", "stage": "generate", "completed": 101, "total": 280, "id": "case_analysis-101", "tokens": 1383, "seconds": 23.59, "finish_reason": "stop"}
+{"time": "2026-11-15T11:50:49.253459+00:00", "stage": "generate", "completed": 102, "total": 280, "id": "case_analysis-102", "tokens": 962, "seconds": 23.59, "finish_reason": "stop"}
+{"time": "2026-11-15T11:50:49.254246+00:00", "stage": "generate", "completed": 103, "total": 280, "id": "case_analysis-103", "tokens": 1279, "seconds": 23.59, "finish_reason": "stop"}
+{"time": "2026-11-15T11:50:49.256043+00:00", "stage": "generate", "completed": 104, "total": 280, "id": "case_analysis-104", "tokens": 1217, "seconds": 23.59, "finish_reason": "stop"}
+{"time": "2026-11-15T11:52:34.945923+00:00", "stage": "generate", "completed": 105, "total": 280, "id": "case_analysis-105", "tokens": 975, "seconds": 26.41, "finish_reason": "stop"}
+{"time": "2026-11-15T11:52:34.947962+00:00", "stage": "generate", "completed": 106, "total": 280, "id": "case_analysis-106", "tokens": 1056, "seconds": 26.41, "finish_reason": "stop"}
+{"time": "2026-11-15T11:52:34.948884+00:00", "stage": "generate", "completed": 107, "total": 280, "id": "case_analysis-107", "tokens": 1230, "seconds": 26.41, "finish_reason": "stop"}
+{"time": "2026-11-15T11:52:34.950712+00:00", "stage": "generate", "completed": 108, "total": 280, "id": "case_analysis-108", "tokens": 1607, "seconds": 26.41, "finish_reason": "stop"}
+{"time": "2026-11-15T11:54:07.544778+00:00", "stage": "generate", "completed": 109, "total": 280, "id": "case_analysis-109", "tokens": 763, "seconds": 23.14, "finish_reason": "stop"}
+{"time": "2026-11-15T11:54:07.546442+00:00", "stage": "generate", "completed": 110, "total": 280, "id": "case_analysis-110", "tokens": 787, "seconds": 23.14, "finish_reason": "stop"}
+{"time": "2026-11-15T11:54:07.547637+00:00", "stage": "generate", "completed": 111, "total": 280, "id": "case_analysis-111", "tokens": 1418, "seconds": 23.14, "finish_reason": "stop"}
+{"time": "2026-11-15T11:54:07.548022+00:00", "stage": "generate", "completed": 112, "total": 280, "id": "case_analysis-112", "tokens": 1466, "seconds": 23.14, "finish_reason": "stop"}
+{"time": "2026-11-15T11:55:53.053093+00:00", "stage": "generate", "completed": 113, "total": 280, "id": "case_analysis-113", "tokens": 1135, "seconds": 26.37, "finish_reason": "stop"}
+{"time": "2026-11-15T11:55:53.054433+00:00", "stage": "generate", "completed": 114, "total": 280, "id": "case_analysis-114", "tokens": 1119, "seconds": 26.37, "finish_reason": "stop"}
+{"time": "2026-11-15T11:55:53.055819+00:00", "stage": "generate", "completed": 115, "total": 280, "id": "case_analysis-115", "tokens": 1634, "seconds": 26.37, "finish_reason": "stop"}
+{"time": "2026-11-15T11:55:53.057463+00:00", "stage": "generate", "completed": 116, "total": 280, "id": "case_analysis-116", "tokens": 1531, "seconds": 26.37, "finish_reason": "stop"}
+{"time": "2026-11-15T11:57:49.064108+00:00", "stage": "generate", "completed": 117, "total": 280, "id": "case_analysis-117", "tokens": 1523, "seconds": 28.99, "finish_reason": "stop"}
+{"time": "2026-11-15T11:57:49.065244+00:00", "stage": "generate", "completed": 118, "total": 280, "id": "case_analysis-118", "tokens": 1400, "seconds": 28.99, "finish_reason": "stop"}
+{"time": "2026-11-15T11:57:49.066788+00:00", "stage": "generate", "completed": 119, "total": 280, "id": "case_analysis-119", "tokens": 1562, "seconds": 28.99, "finish_reason": "stop"}
+{"time": "2026-11-15T11:57:49.069097+00:00", "stage": "generate", "completed": 120, "total": 280, "id": "case_analysis-120", "tokens": 1488, "seconds": 28.99, "finish_reason": "stop"}
+{"time": "2026-11-15T11:59:18.312161+00:00", "stage": "generate", "completed": 121, "total": 280, "id": "case_analysis-121", "tokens": 1039, "seconds": 22.3, "finish_reason": "stop"}
+{"time": "2026-11-15T11:59:18.313726+00:00", "stage": "generate", "completed": 122, "total": 280, "id": "case_analysis-122", "tokens": 865, "seconds": 22.3, "finish_reason": "stop"}
+{"time": "2026-11-15T11:59:18.316139+00:00", "stage": "generate", "completed": 123, "total": 280, "id": "case_analysis-123", "tokens": 1312, "seconds": 22.3, "finish_reason": "stop"}
+{"time": "2026-11-15T11:59:18.316530+00:00", "stage": "generate", "completed": 124, "total": 280, "id": "case_analysis-124", "tokens": 1096, "seconds": 22.3, "finish_reason": "stop"}
+{"time": "2026-11-15T12:00:57.290153+00:00", "stage": "generate", "completed": 125, "total": 280, "id": "case_analysis-125", "tokens": 1451, "seconds": 24.73, "finish_reason": "stop"}
+{"time": "2026-11-15T12:00:57.292987+00:00", "stage": "generate", "completed": 126, "total": 280, "id": "case_analysis-126", "tokens": 1005, "seconds": 24.73, "finish_reason": "stop"}
+{"time": "2026-11-15T12:00:57.293678+00:00", "stage": "generate", "completed": 127, "total": 280, "id": "case_analysis-127", "tokens": 1309, "seconds": 24.73, "finish_reason": "stop"}
+{"time": "2026-11-15T12:00:57.294708+00:00", "stage": "generate", "completed": 128, "total": 280, "id": "case_analysis-128", "tokens": 1112, "seconds": 24.73, "finish_reason": "stop"}
+{"time": "2026-11-15T12:02:45.403510+00:00", "stage": "generate", "completed": 129, "total": 280, "id": "case_analysis-129", "tokens": 1848, "seconds": 27.02, "finish_reason": "stop"}
+{"time": "2026-11-15T12:02:45.405113+00:00", "stage": "generate", "completed": 130, "total": 280, "id": "case_analysis-130", "tokens": 1155, "seconds": 27.02, "finish_reason": "stop"}
+{"time": "2026-11-15T12:02:45.406243+00:00", "stage": "generate", "completed": 131, "total": 280, "id": "case_analysis-131", "tokens": 1347, "seconds": 27.02, "finish_reason": "stop"}
+{"time": "2026-11-15T12:02:45.407995+00:00", "stage": "generate", "completed": 132, "total": 280, "id": "case_analysis-132", "tokens": 1286, "seconds": 27.02, "finish_reason": "stop"}
+{"time": "2026-11-15T12:04:32.441938+00:00", "stage": "generate", "completed": 133, "total": 280, "id": "case_analysis-133", "tokens": 1574, "seconds": 26.75, "finish_reason": "stop"}
+{"time": "2026-11-15T12:04:32.444133+00:00", "stage": "generate", "completed": 134, "total": 280, "id": "case_analysis-134", "tokens": 1221, "seconds": 26.75, "finish_reason": "stop"}
+{"time": "2026-11-15T12:04:32.446090+00:00", "stage": "generate", "completed": 135, "total": 280, "id": "case_analysis-135", "tokens": 1078, "seconds": 26.75, "finish_reason": "stop"}
+{"time": "2026-11-15T12:04:32.446934+00:00", "stage": "generate", "completed": 136, "total": 280, "id": "case_analysis-136", "tokens": 1717, "seconds": 26.75, "finish_reason": "stop"}
+{"time": "2026-11-15T12:06:23.743205+00:00", "stage": "generate", "completed": 137, "total": 280, "id": "case_analysis-137", "tokens": 1439, "seconds": 27.81, "finish_reason": "stop"}
+{"time": "2026-11-15T12:06:23.747312+00:00", "stage": "generate", "completed": 138, "total": 280, "id": "case_analysis-138", "tokens": 1447, "seconds": 27.81, "finish_reason": "stop"}
+{"time": "2026-11-15T12:06:23.748514+00:00", "stage": "generate", "completed": 139, "total": 280, "id": "case_analysis-139", "tokens": 1231, "seconds": 27.81, "finish_reason": "stop"}
+{"time": "2026-11-15T12:06:23.749966+00:00", "stage": "generate", "completed": 140, "total": 280, "id": "case_analysis-140", "tokens": 1404, "seconds": 27.81, "finish_reason": "stop"}
+{"time": "2026-11-15T12:08:40.000928+00:00", "stage": "generate", "completed": 141, "total": 280, "id": "case_analysis-141", "tokens": 1558, "seconds": 34.05, "finish_reason": "stop"}
+{"time": "2026-11-15T12:08:40.002890+00:00", "stage": "generate", "completed": 142, "total": 280, "id": "case_analysis-142", "tokens": 1411, "seconds": 34.05, "finish_reason": "stop"}
+{"time": "2026-11-15T12:08:40.003833+00:00", "stage": "generate", "completed": 143, "total": 280, "id": "case_analysis-143", "tokens": 1761, "seconds": 34.05, "finish_reason": "stop"}
+{"time": "2026-11-15T12:08:40.004866+00:00", "stage": "generate", "completed": 144, "total": 280, "id": "case_analysis-144", "tokens": 1711, "seconds": 34.05, "finish_reason": "stop"}
+{"time": "2026-11-15T12:10:17.788290+00:00", "stage": "generate", "completed": 145, "total": 280, "id": "case_analysis-145", "tokens": 1305, "seconds": 24.43, "finish_reason": "stop"}
+{"time": "2026-11-15T12:10:17.789725+00:00", "stage": "generate", "completed": 146, "total": 280, "id": "case_analysis-146", "tokens": 1026, "seconds": 24.43, "finish_reason": "stop"}
+{"time": "2026-11-15T12:10:17.791919+00:00", "stage": "generate", "completed": 147, "total": 280, "id": "case_analysis-147", "tokens": 1573, "seconds": 24.43, "finish_reason": "stop"}
+{"time": "2026-11-15T12:10:17.792348+00:00", "stage": "generate", "completed": 148, "total": 280, "id": "case_analysis-148", "tokens": 822, "seconds": 24.43, "finish_reason": "stop"}
+{"time": "2026-11-15T12:12:22.492604+00:00", "stage": "generate", "completed": 149, "total": 280, "id": "case_analysis-149", "tokens": 1838, "seconds": 31.15, "finish_reason": "stop"}
+{"time": "2026-11-15T12:12:22.494063+00:00", "stage": "generate", "completed": 150, "total": 280, "id": "case_analysis-150", "tokens": 1140, "seconds": 31.15, "finish_reason": "stop"}
+{"time": "2026-11-15T12:12:22.494812+00:00", "stage": "generate", "completed": 151, "total": 280, "id": "case_analysis-151", "tokens": 1530, "seconds": 31.15, "finish_reason": "stop"}
+{"time": "2026-11-15T12:12:22.496403+00:00", "stage": "generate", "completed": 152, "total": 280, "id": "case_analysis-152", "tokens": 1542, "seconds": 31.15, "finish_reason": "stop"}
+{"time": "2026-11-15T12:14:22.988512+00:00", "stage": "generate", "completed": 153, "total": 280, "id": "case_analysis-153", "tokens": 1793, "seconds": 30.11, "finish_reason": "stop"}
+{"time": "2026-11-15T12:14:22.991961+00:00", "stage": "generate", "completed": 154, "total": 280, "id": "case_analysis-154", "tokens": 1333, "seconds": 30.11, "finish_reason": "stop"}
+{"time": "2026-11-15T12:14:22.992855+00:00", "stage": "generate", "completed": 155, "total": 280, "id": "case_analysis-155", "tokens": 1449, "seconds": 30.11, "finish_reason": "stop"}
+{"time": "2026-11-15T12:14:22.993697+00:00", "stage": "generate", "completed": 156, "total": 280, "id": "case_analysis-156", "tokens": 1567, "seconds": 30.11, "finish_reason": "stop"}
+{"time": "2026-11-15T12:15:45.415207+00:00", "stage": "generate", "completed": 157, "total": 280, "id": "case_analysis-157", "tokens": 930, "seconds": 20.6, "finish_reason": "stop"}
+{"time": "2026-11-15T12:15:45.416101+00:00", "stage": "generate", "completed": 158, "total": 280, "id": "case_analysis-158", "tokens": 1324, "seconds": 20.6, "finish_reason": "stop"}
+{"time": "2026-11-15T12:15:45.417031+00:00", "stage": "generate", "completed": 159, "total": 280, "id": "case_analysis-159", "tokens": 870, "seconds": 20.6, "finish_reason": "stop"}
+{"time": "2026-11-15T12:15:45.417347+00:00", "stage": "generate", "completed": 160, "total": 280, "id": "case_analysis-160", "tokens": 964, "seconds": 20.6, "finish_reason": "stop"}
+{"time": "2026-11-15T12:17:03.477842+00:00", "stage": "generate", "completed": 161, "total": 280, "id": "case_analysis-161", "tokens": 1172, "seconds": 19.51, "finish_reason": "stop"}
+{"time": "2026-11-15T12:17:03.478805+00:00", "stage": "generate", "completed": 162, "total": 280, "id": "case_analysis-162", "tokens": 903, "seconds": 19.51, "finish_reason": "stop"}
+{"time": "2026-11-15T12:17:03.479669+00:00", "stage": "generate", "completed": 163, "total": 280, "id": "case_analysis-163", "tokens": 1002, "seconds": 19.51, "finish_reason": "stop"}
+{"time": "2026-11-15T12:17:03.481772+00:00", "stage": "generate", "completed": 164, "total": 280, "id": "case_analysis-164", "tokens": 931, "seconds": 19.51, "finish_reason": "stop"}
+{"time": "2026-11-15T12:18:19.487698+00:00", "stage": "generate", "completed": 165, "total": 280, "id": "case_analysis-165", "tokens": 679, "seconds": 18.99, "finish_reason": "stop"}
+{"time": "2026-11-15T12:18:19.489490+00:00", "stage": "generate", "completed": 166, "total": 280, "id": "case_analysis-166", "tokens": 1231, "seconds": 18.99, "finish_reason": "stop"}
+{"time": "2026-11-15T12:18:19.490204+00:00", "stage": "generate", "completed": 167, "total": 280, "id": "case_analysis-167", "tokens": 1101, "seconds": 18.99, "finish_reason": "stop"}
+{"time": "2026-11-15T12:18:19.491358+00:00", "stage": "generate", "completed": 168, "total": 280, "id": "case_analysis-168", "tokens": 679, "seconds": 18.99, "finish_reason": "stop"}
+{"time": "2026-11-15T12:20:06.459526+00:00", "stage": "generate", "completed": 169, "total": 280, "id": "case_analysis-169", "tokens": 738, "seconds": 26.73, "finish_reason": "stop"}
+{"time": "2026-11-15T12:20:06.464064+00:00", "stage": "generate", "completed": 170, "total": 280, "id": "case_analysis-170", "tokens": 1126, "seconds": 26.73, "finish_reason": "stop"}
+{"time": "2026-11-15T12:20:06.464548+00:00", "stage": "generate", "completed": 171, "total": 280, "id": "case_analysis-171", "tokens": 1300, "seconds": 26.73, "finish_reason": "stop"}
+{"time": "2026-11-15T12:20:06.465769+00:00", "stage": "generate", "completed": 172, "total": 280, "id": "case_analysis-172", "tokens": 970, "seconds": 26.73, "finish_reason": "stop"}
+{"time": "2026-11-15T12:23:04.543657+00:00", "stage": "generate", "completed": 173, "total": 280, "id": "case_analysis-173", "tokens": 1181, "seconds": 44.49, "finish_reason": "stop"}
+{"time": "2026-11-15T12:23:04.546778+00:00", "stage": "generate", "completed": 174, "total": 280, "id": "case_analysis-174", "tokens": 1051, "seconds": 44.49, "finish_reason": "stop"}
+{"time": "2026-11-15T12:23:04.547632+00:00", "stage": "generate", "completed": 175, "total": 280, "id": "case_analysis-175", "tokens": 952, "seconds": 44.49, "finish_reason": "stop"}
+{"time": "2026-11-15T12:23:04.551162+00:00", "stage": "generate", "completed": 176, "total": 280, "id": "case_analysis-176", "tokens": 1040, "seconds": 44.49, "finish_reason": "stop"}
+{"time": "2026-11-15T12:25:51.679607+00:00", "stage": "generate", "completed": 177, "total": 280, "id": "case_analysis-177", "tokens": 1371, "seconds": 41.74, "finish_reason": "stop"}
+{"time": "2026-11-15T12:25:51.689964+00:00", "stage": "generate", "completed": 178, "total": 280, "id": "case_analysis-178", "tokens": 1213, "seconds": 41.74, "finish_reason": "stop"}
+{"time": "2026-11-15T12:25:51.694013+00:00", "stage": "generate", "completed": 179, "total": 280, "id": "case_analysis-179", "tokens": 1104, "seconds": 41.74, "finish_reason": "stop"}
+{"time": "2026-11-15T12:25:51.696751+00:00", "stage": "generate", "completed": 180, "total": 280, "id": "case_analysis-180", "tokens": 1288, "seconds": 41.74, "finish_reason": "stop"}
+{"time": "2026-11-15T12:28:20.847216+00:00", "stage": "generate", "completed": 181, "total": 280, "id": "case_analysis-181", "tokens": 1128, "seconds": 37.26, "finish_reason": "stop"}
+{"time": "2026-11-15T12:28:20.851381+00:00", "stage": "generate", "completed": 182, "total": 280, "id": "case_analysis-182", "tokens": 999, "seconds": 37.26, "finish_reason": "stop"}
+{"time": "2026-11-15T12:28:20.853062+00:00", "stage": "generate", "completed": 183, "total": 280, "id": "case_analysis-183", "tokens": 569, "seconds": 37.26, "finish_reason": "stop"}
+{"time": "2026-11-15T12:28:20.854114+00:00", "stage": "generate", "completed": 184, "total": 280, "id": "case_analysis-184", "tokens": 1323, "seconds": 37.26, "finish_reason": "stop"}
+{"time": "2026-11-15T12:31:28.524965+00:00", "stage": "generate", "completed": 185, "total": 280, "id": "case_analysis-185", "tokens": 1245, "seconds": 46.89, "finish_reason": "stop"}
+{"time": "2026-11-15T12:31:28.526489+00:00", "stage": "generate", "completed": 186, "total": 280, "id": "case_analysis-186", "tokens": 2007, "seconds": 46.89, "finish_reason": "stop"}
+{"time": "2026-11-15T12:31:28.527567+00:00", "stage": "generate", "completed": 187, "total": 280, "id": "case_analysis-187", "tokens": 1358, "seconds": 46.89, "finish_reason": "stop"}
+{"time": "2026-11-15T12:31:28.530088+00:00", "stage": "generate", "completed": 188, "total": 280, "id": "case_analysis-188", "tokens": 1327, "seconds": 46.89, "finish_reason": "stop"}
+{"time": "2026-11-15T12:35:11.209823+00:00", "stage": "generate", "completed": 189, "total": 280, "id": "case_analysis-189", "tokens": 917, "seconds": 55.65, "finish_reason": "stop"}
+{"time": "2026-11-15T12:35:11.211553+00:00", "stage": "generate", "completed": 190, "total": 280, "id": "case_analysis-190", "tokens": 3605, "seconds": 55.65, "finish_reason": "stop"}
+{"time": "2026-11-15T12:35:11.212172+00:00", "stage": "generate", "completed": 191, "total": 280, "id": "case_analysis-191", "tokens": 1188, "seconds": 55.65, "finish_reason": "stop"}
+{"time": "2026-11-15T12:35:11.213872+00:00", "stage": "generate", "completed": 192, "total": 280, "id": "case_analysis-192", "tokens": 1454, "seconds": 55.65, "finish_reason": "stop"}
+{"time": "2026-11-15T12:37:49.013193+00:00", "stage": "generate", "completed": 193, "total": 280, "id": "case_analysis-193", "tokens": 1271, "seconds": 39.44, "finish_reason": "stop"}
+{"time": "2026-11-15T12:37:49.014574+00:00", "stage": "generate", "completed": 194, "total": 280, "id": "case_analysis-194", "tokens": 1060, "seconds": 39.44, "finish_reason": "stop"}
+{"time": "2026-11-15T12:37:49.015224+00:00", "stage": "generate", "completed": 195, "total": 280, "id": "case_analysis-195", "tokens": 832, "seconds": 39.44, "finish_reason": "stop"}
+{"time": "2026-11-15T12:37:49.016210+00:00", "stage": "generate", "completed": 196, "total": 280, "id": "case_analysis-196", "tokens": 1667, "seconds": 39.44, "finish_reason": "stop"}
+{"time": "2026-11-15T12:39:50.828292+00:00", "stage": "generate", "completed": 197, "total": 280, "id": "case_analysis-197", "tokens": 1483, "seconds": 30.44, "finish_reason": "stop"}
+{"time": "2026-11-15T12:39:50.831444+00:00", "stage": "generate", "completed": 198, "total": 280, "id": "case_analysis-198", "tokens": 1162, "seconds": 30.44, "finish_reason": "stop"}
+{"time": "2026-11-15T12:39:50.833239+00:00", "stage": "generate", "completed": 199, "total": 280, "id": "case_analysis-199", "tokens": 976, "seconds": 30.44, "finish_reason": "stop"}
+{"time": "2026-11-15T12:39:50.833979+00:00", "stage": "generate", "completed": 200, "total": 280, "id": "case_analysis-200", "tokens": 1412, "seconds": 30.44, "finish_reason": "stop"}
+{"time": "2026-11-15T12:42:36.836311+00:00", "stage": "generate", "completed": 201, "total": 280, "id": "case_analysis-201", "tokens": 1346, "seconds": 41.48, "finish_reason": "stop"}
+{"time": "2026-11-15T12:42:36.839542+00:00", "stage": "generate", "completed": 202, "total": 280, "id": "case_analysis-202", "tokens": 1352, "seconds": 41.48, "finish_reason": "stop"}
+{"time": "2026-11-15T12:42:36.841664+00:00", "stage": "generate", "completed": 203, "total": 280, "id": "case_analysis-203", "tokens": 1003, "seconds": 41.48, "finish_reason": "stop"}
+{"time": "2026-11-15T12:42:36.843078+00:00", "stage": "generate", "completed": 204, "total": 280, "id": "case_analysis-204", "tokens": 963, "seconds": 41.48, "finish_reason": "stop"}
+{"time": "2026-11-15T12:46:49.273793+00:00", "stage": "generate", "completed": 205, "total": 280, "id": "case_analysis-205", "tokens": 1233, "seconds": 63.07, "finish_reason": "stop"}
+{"time": "2026-11-15T12:46:49.278135+00:00", "stage": "generate", "completed": 206, "total": 280, "id": "case_analysis-206", "tokens": 1372, "seconds": 63.07, "finish_reason": "stop"}
+{"time": "2026-11-15T12:46:49.279880+00:00", "stage": "generate", "completed": 207, "total": 280, "id": "case_analysis-207", "tokens": 1454, "seconds": 63.07, "finish_reason": "stop"}
+{"time": "2026-11-15T12:46:49.282960+00:00", "stage": "generate", "completed": 208, "total": 280, "id": "case_analysis-208", "tokens": 2018, "seconds": 63.07, "finish_reason": "stop"}
+{"time": "2026-11-15T12:50:57.699246+00:00", "stage": "generate", "completed": 209, "total": 280, "id": "case_analysis-209", "tokens": 1131, "seconds": 62.07, "finish_reason": "stop"}
+{"time": "2026-11-15T12:50:57.702237+00:00", "stage": "generate", "completed": 210, "total": 280, "id": "case_analysis-210", "tokens": 1127, "seconds": 62.07, "finish_reason": "stop"}
+{"time": "2026-11-15T12:50:57.703828+00:00", "stage": "generate", "completed": 211, "total": 280, "id": "case_analysis-211", "tokens": 983, "seconds": 62.07, "finish_reason": "stop"}
+{"time": "2026-11-15T12:50:57.705098+00:00", "stage": "generate", "completed": 212, "total": 280, "id": "case_analysis-212", "tokens": 839, "seconds": 62.07, "finish_reason": "stop"}
+{"time": "2026-11-15T12:54:17.202018+00:00", "stage": "generate", "completed": 213, "total": 280, "id": "case_analysis-213", "tokens": 811, "seconds": 49.85, "finish_reason": "stop"}
+{"time": "2026-11-15T12:54:17.203031+00:00", "stage": "generate", "completed": 214, "total": 280, "id": "case_analysis-214", "tokens": 1428, "seconds": 49.85, "finish_reason": "stop"}
+{"time": "2026-11-15T12:54:17.204415+00:00", "stage": "generate", "completed": 215, "total": 280, "id": "case_analysis-215", "tokens": 1167, "seconds": 49.85, "finish_reason": "stop"}
+{"time": "2026-11-15T12:54:17.205132+00:00", "stage": "generate", "completed": 216, "total": 280, "id": "case_analysis-216", "tokens": 998, "seconds": 49.85, "finish_reason": "stop"}
+{"time": "2026-11-15T12:57:56.781940+00:00", "stage": "generate", "completed": 217, "total": 280, "id": "case_analysis-217", "tokens": 1315, "seconds": 54.88, "finish_reason": "stop"}
+{"time": "2026-11-15T12:57:56.784170+00:00", "stage": "generate", "completed": 218, "total": 280, "id": "case_analysis-218", "tokens": 1487, "seconds": 54.88, "finish_reason": "stop"}
+{"time": "2026-11-15T12:57:56.784857+00:00", "stage": "generate", "completed": 219, "total": 280, "id": "case_analysis-219", "tokens": 1272, "seconds": 54.88, "finish_reason": "stop"}
+{"time": "2026-11-15T12:57:56.787138+00:00", "stage": "generate", "completed": 220, "total": 280, "id": "case_analysis-220", "tokens": 1297, "seconds": 54.88, "finish_reason": "stop"}
+{"time": "2026-11-15T13:00:43.768396+00:00", "stage": "generate", "completed": 221, "total": 280, "id": "case_analysis-221", "tokens": 903, "seconds": 41.72, "finish_reason": "stop"}
+{"time": "2026-11-15T13:00:43.769861+00:00", "stage": "generate", "completed": 222, "total": 280, "id": "case_analysis-222", "tokens": 1313, "seconds": 41.72, "finish_reason": "stop"}
+{"time": "2026-11-15T13:00:43.771096+00:00", "stage": "generate", "completed": 223, "total": 280, "id": "case_analysis-223", "tokens": 712, "seconds": 41.72, "finish_reason": "stop"}
+{"time": "2026-11-15T13:00:43.772041+00:00", "stage": "generate", "completed": 224, "total": 280, "id": "case_analysis-224", "tokens": 784, "seconds": 41.72, "finish_reason": "stop"}
+{"time": "2026-11-15T13:03:18.903733+00:00", "stage": "generate", "completed": 225, "total": 280, "id": "case_analysis-225", "tokens": 724, "seconds": 38.76, "finish_reason": "stop"}
+{"time": "2026-11-15T13:03:18.906531+00:00", "stage": "generate", "completed": 226, "total": 280, "id": "case_analysis-226", "tokens": 992, "seconds": 38.76, "finish_reason": "stop"}
+{"time": "2026-11-15T13:03:18.907405+00:00", "stage": "generate", "completed": 227, "total": 280, "id": "case_analysis-227", "tokens": 702, "seconds": 38.76, "finish_reason": "stop"}
+{"time": "2026-11-15T13:03:18.908483+00:00", "stage": "generate", "completed": 228, "total": 280, "id": "case_analysis-228", "tokens": 881, "seconds": 38.76, "finish_reason": "stop"}
+{"time": "2026-11-15T13:05:09.417631+00:00", "stage": "generate", "completed": 229, "total": 280, "id": "case_analysis-229", "tokens": 638, "seconds": 27.61, "finish_reason": "stop"}
+{"time": "2026-11-15T13:05:09.418882+00:00", "stage": "generate", "completed": 230, "total": 280, "id": "case_analysis-230", "tokens": 752, "seconds": 27.61, "finish_reason": "stop"}
+{"time": "2026-11-15T13:05:09.421107+00:00", "stage": "generate", "completed": 231, "total": 280, "id": "case_analysis-231", "tokens": 899, "seconds": 27.61, "finish_reason": "stop"}
+{"time": "2026-11-15T13:05:09.424315+00:00", "stage": "generate", "completed": 232, "total": 280, "id": "case_analysis-232", "tokens": 718, "seconds": 27.61, "finish_reason": "stop"}
+{"time": "2026-11-15T13:07:36.618663+00:00", "stage": "generate", "completed": 233, "total": 280, "id": "case_analysis-233", "tokens": 1007, "seconds": 36.78, "finish_reason": "stop"}
+{"time": "2026-11-15T13:07:36.619646+00:00", "stage": "generate", "completed": 234, "total": 280, "id": "case_analysis-234", "tokens": 969, "seconds": 36.78, "finish_reason": "stop"}
+{"time": "2026-11-15T13:07:36.621899+00:00", "stage": "generate", "completed": 235, "total": 280, "id": "case_analysis-235", "tokens": 1016, "seconds": 36.78, "finish_reason": "stop"}
+{"time": "2026-11-15T13:07:36.623074+00:00", "stage": "generate", "completed": 236, "total": 280, "id": "case_analysis-236", "tokens": 873, "seconds": 36.78, "finish_reason": "stop"}
+{"time": "2026-11-15T13:09:53.498772+00:00", "stage": "generate", "completed": 237, "total": 280, "id": "case_analysis-237", "tokens": 1009, "seconds": 34.21, "finish_reason": "stop"}
+{"time": "2026-11-15T13:09:53.501670+00:00", "stage": "generate", "completed": 238, "total": 280, "id": "case_analysis-238", "tokens": 1159, "seconds": 34.21, "finish_reason": "stop"}
+{"time": "2026-11-15T13:09:53.502420+00:00", "stage": "generate", "completed": 239, "total": 280, "id": "case_analysis-239", "tokens": 1051, "seconds": 34.21, "finish_reason": "stop"}
+{"time": "2026-11-15T13:09:53.502828+00:00", "stage": "generate", "completed": 240, "total": 280, "id": "case_analysis-240", "tokens": 945, "seconds": 34.21, "finish_reason": "stop"}
+{"time": "2026-11-15T13:12:11.268942+00:00", "stage": "generate", "completed": 241, "total": 280, "id": "case_analysis-241", "tokens": 1656, "seconds": 34.43, "finish_reason": "stop"}
+{"time": "2026-11-15T13:12:11.270492+00:00", "stage": "generate", "completed": 242, "total": 280, "id": "case_analysis-242", "tokens": 1109, "seconds": 34.43, "finish_reason": "stop"}
+{"time": "2026-11-15T13:12:11.272174+00:00", "stage": "generate", "completed": 243, "total": 280, "id": "case_analysis-243", "tokens": 1116, "seconds": 34.43, "finish_reason": "stop"}
+{"time": "2026-11-15T13:12:11.273167+00:00", "stage": "generate", "completed": 244, "total": 280, "id": "case_analysis-244", "tokens": 1232, "seconds": 34.43, "finish_reason": "stop"}
+{"time": "2026-11-15T13:14:53.450672+00:00", "stage": "generate", "completed": 245, "total": 280, "id": "case_analysis-245", "tokens": 1213, "seconds": 40.53, "finish_reason": "stop"}
+{"time": "2026-11-15T13:14:53.452929+00:00", "stage": "generate", "completed": 246, "total": 280, "id": "case_analysis-246", "tokens": 1784, "seconds": 40.53, "finish_reason": "stop"}
+{"time": "2026-11-15T13:14:53.454015+00:00", "stage": "generate", "completed": 247, "total": 280, "id": "case_analysis-247", "tokens": 1404, "seconds": 40.53, "finish_reason": "stop"}
+{"time": "2026-11-15T13:14:53.454404+00:00", "stage": "generate", "completed": 248, "total": 280, "id": "case_analysis-248", "tokens": 1814, "seconds": 40.53, "finish_reason": "stop"}
+{"time": "2026-11-15T13:17:41.320986+00:00", "stage": "generate", "completed": 249, "total": 280, "id": "case_analysis-249", "tokens": 913, "seconds": 41.96, "finish_reason": "stop"}
+{"time": "2026-11-15T13:17:41.323841+00:00", "stage": "generate", "completed": 250, "total": 280, "id": "case_analysis-250", "tokens": 918, "seconds": 41.96, "finish_reason": "stop"}
+{"time": "2026-11-15T13:17:41.334258+00:00", "stage": "generate", "completed": 251, "total": 280, "id": "consultation-001", "tokens": 3261, "seconds": 41.96, "finish_reason": "stop"}
+{"time": "2026-11-15T13:17:41.335533+00:00", "stage": "generate", "completed": 252, "total": 280, "id": "consultation-002", "tokens": 928, "seconds": 41.96, "finish_reason": "stop"}
+scripts/reproduce.sh: line 12: 86829 Terminated: 15          "$PYTHON" -m plawbench run --model mlx-community/Qwen3-4B-Instruct-2507-4bit --model-revision 50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b --judge-model mlx-community/Qwen3-4B-Instruct-2507-4bit --judge-revision 50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b --max-tokens 16384 --document-max-tokens 16384 --judge-max-tokens 2048 --batch-size 4 --judge-batch-size 2 --seed 42 --output "${PLAWBENCH_OUTPUT:-experiments/m1-public}" "$@"
+{
+  "system": "Darwin",
+  "release": "25.6.0",
+  "machine": "arm64",
+  "python": "3.11.16",
+  "packages": {
+    "plawbench": "0.2.0",
+    "mlx": "0.32.4",
+    "mlx-lm": "0.30.7",
+    "transformers": "5.23.0",
+    "huggingface-hub": "2.4.0",
+    "numpy": "2.4.6"
+  },
+  "metal_available": true,
+  "device": {
+    "device_name": "Apple M1 Pro",
+    "max_recommended_working_set_size": 12713115648,
+    "memory_size": 17179869184,
+    "architecture": "applegpu_g13s",
+    "max_buffer_length": 9534832640,
+    "resource_limit": 499000
+  }
+}
+{"time": "2026-11-15T13:43:47.534269+00:00", "stage": "generate", "completed": 253, "total": 280, "id": "consultation-003", "tokens": 5509, "seconds": 109.51, "finish_reason": "stop"}
+{"time": "2026-11-15T13:43:47.535171+00:00", "stage": "generate", "completed": 254, "total": 280, "id": "consultation-004", "tokens": 1765, "seconds": 109.51, "finish_reason": "stop"}
+{"time": "2026-11-15T13:43:47.535601+00:00", "stage": "generate", "completed": 255, "total": 280, "id": "consultation-005", "tokens": 2103, "seconds": 109.51, "finish_reason": "stop"}
+{"time": "2026-11-15T13:43:47.536036+00:00", "stage": "generate", "completed": 256, "total": 280, "id": "consultation-006", "tokens": 2186, "seconds": 109.51, "finish_reason": "stop"}
+{"time": "2026-11-15T13:49:04.392233+00:00", "stage": "generate", "completed": 257, "total": 280, "id": "consultation-007", "tokens": 2422, "seconds": 79.2, "finish_reason": "stop"}
+{"time": "2026-11-15T13:49:04.393123+00:00", "stage": "generate", "completed": 258, "total": 280, "id": "consultation-008", "tokens": 2212, "seconds": 79.2, "finish_reason": "stop"}
+{"time": "2026-11-15T13:49:04.394475+00:00", "stage": "generate", "completed": 259, "total": 280, "id": "consultation-009", "tokens": 1643, "seconds": 79.2, "finish_reason": "stop"}
+{"time": "2026-11-15T13:49:04.394950+00:00", "stage": "generate", "completed": 260, "total": 280, "id": "consultation-010", "tokens": 1858, "seconds": 79.2, "finish_reason": "stop"}
+{"time": "2026-11-15T14:06:51.342408+00:00", "stage": "generate", "completed": 261, "total": 280, "id": "consultation-011", "tokens": 2054, "seconds": 266.7, "finish_reason": "stop"}
+{"time": "2026-11-15T14:06:51.345688+00:00", "stage": "generate", "completed": 262, "total": 280, "id": "consultation-012", "tokens": 1826, "seconds": 266.7, "finish_reason": "stop"}
+{"time": "2026-11-15T14:06:51.349780+00:00", "stage": "generate", "completed": 263, "total": 280, "id": "consultation-013", "tokens": 16384, "seconds": 266.7, "finish_reason": "length"}
+{"time": "2026-11-15T14:06:51.352421+00:00", "stage": "generate", "completed": 264, "total": 280, "id": "consultation-014", "tokens": 1981, "seconds": 266.7, "finish_reason": "stop"}
+{"time": "2026-11-15T14:11:45.167971+00:00", "stage": "generate", "completed": 265, "total": 280, "id": "consultation-015", "tokens": 2123, "seconds": 73.44, "finish_reason": "stop"}
+{"time": "2026-11-15T14:11:45.169660+00:00", "stage": "generate", "completed": 266, "total": 280, "id": "consultation-016", "tokens": 1704, "seconds": 73.44, "finish_reason": "stop"}
+{"time": "2026-11-15T14:11:45.170418+00:00", "stage": "generate", "completed": 267, "total": 280, "id": "consultation-017", "tokens": 1664, "seconds": 73.44, "finish_reason": "stop"}
+{"time": "2026-11-15T14:11:45.171236+00:00", "stage": "generate", "completed": 268, "total": 280, "id": "consultation-018", "tokens": 2726, "seconds": 73.44, "finish_reason": "stop"}
+{"time": "2026-11-15T14:16:40.280854+00:00", "stage": "generate", "completed": 269, "total": 280, "id": "plaintiff-001", "tokens": 1913, "seconds": 73.77, "finish_reason": "stop"}
+{"time": "2026-11-15T14:16:40.283331+00:00", "stage": "generate", "completed": 270, "total": 280, "id": "plaintiff-002", "tokens": 2031, "seconds": 73.77, "finish_reason": "stop"}
+{"time": "2026-11-15T14:16:40.285010+00:00", "stage": "generate", "completed": 271, "total": 280, "id": "plaintiff-003", "tokens": 2514, "seconds": 73.77, "finish_reason": "stop"}
+{"time": "2026-11-15T14:16:40.286043+00:00", "stage": "generate", "completed": 272, "total": 280, "id": "plaintiff-004", "tokens": 1850, "seconds": 73.77, "finish_reason": "stop"}
+{"time": "2026-11-15T14:22:59.531340+00:00", "stage": "generate", "completed": 273, "total": 280, "id": "plaintiff-005", "tokens": 2325, "seconds": 94.8, "finish_reason": "stop"}
+{"time": "2026-11-15T14:22:59.532469+00:00", "stage": "generate", "completed": 274, "total": 280, "id": "plaintiff-006", "tokens": 1678, "seconds": 94.8, "finish_reason": "stop"}
+{"time": "2026-11-15T14:22:59.535618+00:00", "stage": "generate", "completed": 275, "total": 280, "id": "defendant-001", "tokens": 3017, "seconds": 94.8, "finish_reason": "stop"}
+{"time": "2026-11-15T14:22:59.536400+00:00", "stage": "generate", "completed": 276, "total": 280, "id": "defendant-002", "tokens": 2576, "seconds": 94.8, "finish_reason": "stop"}
+{"time": "2026-11-15T14:31:03.742355+00:00", "stage": "generate", "completed": 277, "total": 280, "id": "defendant-003", "tokens": 3274, "seconds": 121.05, "finish_reason": "stop"}
+{"time": "2026-11-15T14:31:03.743360+00:00", "stage": "generate", "completed": 278, "total": 280, "id": "defendant-004", "tokens": 2352, "seconds": 121.05, "finish_reason": "stop"}
+{"time": "2026-11-15T14:31:03.744630+00:00", "stage": "generate", "completed": 279, "total": 280, "id": "defendant-005", "tokens": 3037, "seconds": 121.05, "finish_reason": "stop"}
+{"time": "2026-11-15T14:31:03.746255+00:00", "stage": "generate", "completed": 280, "total": 280, "id": "defendant-006", "tokens": 2139, "seconds": 121.05, "finish_reason": "stop"}
+{"time": "2026-11-15T14:32:50.540920+00:00", "stage": "judge", "completed": 1, "total": 280, "id": "case_analysis-001", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:32:50.541984+00:00", "stage": "judge", "completed": 2, "total": 280, "id": "case_analysis-002", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:35:21.188116+00:00", "stage": "judge", "completed": 3, "total": 280, "id": "case_analysis-003", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:35:21.189469+00:00", "stage": "judge", "completed": 4, "total": 280, "id": "case_analysis-004", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:39:52.865969+00:00", "stage": "judge", "completed": 5, "total": 280, "id": "case_analysis-005", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T14:39:52.867214+00:00", "stage": "judge", "completed": 6, "total": 280, "id": "case_analysis-006", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:42:10.244218+00:00", "stage": "judge", "completed": 7, "total": 280, "id": "case_analysis-007", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:42:10.245615+00:00", "stage": "judge", "completed": 8, "total": 280, "id": "case_analysis-008", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:44:26.226227+00:00", "stage": "judge", "completed": 9, "total": 280, "id": "case_analysis-009", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:44:26.227241+00:00", "stage": "judge", "completed": 10, "total": 280, "id": "case_analysis-010", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:46:32.977882+00:00", "stage": "judge", "completed": 11, "total": 280, "id": "case_analysis-011", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:46:32.978847+00:00", "stage": "judge", "completed": 12, "total": 280, "id": "case_analysis-012", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:49:05.250655+00:00", "stage": "judge", "completed": 13, "total": 280, "id": "case_analysis-013", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:50:04.873303+00:00", "stage": "judge", "completed": 14, "total": 280, "id": "case_analysis-014", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T14:53:01.418305+00:00", "stage": "judge", "completed": 15, "total": 280, "id": "case_analysis-015", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T14:53:01.420285+00:00", "stage": "judge", "completed": 16, "total": 280, "id": "case_analysis-016", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:55:26.184124+00:00", "stage": "judge", "completed": 17, "total": 280, "id": "case_analysis-017", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:55:26.185695+00:00", "stage": "judge", "completed": 18, "total": 280, "id": "case_analysis-018", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:57:26.441349+00:00", "stage": "judge", "completed": 19, "total": 280, "id": "case_analysis-019", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:57:26.442940+00:00", "stage": "judge", "completed": 20, "total": 280, "id": "case_analysis-020", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:59:26.762003+00:00", "stage": "judge", "completed": 21, "total": 280, "id": "case_analysis-021", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T14:59:26.763492+00:00", "stage": "judge", "completed": 22, "total": 280, "id": "case_analysis-022", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:03:09.666130+00:00", "stage": "judge", "completed": 23, "total": 280, "id": "case_analysis-023", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T15:04:10.877736+00:00", "stage": "judge", "completed": 24, "total": 280, "id": "case_analysis-024", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T15:06:46.277554+00:00", "stage": "judge", "completed": 25, "total": 280, "id": "case_analysis-025", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T15:06:46.278998+00:00", "stage": "judge", "completed": 26, "total": 280, "id": "case_analysis-026", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:08:23.075285+00:00", "stage": "judge", "completed": 27, "total": 280, "id": "case_analysis-027", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:08:23.076358+00:00", "stage": "judge", "completed": 28, "total": 280, "id": "case_analysis-028", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:11:08.219301+00:00", "stage": "judge", "completed": 29, "total": 280, "id": "case_analysis-029", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T15:11:08.220738+00:00", "stage": "judge", "completed": 30, "total": 280, "id": "case_analysis-030", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:12:47.178630+00:00", "stage": "judge", "completed": 31, "total": 280, "id": "case_analysis-031", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:12:47.179996+00:00", "stage": "judge", "completed": 32, "total": 280, "id": "case_analysis-032", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:14:35.505121+00:00", "stage": "judge", "completed": 33, "total": 280, "id": "case_analysis-033", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:14:35.506261+00:00", "stage": "judge", "completed": 34, "total": 280, "id": "case_analysis-034", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:16:18.008177+00:00", "stage": "judge", "completed": 35, "total": 280, "id": "case_analysis-035", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:16:18.009319+00:00", "stage": "judge", "completed": 36, "total": 280, "id": "case_analysis-036", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:18:07.557608+00:00", "stage": "judge", "completed": 37, "total": 280, "id": "case_analysis-037", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:19:04.770951+00:00", "stage": "judge", "completed": 38, "total": 280, "id": "case_analysis-038", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T15:20:49.920409+00:00", "stage": "judge", "completed": 39, "total": 280, "id": "case_analysis-039", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:20:49.921358+00:00", "stage": "judge", "completed": 40, "total": 280, "id": "case_analysis-040", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:23:11.809341+00:00", "stage": "judge", "completed": 41, "total": 280, "id": "case_analysis-041", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:23:11.810599+00:00", "stage": "judge", "completed": 42, "total": 280, "id": "case_analysis-042", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:29:01.509276+00:00", "stage": "judge", "completed": 43, "total": 280, "id": "case_analysis-043", "status": "ok", "attempts": 3}
+{"time": "2026-11-15T15:29:01.511568+00:00", "stage": "judge", "completed": 44, "total": 280, "id": "case_analysis-044", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:31:04.908783+00:00", "stage": "judge", "completed": 45, "total": 280, "id": "case_analysis-045", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:31:04.910667+00:00", "stage": "judge", "completed": 46, "total": 280, "id": "case_analysis-046", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:33:10.946336+00:00", "stage": "judge", "completed": 47, "total": 280, "id": "case_analysis-047", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:33:10.949130+00:00", "stage": "judge", "completed": 48, "total": 280, "id": "case_analysis-048", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:35:26.931493+00:00", "stage": "judge", "completed": 49, "total": 280, "id": "case_analysis-049", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:35:26.932944+00:00", "stage": "judge", "completed": 50, "total": 280, "id": "case_analysis-050", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:37:50.103971+00:00", "stage": "judge", "completed": 51, "total": 280, "id": "case_analysis-051", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:37:50.105096+00:00", "stage": "judge", "completed": 52, "total": 280, "id": "case_analysis-052", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:40:02.133757+00:00", "stage": "judge", "completed": 53, "total": 280, "id": "case_analysis-053", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:40:02.135147+00:00", "stage": "judge", "completed": 54, "total": 280, "id": "case_analysis-054", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:42:15.393478+00:00", "stage": "judge", "completed": 55, "total": 280, "id": "case_analysis-055", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:42:15.394611+00:00", "stage": "judge", "completed": 56, "total": 280, "id": "case_analysis-056", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:44:14.364666+00:00", "stage": "judge", "completed": 57, "total": 280, "id": "case_analysis-057", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:45:23.282347+00:00", "stage": "judge", "completed": 58, "total": 280, "id": "case_analysis-058", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T15:46:58.182224+00:00", "stage": "judge", "completed": 59, "total": 280, "id": "case_analysis-059", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:47:53.307160+00:00", "stage": "judge", "completed": 60, "total": 280, "id": "case_analysis-060", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T15:49:39.500519+00:00", "stage": "judge", "completed": 61, "total": 280, "id": "case_analysis-061", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:49:39.501689+00:00", "stage": "judge", "completed": 62, "total": 280, "id": "case_analysis-062", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:51:31.953183+00:00", "stage": "judge", "completed": 63, "total": 280, "id": "case_analysis-063", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:51:31.954621+00:00", "stage": "judge", "completed": 64, "total": 280, "id": "case_analysis-064", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:53:01.626191+00:00", "stage": "judge", "completed": 65, "total": 280, "id": "case_analysis-065", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:53:01.627643+00:00", "stage": "judge", "completed": 66, "total": 280, "id": "case_analysis-066", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:54:42.403772+00:00", "stage": "judge", "completed": 67, "total": 280, "id": "case_analysis-067", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:54:42.404985+00:00", "stage": "judge", "completed": 68, "total": 280, "id": "case_analysis-068", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:56:31.151194+00:00", "stage": "judge", "completed": 69, "total": 280, "id": "case_analysis-069", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:56:31.152733+00:00", "stage": "judge", "completed": 70, "total": 280, "id": "case_analysis-070", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:58:17.542419+00:00", "stage": "judge", "completed": 71, "total": 280, "id": "case_analysis-071", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T15:58:17.544482+00:00", "stage": "judge", "completed": 72, "total": 280, "id": "case_analysis-072", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:00:21.880560+00:00", "stage": "judge", "completed": 73, "total": 280, "id": "case_analysis-073", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:00:21.883922+00:00", "stage": "judge", "completed": 74, "total": 280, "id": "case_analysis-074", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:02:19.885212+00:00", "stage": "judge", "completed": 75, "total": 280, "id": "case_analysis-075", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:02:19.886959+00:00", "stage": "judge", "completed": 76, "total": 280, "id": "case_analysis-076", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:06:56.898132+00:00", "stage": "judge", "completed": 77, "total": 280, "id": "case_analysis-077", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T16:08:03.781097+00:00", "stage": "judge", "completed": 78, "total": 280, "id": "case_analysis-078", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T16:09:57.183651+00:00", "stage": "judge", "completed": 79, "total": 280, "id": "case_analysis-079", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:09:57.185717+00:00", "stage": "judge", "completed": 80, "total": 280, "id": "case_analysis-080", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:12:06.236854+00:00", "stage": "judge", "completed": 81, "total": 280, "id": "case_analysis-081", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:13:21.680363+00:00", "stage": "judge", "completed": 82, "total": 280, "id": "case_analysis-082", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T16:15:37.753389+00:00", "stage": "judge", "completed": 83, "total": 280, "id": "case_analysis-083", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:16:54.513981+00:00", "stage": "judge", "completed": 84, "total": 280, "id": "case_analysis-084", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T16:20:06.777682+00:00", "stage": "judge", "completed": 85, "total": 280, "id": "case_analysis-085", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T16:20:06.780302+00:00", "stage": "judge", "completed": 86, "total": 280, "id": "case_analysis-086", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:21:43.348566+00:00", "stage": "judge", "completed": 87, "total": 280, "id": "case_analysis-087", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:21:43.350620+00:00", "stage": "judge", "completed": 88, "total": 280, "id": "case_analysis-088", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:23:51.964810+00:00", "stage": "judge", "completed": 89, "total": 280, "id": "case_analysis-089", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:23:51.966392+00:00", "stage": "judge", "completed": 90, "total": 280, "id": "case_analysis-090", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:27:39.128827+00:00", "stage": "judge", "completed": 91, "total": 280, "id": "case_analysis-091", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T16:27:39.131871+00:00", "stage": "judge", "completed": 92, "total": 280, "id": "case_analysis-092", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:29:26.815008+00:00", "stage": "judge", "completed": 93, "total": 280, "id": "case_analysis-093", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:29:26.816499+00:00", "stage": "judge", "completed": 94, "total": 280, "id": "case_analysis-094", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:31:21.532249+00:00", "stage": "judge", "completed": 95, "total": 280, "id": "case_analysis-095", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:32:42.122527+00:00", "stage": "judge", "completed": 96, "total": 280, "id": "case_analysis-096", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T16:34:43.782586+00:00", "stage": "judge", "completed": 97, "total": 280, "id": "case_analysis-097", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:34:43.783476+00:00", "stage": "judge", "completed": 98, "total": 280, "id": "case_analysis-098", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:36:27.478419+00:00", "stage": "judge", "completed": 99, "total": 280, "id": "case_analysis-099", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:36:27.479339+00:00", "stage": "judge", "completed": 100, "total": 280, "id": "case_analysis-100", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:38:08.978203+00:00", "stage": "judge", "completed": 101, "total": 280, "id": "case_analysis-101", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:38:08.979920+00:00", "stage": "judge", "completed": 102, "total": 280, "id": "case_analysis-102", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:39:58.887144+00:00", "stage": "judge", "completed": 103, "total": 280, "id": "case_analysis-103", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:39:58.888171+00:00", "stage": "judge", "completed": 104, "total": 280, "id": "case_analysis-104", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:41:24.517127+00:00", "stage": "judge", "completed": 105, "total": 280, "id": "case_analysis-105", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:41:24.518810+00:00", "stage": "judge", "completed": 106, "total": 280, "id": "case_analysis-106", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:43:23.641769+00:00", "stage": "judge", "completed": 107, "total": 280, "id": "case_analysis-107", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:43:23.642837+00:00", "stage": "judge", "completed": 108, "total": 280, "id": "case_analysis-108", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:44:48.693836+00:00", "stage": "judge", "completed": 109, "total": 280, "id": "case_analysis-109", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:44:48.695873+00:00", "stage": "judge", "completed": 110, "total": 280, "id": "case_analysis-110", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:46:42.252827+00:00", "stage": "judge", "completed": 111, "total": 280, "id": "case_analysis-111", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:46:42.254237+00:00", "stage": "judge", "completed": 112, "total": 280, "id": "case_analysis-112", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:48:33.554550+00:00", "stage": "judge", "completed": 113, "total": 280, "id": "case_analysis-113", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:48:33.555970+00:00", "stage": "judge", "completed": 114, "total": 280, "id": "case_analysis-114", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:53:06.242932+00:00", "stage": "judge", "completed": 115, "total": 280, "id": "case_analysis-115", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T16:53:06.244646+00:00", "stage": "judge", "completed": 116, "total": 280, "id": "case_analysis-116", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:55:00.153496+00:00", "stage": "judge", "completed": 117, "total": 280, "id": "case_analysis-117", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T16:55:00.155371+00:00", "stage": "judge", "completed": 118, "total": 280, "id": "case_analysis-118", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:01:24.045765+00:00", "stage": "judge", "completed": 119, "total": 280, "id": "case_analysis-119", "status": "ok", "attempts": 3}
+{"time": "2026-11-15T17:01:24.047294+00:00", "stage": "judge", "completed": 120, "total": 280, "id": "case_analysis-120", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:03:44.576405+00:00", "stage": "judge", "completed": 121, "total": 280, "id": "case_analysis-121", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:03:44.578111+00:00", "stage": "judge", "completed": 122, "total": 280, "id": "case_analysis-122", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:05:36.561504+00:00", "stage": "judge", "completed": 123, "total": 280, "id": "case_analysis-123", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:06:40.091451+00:00", "stage": "judge", "completed": 124, "total": 280, "id": "case_analysis-124", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T17:08:28.997090+00:00", "stage": "judge", "completed": 125, "total": 280, "id": "case_analysis-125", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:08:28.999796+00:00", "stage": "judge", "completed": 126, "total": 280, "id": "case_analysis-126", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:10:08.501274+00:00", "stage": "judge", "completed": 127, "total": 280, "id": "case_analysis-127", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:10:08.502953+00:00", "stage": "judge", "completed": 128, "total": 280, "id": "case_analysis-128", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:12:08.404928+00:00", "stage": "judge", "completed": 129, "total": 280, "id": "case_analysis-129", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:12:08.406589+00:00", "stage": "judge", "completed": 130, "total": 280, "id": "case_analysis-130", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:13:52.217903+00:00", "stage": "judge", "completed": 131, "total": 280, "id": "case_analysis-131", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:13:52.219119+00:00", "stage": "judge", "completed": 132, "total": 280, "id": "case_analysis-132", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:16:05.395055+00:00", "stage": "judge", "completed": 133, "total": 280, "id": "case_analysis-133", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:16:05.396646+00:00", "stage": "judge", "completed": 134, "total": 280, "id": "case_analysis-134", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:18:55.534879+00:00", "stage": "judge", "completed": 135, "total": 280, "id": "case_analysis-135", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T17:18:55.536307+00:00", "stage": "judge", "completed": 136, "total": 280, "id": "case_analysis-136", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:20:53.082959+00:00", "stage": "judge", "completed": 137, "total": 280, "id": "case_analysis-137", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:20:53.084002+00:00", "stage": "judge", "completed": 138, "total": 280, "id": "case_analysis-138", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:23:13.277909+00:00", "stage": "judge", "completed": 139, "total": 280, "id": "case_analysis-139", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:23:13.280404+00:00", "stage": "judge", "completed": 140, "total": 280, "id": "case_analysis-140", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:25:28.645826+00:00", "stage": "judge", "completed": 141, "total": 280, "id": "case_analysis-141", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:25:28.647845+00:00", "stage": "judge", "completed": 142, "total": 280, "id": "case_analysis-142", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:28:26.750658+00:00", "stage": "judge", "completed": 143, "total": 280, "id": "case_analysis-143", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:28:26.751691+00:00", "stage": "judge", "completed": 144, "total": 280, "id": "case_analysis-144", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:30:14.765254+00:00", "stage": "judge", "completed": 145, "total": 280, "id": "case_analysis-145", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:30:14.767343+00:00", "stage": "judge", "completed": 146, "total": 280, "id": "case_analysis-146", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:32:56.758511+00:00", "stage": "judge", "completed": 147, "total": 280, "id": "case_analysis-147", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T17:32:56.760384+00:00", "stage": "judge", "completed": 148, "total": 280, "id": "case_analysis-148", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:35:06.462009+00:00", "stage": "judge", "completed": 149, "total": 280, "id": "case_analysis-149", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:35:06.463092+00:00", "stage": "judge", "completed": 150, "total": 280, "id": "case_analysis-150", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:37:08.835313+00:00", "stage": "judge", "completed": 151, "total": 280, "id": "case_analysis-151", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:38:15.103527+00:00", "stage": "judge", "completed": 152, "total": 280, "id": "case_analysis-152", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T17:40:35.565894+00:00", "stage": "judge", "completed": 153, "total": 280, "id": "case_analysis-153", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:40:35.567563+00:00", "stage": "judge", "completed": 154, "total": 280, "id": "case_analysis-154", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:42:36.718323+00:00", "stage": "judge", "completed": 155, "total": 280, "id": "case_analysis-155", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:42:36.720047+00:00", "stage": "judge", "completed": 156, "total": 280, "id": "case_analysis-156", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:44:58.193667+00:00", "stage": "judge", "completed": 157, "total": 280, "id": "case_analysis-157", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T17:44:58.194842+00:00", "stage": "judge", "completed": 158, "total": 280, "id": "case_analysis-158", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:47:48.010907+00:00", "stage": "judge", "completed": 159, "total": 280, "id": "case_analysis-159", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:48:42.409220+00:00", "stage": "judge", "completed": 160, "total": 280, "id": "case_analysis-160", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T17:50:18.381845+00:00", "stage": "judge", "completed": 161, "total": 280, "id": "case_analysis-161", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:51:15.714912+00:00", "stage": "judge", "completed": 162, "total": 280, "id": "case_analysis-162", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T17:54:54.072896+00:00", "stage": "judge", "completed": 163, "total": 280, "id": "case_analysis-163", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T17:54:54.074170+00:00", "stage": "judge", "completed": 164, "total": 280, "id": "case_analysis-164", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:56:19.123532+00:00", "stage": "judge", "completed": 165, "total": 280, "id": "case_analysis-165", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:56:19.125578+00:00", "stage": "judge", "completed": 166, "total": 280, "id": "case_analysis-166", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:57:51.432029+00:00", "stage": "judge", "completed": 167, "total": 280, "id": "case_analysis-167", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T17:58:39.555985+00:00", "stage": "judge", "completed": 168, "total": 280, "id": "case_analysis-168", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T18:00:38.997921+00:00", "stage": "judge", "completed": 169, "total": 280, "id": "case_analysis-169", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:00:39.000064+00:00", "stage": "judge", "completed": 170, "total": 280, "id": "case_analysis-170", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:02:40.440503+00:00", "stage": "judge", "completed": 171, "total": 280, "id": "case_analysis-171", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:02:40.442291+00:00", "stage": "judge", "completed": 172, "total": 280, "id": "case_analysis-172", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:05:13.527943+00:00", "stage": "judge", "completed": 173, "total": 280, "id": "case_analysis-173", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:05:13.529396+00:00", "stage": "judge", "completed": 174, "total": 280, "id": "case_analysis-174", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:07:03.039910+00:00", "stage": "judge", "completed": 175, "total": 280, "id": "case_analysis-175", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:07:03.041491+00:00", "stage": "judge", "completed": 176, "total": 280, "id": "case_analysis-176", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:09:32.423102+00:00", "stage": "judge", "completed": 177, "total": 280, "id": "case_analysis-177", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:09:32.424722+00:00", "stage": "judge", "completed": 178, "total": 280, "id": "case_analysis-178", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:11:33.156953+00:00", "stage": "judge", "completed": 179, "total": 280, "id": "case_analysis-179", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:11:33.158084+00:00", "stage": "judge", "completed": 180, "total": 280, "id": "case_analysis-180", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:13:19.511570+00:00", "stage": "judge", "completed": 181, "total": 280, "id": "case_analysis-181", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:13:19.514346+00:00", "stage": "judge", "completed": 182, "total": 280, "id": "case_analysis-182", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:15:07.497349+00:00", "stage": "judge", "completed": 183, "total": 280, "id": "case_analysis-183", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:15:07.498434+00:00", "stage": "judge", "completed": 184, "total": 280, "id": "case_analysis-184", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:17:43.093240+00:00", "stage": "judge", "completed": 185, "total": 280, "id": "case_analysis-185", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:17:43.094556+00:00", "stage": "judge", "completed": 186, "total": 280, "id": "case_analysis-186", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:19:57.737721+00:00", "stage": "judge", "completed": 187, "total": 280, "id": "case_analysis-187", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:19:57.739043+00:00", "stage": "judge", "completed": 188, "total": 280, "id": "case_analysis-188", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:22:29.816342+00:00", "stage": "judge", "completed": 189, "total": 280, "id": "case_analysis-189", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:22:29.818164+00:00", "stage": "judge", "completed": 190, "total": 280, "id": "case_analysis-190", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:25:23.324235+00:00", "stage": "judge", "completed": 191, "total": 280, "id": "case_analysis-191", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T18:25:23.325571+00:00", "stage": "judge", "completed": 192, "total": 280, "id": "case_analysis-192", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:28:15.991885+00:00", "stage": "judge", "completed": 193, "total": 280, "id": "case_analysis-193", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T18:28:15.993626+00:00", "stage": "judge", "completed": 194, "total": 280, "id": "case_analysis-194", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:30:49.175381+00:00", "stage": "judge", "completed": 195, "total": 280, "id": "case_analysis-195", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T18:32:04.948009+00:00", "stage": "judge", "completed": 196, "total": 280, "id": "case_analysis-196", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T18:34:42.715424+00:00", "stage": "judge", "completed": 197, "total": 280, "id": "case_analysis-197", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:34:42.716832+00:00", "stage": "judge", "completed": 198, "total": 280, "id": "case_analysis-198", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:36:22.397790+00:00", "stage": "judge", "completed": 199, "total": 280, "id": "case_analysis-199", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:37:18.164536+00:00", "stage": "judge", "completed": 200, "total": 280, "id": "case_analysis-200", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T18:38:50.503562+00:00", "stage": "judge", "completed": 201, "total": 280, "id": "case_analysis-201", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:38:50.505120+00:00", "stage": "judge", "completed": 202, "total": 280, "id": "case_analysis-202", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:40:35.508029+00:00", "stage": "judge", "completed": 203, "total": 280, "id": "case_analysis-203", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:40:35.509511+00:00", "stage": "judge", "completed": 204, "total": 280, "id": "case_analysis-204", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:42:51.438396+00:00", "stage": "judge", "completed": 205, "total": 280, "id": "case_analysis-205", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:44:08.859481+00:00", "stage": "judge", "completed": 206, "total": 280, "id": "case_analysis-206", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T18:46:25.368197+00:00", "stage": "judge", "completed": 207, "total": 280, "id": "case_analysis-207", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:46:25.369498+00:00", "stage": "judge", "completed": 208, "total": 280, "id": "case_analysis-208", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:49:53.983380+00:00", "stage": "judge", "completed": 209, "total": 280, "id": "case_analysis-209", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T18:49:53.984756+00:00", "stage": "judge", "completed": 210, "total": 280, "id": "case_analysis-210", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:51:14.353928+00:00", "stage": "judge", "completed": 211, "total": 280, "id": "case_analysis-211", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:51:14.355059+00:00", "stage": "judge", "completed": 212, "total": 280, "id": "case_analysis-212", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:53:44.487757+00:00", "stage": "judge", "completed": 213, "total": 280, "id": "case_analysis-213", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T18:54:52.388443+00:00", "stage": "judge", "completed": 214, "total": 280, "id": "case_analysis-214", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T18:56:25.214895+00:00", "stage": "judge", "completed": 215, "total": 280, "id": "case_analysis-215", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:57:13.446714+00:00", "stage": "judge", "completed": 216, "total": 280, "id": "case_analysis-216", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T18:59:01.665277+00:00", "stage": "judge", "completed": 217, "total": 280, "id": "case_analysis-217", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T18:59:01.666765+00:00", "stage": "judge", "completed": 218, "total": 280, "id": "case_analysis-218", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:00:40.582400+00:00", "stage": "judge", "completed": 219, "total": 280, "id": "case_analysis-219", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:00:40.583486+00:00", "stage": "judge", "completed": 220, "total": 280, "id": "case_analysis-220", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:02:14.315166+00:00", "stage": "judge", "completed": 221, "total": 280, "id": "case_analysis-221", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:02:14.316099+00:00", "stage": "judge", "completed": 222, "total": 280, "id": "case_analysis-222", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:05:24.730471+00:00", "stage": "judge", "completed": 223, "total": 280, "id": "case_analysis-223", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:06:37.985576+00:00", "stage": "judge", "completed": 224, "total": 280, "id": "case_analysis-224", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:08:03.361756+00:00", "stage": "judge", "completed": 225, "total": 280, "id": "case_analysis-225", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:08:54.042930+00:00", "stage": "judge", "completed": 226, "total": 280, "id": "case_analysis-226", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:10:12.251600+00:00", "stage": "judge", "completed": 227, "total": 280, "id": "case_analysis-227", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:10:12.253547+00:00", "stage": "judge", "completed": 228, "total": 280, "id": "case_analysis-228", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:12:32.086683+00:00", "stage": "judge", "completed": 229, "total": 280, "id": "case_analysis-229", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:12:32.088249+00:00", "stage": "judge", "completed": 230, "total": 280, "id": "case_analysis-230", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:14:36.216237+00:00", "stage": "judge", "completed": 231, "total": 280, "id": "case_analysis-231", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:14:36.218129+00:00", "stage": "judge", "completed": 232, "total": 280, "id": "case_analysis-232", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:16:59.391329+00:00", "stage": "judge", "completed": 233, "total": 280, "id": "case_analysis-233", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:16:59.392620+00:00", "stage": "judge", "completed": 234, "total": 280, "id": "case_analysis-234", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:18:34.541955+00:00", "stage": "judge", "completed": 235, "total": 280, "id": "case_analysis-235", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:18:34.543589+00:00", "stage": "judge", "completed": 236, "total": 280, "id": "case_analysis-236", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:20:31.962419+00:00", "stage": "judge", "completed": 237, "total": 280, "id": "case_analysis-237", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:20:31.963568+00:00", "stage": "judge", "completed": 238, "total": 280, "id": "case_analysis-238", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:22:26.852047+00:00", "stage": "judge", "completed": 239, "total": 280, "id": "case_analysis-239", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:22:26.853072+00:00", "stage": "judge", "completed": 240, "total": 280, "id": "case_analysis-240", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:26:54.556104+00:00", "stage": "judge", "completed": 241, "total": 280, "id": "case_analysis-241", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:28:04.251767+00:00", "stage": "judge", "completed": 242, "total": 280, "id": "case_analysis-242", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:32:21.428131+00:00", "stage": "judge", "completed": 243, "total": 280, "id": "case_analysis-243", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:32:21.429709+00:00", "stage": "judge", "completed": 244, "total": 280, "id": "case_analysis-244", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:37:06.164797+00:00", "stage": "judge", "completed": 245, "total": 280, "id": "case_analysis-245", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:38:38.400032+00:00", "stage": "judge", "completed": 246, "total": 280, "id": "case_analysis-246", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:42:10.149974+00:00", "stage": "judge", "completed": 247, "total": 280, "id": "case_analysis-247", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:42:10.151593+00:00", "stage": "judge", "completed": 248, "total": 280, "id": "case_analysis-248", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:44:15.231972+00:00", "stage": "judge", "completed": 249, "total": 280, "id": "case_analysis-249", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:45:17.645875+00:00", "stage": "judge", "completed": 250, "total": 280, "id": "case_analysis-250", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T19:46:34.345932+00:00", "stage": "judge", "completed": 251, "total": 280, "id": "consultation-001", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:46:34.347166+00:00", "stage": "judge", "completed": 252, "total": 280, "id": "consultation-002", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:48:10.866600+00:00", "stage": "judge", "completed": 253, "total": 280, "id": "consultation-003", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:48:10.867914+00:00", "stage": "judge", "completed": 254, "total": 280, "id": "consultation-004", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:50:02.132909+00:00", "stage": "judge", "completed": 255, "total": 280, "id": "consultation-005", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:50:02.134261+00:00", "stage": "judge", "completed": 256, "total": 280, "id": "consultation-006", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:52:19.469085+00:00", "stage": "judge", "completed": 257, "total": 280, "id": "consultation-007", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:52:19.472362+00:00", "stage": "judge", "completed": 258, "total": 280, "id": "consultation-008", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:54:00.759528+00:00", "stage": "judge", "completed": 259, "total": 280, "id": "consultation-009", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:54:00.761206+00:00", "stage": "judge", "completed": 260, "total": 280, "id": "consultation-010", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:55:26.902208+00:00", "stage": "judge", "completed": 261, "total": 280, "id": "consultation-011", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:57:30.789526+00:00", "stage": "judge", "completed": 262, "total": 280, "id": "consultation-012", "status": "failed", "attempts": 3}
+{"time": "2026-11-15T19:59:03.518586+00:00", "stage": "judge", "completed": 263, "total": 280, "id": "consultation-013", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T19:59:03.519921+00:00", "stage": "judge", "completed": 264, "total": 280, "id": "consultation-014", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:00:30.209247+00:00", "stage": "judge", "completed": 265, "total": 280, "id": "consultation-015", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:00:30.211494+00:00", "stage": "judge", "completed": 266, "total": 280, "id": "consultation-016", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:01:51.909291+00:00", "stage": "judge", "completed": 267, "total": 280, "id": "consultation-017", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:01:51.911357+00:00", "stage": "judge", "completed": 268, "total": 280, "id": "consultation-018", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:04:29.798132+00:00", "stage": "judge", "completed": 269, "total": 280, "id": "plaintiff-001", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:04:29.799505+00:00", "stage": "judge", "completed": 270, "total": 280, "id": "plaintiff-002", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:07:49.640578+00:00", "stage": "judge", "completed": 271, "total": 280, "id": "plaintiff-003", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:07:49.642342+00:00", "stage": "judge", "completed": 272, "total": 280, "id": "plaintiff-004", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:11:36.021144+00:00", "stage": "judge", "completed": 273, "total": 280, "id": "plaintiff-005", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:11:36.023428+00:00", "stage": "judge", "completed": 274, "total": 280, "id": "plaintiff-006", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:17:59.174619+00:00", "stage": "judge", "completed": 275, "total": 280, "id": "defendant-001", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T20:17:59.176601+00:00", "stage": "judge", "completed": 276, "total": 280, "id": "defendant-002", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:21:47.028565+00:00", "stage": "judge", "completed": 277, "total": 280, "id": "defendant-003", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:21:47.030081+00:00", "stage": "judge", "completed": 278, "total": 280, "id": "defendant-004", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T20:27:43.624178+00:00", "stage": "judge", "completed": 279, "total": 280, "id": "defendant-005", "status": "ok", "attempts": 2}
+{"time": "2026-11-15T20:27:43.625628+00:00", "stage": "judge", "completed": 280, "total": 280, "id": "defendant-006", "status": "ok", "attempts": 1}
+plawbench: Report saved, but grading is incomplete; inspect failures and resume
+{
+  "selected": 280,
+  "generated": 280,
+  "graded": 279,
+  "judge_failed": 1,
+  "generation_truncated": 1,
+  "grading_complete": false,
+  "full_public_dataset": true
+}

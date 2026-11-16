@@ -1,0 +1,20 @@
+{
+  "architecture": "arm64",
+  "macos": "26.6.1",
+  "python": "3.11.16",
+  "wheels": {
+    "mlx": {
+      "version": "0.32.4",
+      "metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: cp311-cp311-macosx_26_0_arm64"
+    },
+    "mlx-metal": {
+      "version": "0.32.4",
+      "metadata": "Wheel-Version: 1.0\nGenerator: setuptools (84.0.0)\nRoot-Is-Purelib: false\nTag: py3-none-macosx_26_0_arm64"
+    },
+    "mlx-lm": {
+      "version": "0.30.7",
+      "metadata": "Wheel-Version: 1.0\nGenerator: setuptools (82.0.0)\nRoot-Is-Purelib: true\nTag: py3-none-any"
+    }
+  },
+  "interpretation": "Pinned native inference wheels require macOS 26+ on arm64. Portable data/report core does not require MLX."
+}

@@ -1,0 +1,27 @@
+{
+  "readme_local_links_valid": true,
+  "report_matches_video_source_hash": true,
+  "media_hashes_verified": true,
+  "complete_public_coverage": {
+    "selected": 280,
+    "generated": 280,
+    "graded": 280,
+    "judge_failed": 0,
+    "generation_truncated": 1,
+    "grading_complete": true,
+    "full_public_dataset": true
+  },
+  "tests_passed": 44,
+  "deliverable_sha256": {
+    "README.md": "4d6223093a5754b5ad07e3959782380d966fa6b793e2fc73c0c4518ab5718167",
+    "README.zh-CN.md": "2cec8fdab842430a303938b4ac8b5f3f648734767a1554c4fec042a885458a54",
+    "docs/EXPERIMENT_RESULTS.md": "4cc74e8d5022bc58230e5143b93a24cfc9928390a68294fe115d0953f1ecd122",
+    "docs/assets/results.png": "7232c9fadb9511783756d11522b6743be005debdd990927421b98504bf52a50e",
+    "docs/assets/results.svg": "48d34d9abf5319d7bb1911755522d1282c825437625ec9f0928da679ad396187",
+    "docs/assets/demo.mp4": "dceec9f055266133ccac8291b0c3b03bb77a82f773e4c67be19acb28522f5cd2",
+    "docs/assets/demo.gif": "888f203ee7fd5cff913fc6ae9f74d0d9810784e67258563eed4a1b095fe0a590",
+    "docs/assets/demo-poster.png": "490ab5e81b20f8d83aa9caa520dbf7dbae2fc589775a76c06d97420343d1a662",
+    "docs/assets/demo-receipt.json": "2e476df61414d921e94fed77c9c061774f71199f5dd4e8b2497edc62684b8c7b",
+    "docs/assets/demo-verification.json": "83db34ec21a02368a1cb8c438b9679f9c8ba05b766f52a3a5100116e3ef7d5a2"
+  }
+}

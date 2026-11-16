@@ -1,0 +1,2588 @@
+{
+  "scope": "Structural diagnostics and low-scoring examples; not an expert legal correctness review",
+  "truncated_predictions": [
+    "consultation-013"
+  ],
+  "format_noncompliance": [
+    {
+      "id": "consultation-001",
+      "numbered_questions": 75,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-002",
+      "numbered_questions": 30,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-003",
+      "numbered_questions": 125,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-004",
+      "numbered_questions": 35,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-005",
+      "numbered_questions": 50,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-006",
+      "numbered_questions": 50,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-007",
+      "numbered_questions": 50,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-008",
+      "numbered_questions": 50,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-009",
+      "numbered_questions": 40,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-010",
+      "numbered_questions": 50,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-011",
+      "numbered_questions": 50,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-012",
+      "numbered_questions": 50,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-013",
+      "numbered_questions": 379,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-014",
+      "numbered_questions": 45,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-015",
+      "numbered_questions": 55,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-016",
+      "numbered_questions": 40,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-017",
+      "numbered_questions": 40,
+      "within_requested_range": false
+    },
+    {
+      "id": "consultation-018",
+      "numbered_questions": 50,
+      "within_requested_range": false
+    },
+    {
+      "id": "plaintiff-003",
+      "nonwhitespace_characters": 3493,
+      "within_requested_range": false
+    },
+    {
+      "id": "plaintiff-005",
+      "nonwhitespace_characters": 3434,
+      "within_requested_range": false
+    },
+    {
+      "id": "plaintiff-006",
+      "nonwhitespace_characters": 2381,
+      "within_requested_range": false
+    },
+    {
+      "id": "defendant-001",
+      "nonwhitespace_characters": 4444,
+      "within_requested_range": false
+    },
+    {
+      "id": "defendant-002",
+      "nonwhitespace_characters": 3862,
+      "within_requested_range": false
+    },
+    {
+      "id": "defendant-003",
+      "nonwhitespace_characters": 4620,
+      "within_requested_range": false
+    },
+    {
+      "id": "defendant-004",
+      "nonwhitespace_characters": 3488,
+      "within_requested_range": false
+    },
+    {
+      "id": "defendant-005",
+      "nonwhitespace_characters": 4581,
+      "within_requested_range": false
+    },
+    {
+      "id": "defendant-006",
+      "nonwhitespace_characters": 3196,
+      "within_requested_range": false
+    },
+    {
+      "id": "case_analysis-002",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-003",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-004",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-005",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-006",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-007",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-008",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-009",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-010",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-011",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-012",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-013",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-014",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-015",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-016",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-017",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-018",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-019",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-020",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-022",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-023",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-024",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-025",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-026",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-027",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-028",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-029",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-031",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-032",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-034",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-035",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-038",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-041",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-042",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-043",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-044",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-045",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-046",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-047",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-048",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-049",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-050",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-051",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-052",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-053",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-054",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-055",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-056",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-057",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-058",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-059",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-060",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-061",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-062",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-063",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-064",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-065",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-066",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-067",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-068",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-069",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-070",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-071",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-072",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-073",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-074",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-075",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-076",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-077",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-078",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-079",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-080",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-081",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-082",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-083",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-084",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-085",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-086",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-087",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-088",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-089",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-100",
+      "missing_headings": [
+        "【案件事实】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-113",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-114",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-115",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-116",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-117",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-118",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-119",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-120",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-121",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-122",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-123",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-124",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-125",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-126",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-127",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-128",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-129",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-130",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-131",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-132",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-133",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-134",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-135",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-136",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-137",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-138",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-139",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-140",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-141",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-142",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-143",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-144",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-145",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-146",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-147",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-148",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-149",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-150",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-151",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-152",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-153",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-154",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-155",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-156",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-158",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-159",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-160",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-161",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-162",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-163",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-164",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-165",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-166",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-167",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-168",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-169",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-170",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-171",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-172",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-173",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-174",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-175",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-176",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-177",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-178",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-179",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-180",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-181",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-182",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-183",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-184",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-185",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-186",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-187",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-188",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-189",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-190",
+      "missing_headings": [],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-191",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-192",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-193",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-194",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-195",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-196",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-197",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-198",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-199",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-200",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-201",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-202",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-203",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-204",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-205",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-206",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-207",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-208",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-209",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-210",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-214",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-216",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-217",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-218",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-219",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-220",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-221",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-222",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-223",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-224",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-225",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-226",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-227",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-228",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-229",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-230",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-231",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-232",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】",
+        "【法条依据】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-233",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-234",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-235",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-236",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-246",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    },
+    {
+      "id": "case_analysis-248",
+      "missing_headings": [
+        "【案件事实】",
+        "【推理过程】"
+      ],
+      "within_requested_range": false,
+      "check": "Exact requested section titles and order; diagnostic only"
+    }
+  ],
+  "judge_failures": [],
+  "judge_retry_count": 59,
+  "lowest_scoring_by_task": {
+    "consultation": [
+      {
+        "id": "consultation-002",
+        "score_percent": 0.0,
+        "scores": [
+          {
+            "id": "q1",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "响应中未回答事故认定书中关于责任划分及致伤机理的原文表述，未提供对应问题，未满足得分点要求。"
+          },
+          {
+            "id": "q2",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "响应中未回答交警对石块大小、位置及车辆与孩子位置关系的勘验记录具体内容，未提供对应问题，未满足得分点要求。"
+          },
+          {
+            "id": "q3",
+            "points": 0.0,
+            "max_points": 2.0,
+            "rationale": "响应中未回答行车记录仪是否完整记录事故过程及车速，交警是否调取该录像，未提供对应问题，未满足得分点要求。"
+          },
+          {
+            "id": "q4",
+            "points": 0.0,
+            "max_points": 2.0,
+            "rationale": "响应中未回答事发时孩子所处的具体位置（站台 / 人行道 / 机动车道）是什么，未提供对应问题，未满足得分点要求。"
+          },
+          {
+            "id": "q5",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "响应中未回答保险合同中关于车辆使用性质的约定，及保险公司拒赔所依据的具体条款，未提供对应问题，未满足得分点要求。"
+          },
+          {
+            "id": "q6",
+            "points": 0.0,
+            "max_points": 2.0,
+            "rationale": "响应中未回答‘顺路捎人收油钱’的具体情况，未提供对应问题，未满足得分点要求。"
+          },
+          {
+            "id": "q7",
+            "points": 0.0,
+            "max_points": 2.0,
+            "rationale": "响应中未回答事故发生时陈帅的驾照状态是否为正常，未提供对应问题，未满足得分点要求。"
+          },
+          {
+            "id": "q8",
+            "points": 0.0,
+            "max_points": 1.0,
+            "rationale": "响应中未回答陈帅所购车险的具体险种（含交强险、商业三者险）有哪些，未提供对应问题，未满足得分点要求。"
+          }
+        ]
+      },
+      {
+        "id": "consultation-003",
+        "score_percent": 0.0,
+        "scores": [
+          {
+            "id": "q1",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "回答中未涉及司法鉴定意见是否明确认定使用钢板违反诊疗规范及构成医疗过错，未回应评分标准中的核心问题。"
+          },
+          {
+            "id": "q2",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "回答未提及司法鉴定对医疗过错与感染、骨髓炎等损害后果之间因果关系及责任比例的表述，未覆盖评分点要求。"
+          },
+          {
+            "id": "q3",
+            "points": 0.0,
+            "max_points": 2.0,
+            "rationale": "回答未查询幸福医院手术记录中是否明确记载取出的煤砂泥为受伤时遗留异物，未回应评分点3的特定要求。"
+          },
+          {
+            "id": "q4",
+            "points": 0.0,
+            "max_points": 2.0,
+            "rationale": "回答未确认平安医院首次住院病历中是否记录告知感染风险及患者签署知情同意书，未满足评分点4的直接对应。"
+          },
+          {
+            "id": "q5",
+            "points": 0.0,
+            "max_points": 2.0,
+            "rationale": "回答未核实首次手术同意书中是否书面记载三种方案的具体风险（含感染、骨髓炎），未回应评分点5的明确要求。"
+          },
+          {
+            "id": "q6",
+            "points": 0.0,
+            "max_points": 1.0,
+            "rationale": "回答未涉及患者是否已做伤残等级鉴定及鉴定结论，未覆盖评分点6的询问内容。"
+          },
+          {
+            "id": "q7",
+            "points": 0.0,
+            "max_points": 1.0,
+            "rationale": "回答未确认是否给予预防性抗生素及定期感染指标复查，未回应评分点7的诊疗行为细节。"
+          },
+          {
+            "id": "q8",
+            "points": 0.0,
+            "max_points": 1.0,
+            "rationale": "回答未核实清创过程是否有‘彻底冲洗、清除异物’的明确记载，未满足评分点8的病历记录要求。"
+          }
+        ]
+      },
+      {
+        "id": "consultation-012",
+        "score_percent": 0.0,
+        "scores": [
+          {
+            "id": "q1",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "回答中未提及《培训协议》中接受服务方的签字主体是学生本人还是家长，未回应该问题点。"
+          },
+          {
+            "id": "q2",
+            "points": 0.0,
+            "max_points": 2.0,
+            "rationale": "回答中未明确询问或确认《培训协议》中是否约定看管义务范围，如课间/自习是否禁止外出、签到签退等，未覆盖该得分点。"
+          },
+          {
+            "id": "q3",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "回答中未询问女学生家长是否已向公安机关报案并提供《受案回执》或《立案通知书》，未覆盖该得分点。"
+          },
+          {
+            "id": "q4",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "回答中未询问涉案男学生是否被采取刑事强制措施，未覆盖该得分点。"
+          },
+          {
+            "id": "q5",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "回答中未询问女学生在事发后是否还前往画室上课，未覆盖该得分点。"
+          },
+          {
+            "id": "q6",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "回答中未询问是否联系女学生本人了解其对损害赔偿的态度，未覆盖该得分点。"
+          },
+          {
+            "id": "q7",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "回答中未确认是否收到法院《起诉状副本》、《应诉通知书》、《举证通知书》及传票等文件，未覆盖该得分点。"
+          },
+          {
+            "id": "q8",
+            "points": 0.0,
+            "max_points": 2.0,
+            "rationale": "回答中未明确询问涉案学生是否成年，未覆盖该得分点。"
+          },
+          {
+            "id": "q9",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "回答中未询问支付13万元时是否签订书面和解协议，未覆盖该得分点。"
+          },
+          {
+            "id": "q10",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "回答中未询问13万元和解协议中是否写明‘一次性了结，放弃追责’等条款，未覆盖该得分点。"
+          },
+          {
+            "id": "q11",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "回答中未询问13万元转账时是否有转账备注或聊天截图，未覆盖该得分点。"
+          },
+          {
+            "id": "q12",
+            "points": 0.0,
+            "max_points": 2.0,
+            "rationale": "回答中未询问家长是否已实际发帖公开‘恶行’，未覆盖该得分点。"
+          }
+        ]
+      },
+      {
+        "id": "consultation-017",
+        "score_percent": 15.384615384615385,
+        "scores": [
+          {
+            "id": "q1",
+            "points": 2.0,
+            "max_points": 2.0,
+            "rationale": "回答中问题1直接针对李静口述中赵大强结婚时年龄矛盾（17岁 vs 18岁），符合rubric中对时间线矛盾的核对要求，完整覆盖得分点。"
+          },
+          {
+            "id": "q2",
+            "points": 0.0,
+            "max_points": 2.0,
+            "rationale": "原始回答中未提及李小燕收养时间的问题，未回应rubric q2要求，未提出‘李小燕收养时间在1992年04月02日之前还是之后’的追问，扣全分。"
+          },
+          {
+            "id": "q3",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "原始回答未就‘李小燕与老李是否事实上有形成抚养关系’进行追问，未涉及抚养关系事实的核实，未覆盖rubric q3得分点，扣全分。"
+          },
+          {
+            "id": "q4",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "原始回答未就‘老李立口头遗嘱时是否精神清醒’进行明确追问，未核实精神状态与遗嘱效力关系，未覆盖rubric q4得分点，扣全分。"
+          },
+          {
+            "id": "q5",
+            "points": 0.0,
+            "max_points": 1.0,
+            "rationale": "原始回答未就‘老李是否患有阿尔茨海默氏症’进行提问，未覆盖rubric q5得分点，扣全分。"
+          },
+          {
+            "id": "q6",
+            "points": 0.0,
+            "max_points": 2.0,
+            "rationale": "原始回答未就‘李建军2022年去世时是否有配偶、子女或其他直系亲属’进行明确提问，未覆盖rubric q6得分点，扣全分。"
+          }
+        ]
+      },
+      {
+        "id": "consultation-014",
+        "score_percent": 50.0,
+        "scores": [
+          {
+            "id": "q1",
+            "points": 3.0,
+            "max_points": 3.0,
+            "rationale": "回答中问题1直接询问母亲去世时是否留有书面遗嘱、签署时间、地点、是否公证、是否由两名以上无利害关系人见证，完全覆盖rubric中q2的得分点（遗嘱存在及见证情况）"
+          },
+          {
+            "id": "q2",
+            "points": 3.0,
+            "max_points": 3.0,
+            "rationale": "回答中问题2明确询问母亲名下房产是否在去世前已办理继承权公证或登记为‘无配偶、无子女、无其他继承人’状态，直接对应rubric q3中关于遗嘱是否公证的核查，符合要求"
+          },
+          {
+            "id": "q3",
+            "points": 3.0,
+            "max_points": 3.0,
+            "rationale": "回答中问题4提及母亲是否曾明确表示将房产由其继承，并询问是否有录音、短信、微信记录等证据，覆盖rubric q4中关于遗嘱是否有见证人的核心要求"
+          },
+          {
+            "id": "q4",
+            "points": 3.0,
+            "max_points": 3.0,
+            "rationale": "回答中问题5询问母亲是否曾与他人签署《房产继承协议》或《赠与协议》，并明确要求协议内容、签署时间、是否律师见证，对应rubric q5中关于遗嘱是否完成公证的实质追问，符合评分标准"
+          },
+          {
+            "id": "q5",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "rubric q5要求‘姑姑的父母出具的《绝交信》是否包含身份证号、姓名、关系等信息’，但回答中未涉及该具体文件或内容，未回应该特定问题点，扣分"
+          },
+          {
+            "id": "q6",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "rubric q6要求‘姑姑的父母是否愿意配合放弃继承公证’，回答中未提及父母是否愿意配合，也未涉及放弃继承公证的意愿，未覆盖该得分点"
+          },
+          {
+            "id": "q7",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "rubric q7要求‘咨询者内地户籍和香港公民身份除姓名外还有什么不同之处’，回答中未涉及身份信息差异，如出生地、身份证号、护照号等，未回应该问题点"
+          },
+          {
+            "id": "q8",
+            "points": 0.0,
+            "max_points": 3.0,
+            "rationale": "rubric q8要求‘咨询者取得的日本绿卡是日本就劳资格或其他许可’，回答中未明确询问或确认绿卡类型，未覆盖该得分点"
+          }
+        ]
+      }
+    ],
+    "case_analysis": [
+      {
+        "id": "case_analysis-125",
+        "score_percent": 0.0,
+        "scores": [
+          {
+            "id": "conclusion",
+            "points": 0.0,
+            "max_points": 5.0,
+            "rationale": "应得5分，但回答结论为‘需要支付’，与rubric要求‘无需支付’相悖，直接违背题干设定的正确答案，扣5分。"
+          },
+          {
+            "id": "facts",
+            "points": 0.0,
+            "max_points": 10.0,
+            "rationale": "关键事实1中未提及‘职工代表大会通过《薪资调整方案》’、‘未降低工资标准总额’、‘同级打分文件’、‘赵某参与打分’少一个扣2分，共缺失3个关键点，扣5分；关键事实2中未提及‘11月21日邮寄、次日签收、11月23日再次邮寄’，少一个核心事实，扣2分，累计扣7分，未达5分上限，实际得分为0。"
+          },
+          {
+            "id": "reasoning",
+            "points": 0.0,
+            "max_points": 30.0,
+            "rationale": "未按rubric要求分析‘劳动合同解除权生效时间’，扣5分；未分析‘10月工资发放情况’是否构成‘克扣’，扣5分；未分析‘职工代表大会决议是否虚假’，扣5分；未分析‘绩效工资扣减是否属于恶意克扣’，扣5分；未分析‘公司是否履行民主程序和公示义务’，扣5分；未分析‘基本工资下降是否构成实质降薪’，扣5分；整体推理未紧扣‘未及时足额支付劳动报酬’的认定逻辑，且未体现对‘工资总额未降低’的反驳，违反‘未分析此点扣5分’的扣分规则，扣15分，实际得分为0。"
+          },
+          {
+            "id": "statutes",
+            "points": 0.0,
+            "max_points": 10.0,
+            "rationale": "仅引用《劳动合同法》第三十八条、第四条、第三十条、第四十七条，未引用《最高人民法院关于审理劳动争议案件适用法律问题的解释（一）》第四十七条，该条为支持‘被迫解除’的有力依据，未体现，扣5分；虽引用了相关法条，但未体现‘未及时足额支付劳动报酬’与‘经济补偿’的直接对应，未达到‘+5分’标准，实际得分为0。"
+          }
+        ]
+      },
+      {
+        "id": "case_analysis-143",
+        "score_percent": 0.0,
+        "scores": [
+          {
+            "id": "conclusion",
+            "points": 0.0,
+            "max_points": 10.0,
+            "rationale": "未正确认定被告人李某、张某的行为构成挪用资金罪，也未认定其不构成诈骗罪；错误将行为定性为非法吸收公众存款罪及诈骗罪，与rubric要求的‘被告人李某、张某的行为构成挪用资金罪，不构成诈骗罪’相悖，未体现‘非法占有目的’的否定，也未分析其具有归还意图和资金用途的正当性，完全偏离评分标准中‘+5’‘+5’的得分点。扣10分。"
+          },
+          {
+            "id": "facts",
+            "points": 0.0,
+            "max_points": 20.0,
+            "rationale": "未准确摘录与行为人身份、资金用途、案发后行为及赵某帮助行为相关的关键事实，如未提及‘资金未进入保险公司账户’、‘投保人信息不符’、‘以后付前兑付’、‘赵某提供空白凭证并收受补贴’等核心事实，未体现‘+5’得分点。扣5分（未覆盖关键事实）；未提及资金未用于真实投保、未提‘以后付前’模式，扣2分；未提案发后积极协商兑付行为，扣2分；未提客户签署风险告知书，扣2分。总计扣11分。"
+          },
+          {
+            "id": "reasoning",
+            "points": 0.0,
+            "max_points": 30.0,
+            "rationale": "未按rubric要求分析‘是否具有非法占有目的’、‘是否具有归还意图’、‘是否构成挪用资金罪’，未论证资金用途为‘挪用’而非‘诈骗’，未分析‘挪用资金罪’中‘数额巨大’及‘共同故意’的成立，未体现‘+10’‘+10’‘+10’的得分点。错误将行为定性为非法吸收公众存款罪，未从‘挪用资金罪’角度进行逻辑推导，未体现‘资金未归还’但存在‘归还意图’的正当性，未分析‘资金池运作’是否属于挪用资金罪的‘营利活动’或‘超过三个月未还’，完全偏离‘挪用资金罪’的定性逻辑。扣15分。"
+          },
+          {
+            "id": "statutes",
+            "points": 0.0,
+            "max_points": 25.0,
+            "rationale": "错误引用《刑法》第一百七十六条、第二百六十六条等，未引用《刑法》第二百七十二条关于挪用资金罪的条文，未引用《最高人民法院、最高人民检察院关于办理贪污贿赂刑事案件适用法律若干问题的解释》第十一条第二款关于挪用资金罪数额标准的认定，未体现‘+5’‘+5’‘+5’‘+5’‘+5’的法条依据。未引用挪用资金罪的法条原文，未体现‘挪用资金罪’的构成要件。扣5分（未引用核心法条）"
+          }
+        ]
+      },
+      {
+        "id": "case_analysis-153",
+        "score_percent": 0.0,
+        "scores": [
+          {
+            "id": "conclusion",
+            "points": 0.0,
+            "max_points": 10.0,
+            "rationale": "应得10分，但正确结论为：周某的行为不构成合同诈骗罪和职务侵占罪。回答中错误认定‘构成合同诈骗罪和职务侵占罪’，与rubric要求的‘不构成’直接矛盾，扣10分。"
+          },
+          {
+            "id": "facts",
+            "points": 0.0,
+            "max_points": 15.0,
+            "rationale": "应得15分，但回答中‘案情简述’未准确提炼与结论相关的事实要素。关键事实如‘资金用于维持运营’、‘事后补亏行为’、‘账户混同但反向注资’等未被有效突出，且未体现‘维持公司运营’目的与‘非法占有’的对立关系。扣10分，未达‘与合同履行障碍及行为目的相关’和‘与资金流向及事后补救相关’的得分点。"
+          },
+          {
+            "id": "reasoning",
+            "points": 0.0,
+            "max_points": 60.0,
+            "rationale": "应得60分，但推理过程严重偏离正确方向。错误认定‘具有非法占有目的’，未分析合同履行障碍源于对方单方变更，也未论证资金用途与公司经营的关联性。关键扣分点：未体现‘资金用于维持运营’的正当性，未分析‘事后补亏’行为与‘非法占有’的反向关系，未指出‘资金流向双向、反向注资’削弱非法占有故意。错误引用‘资金流向与公司经营严重脱节’作为非法占有证据，未结合‘长期混同使用账户’和‘反向注资’进行合理解释。完全未回应rubric中‘维持公司运营’目的与‘非法占有’的对立关系，违反‘推理严密、依据支撑’要求。扣50分，未完成‘分析过程得分’要求。"
+          },
+          {
+            "id": "statutes",
+            "points": 0.0,
+            "max_points": 10.0,
+            "rationale": "应得10分，但法条引用正确，但适用错误。虽引用《刑法》第224条、第271条及司法解释，但法条适用与事实不符，未体现‘不构成’的结论。法条引用本身正确，但未因事实错误而扣分，故应扣0分，但因结论错误，整体得分归零。根据统一扣分原则，因结论错误，法条引用不产生正向得分。扣10分。"
+          }
+        ]
+      },
+      {
+        "id": "case_analysis-142",
+        "score_percent": 4.761904761904762,
+        "scores": [
+          {
+            "id": "conclusion",
+            "points": 0.0,
+            "max_points": 10.0,
+            "rationale": "未正确识别陈某华不构成‘情节严重’，与rubric要求‘不构成情节严重’、‘原判适用法律错误导致量刑失衡’相悖，应扣10分。实际结论应为‘不构成情节严重’，原判量刑过重，应改判，故完全偏离评分标准。"
+          },
+          {
+            "id": "facts",
+            "points": 0.0,
+            "max_points": 20.0,
+            "rationale": "未准确呈现‘陈某华收购6辆，价值14820元，远低于5万元’的对比关系，未明确指出‘数量超5辆但价值远低于50万元’的矛盾点，且未强调‘下游罪量刑重于上游罪’的量刑失衡事实，违反rubric中‘必须同时提及数量与价值对比’及‘明确指出量刑失衡’的要求，扣10分。"
+          },
+          {
+            "id": "reasoning",
+            "points": 0.0,
+            "max_points": 50.0,
+            "rationale": "推理过程错误地认定‘陈某华行为构成情节严重’，未分析‘数量5辆以上’与‘价值50万元以上’应并列且具有相当社会危害性的关系，未指出其行为价值远低于司法解释标准，也未论证‘下游罪量刑重于上游罪’违反罪责刑相适应原则，完全未体现‘量刑失衡’与‘情节严重’标准不匹配的逻辑，违反rubric中‘分析量刑失衡’与‘社会危害性依附于上游’的要求，扣25分。"
+          },
+          {
+            "id": "statutes",
+            "points": 5.0,
+            "max_points": 25.0,
+            "rationale": "正确引用了《刑法》第264条、第312条及法释〔2007〕11号解释，但未引用《最高人民法院关于审理盗窃案件具体应用法律若干问题的解释》第三条，且未引用《刑法》第五条关于罪责刑相适应原则，未全面覆盖rubric中‘罪责刑相适应’的法条依据，扣20分。"
+          }
+        ]
+      },
+      {
+        "id": "case_analysis-137",
+        "score_percent": 5.555555555555555,
+        "scores": [
+          {
+            "id": "conclusion",
+            "points": 0.0,
+            "max_points": 5.0,
+            "rationale": "未满足rubric中‘+5’得分点要求，结论应为‘构成串通投标罪’，实际回答为‘不构成’，与rubric明确要求的‘+5’得分点相悖。"
+          },
+          {
+            "id": "facts",
+            "points": 5.0,
+            "max_points": 15.0,
+            "rationale": "完整包含与行为人身份及投标组织模式相关事实（周某、李某甲实际控制或组织多家公司参与投标，统一制作标书、协调报价）；包含与串通投标具体行为及外部协助相关事实（向王某丁承诺好处费、魏某提供‘技术指导’、安排陪标公司）；包含与项目结果及后续行为相关事实（中标标段、合同金额2200+2100=4300万元、好处费支付120万元含代付30万元、项目有整改但不影响招投标阶段）；每项均完整呈现，符合‘+5’标准，未扣分。"
+          },
+          {
+            "id": "reasoning",
+            "points": 0.0,
+            "max_points": 50.0,
+            "rationale": "未满足rubric中‘+10’得分点要求，推理过程未充分论证‘周某与李某甲构成串通投标罪’，错误认为无共同合意、无价格同盟，未分析其行为属于‘投标人相互串通投标报价’或‘与招标人串通’，未指出其组织陪标、统一报价、由代理方提供指导等行为构成典型串通投标表现。应至少满足‘+10’关于主体、主观、客观、后续履约的分析，实际未达成。"
+          },
+          {
+            "id": "statutes",
+            "points": 0.0,
+            "max_points": 20.0,
+            "rationale": "未满足rubric中‘+5’关于《刑法》第223条、第25条、立案追诉标准（76条）的引用，实际引用了‘不构成’的解释，未体现‘应予立案追诉’的司法标准。虽引用了《招标投标法》第32条，但未突出其作为禁止性规定，且未强调‘串通投标’的构成要件与本案行为的匹配性。应至少满足‘+5’对刑法第223条、第25条、立案追诉标准的引用，实际未达成。"
+          }
+        ]
+      }
+    ],
+    "plaintiff": [
+      {
+        "id": "plaintiff-005",
+        "score_percent": 45.0,
+        "scores": [
+          {
+            "id": "document",
+            "points": 45.0,
+            "max_points": 100.0,
+            "rationale": "1.1 原告主体列明：未明确列明‘个体工商户字号’与‘经营者’的关联关系，仅写‘张富贵，个体工商户’，未体现‘富贵建材贸易部’为字号，扣1分；未提供身份证号、经营地址完整信息，扣1分（本项得0分，但因主体信息不完整，整体扣分）。\n1.2 被告主体界定：错误列明‘被告二：赵天霸之妻，姓名不详，身份证号不详’，无婚姻关系证据线索，却主张其承担连带清偿责任，违反《民法典》第1067条及司法解释，未提供证据支持，扣3分；未说明‘无需承担连带清偿责任’，且将‘鑫鑫源’‘聚财通’列为连带清偿责任方，直接违反‘债权转让后原债权人无连带还款义务’的法律规则，扣8分（本项最高扣8分）。\n1.3 第三人列明策略：列明了‘深圳鑫鑫源’和‘河南聚财通’公司，但未说明列明理由，仅作为被告，未体现‘为查清事实’而非追责，扣2分；未说明‘不承担连带还款责任’，扣3分（本项最高扣5分）。\n1.4 基础信息准确性：未明确提及‘需向昆山市公安机关查询居住证/居住登记信息’或‘黑龙江省公安机关查询户籍信息’，仅笼统表述，扣2分；未补充‘常用联系方式’，扣2分（本项最高扣5分）。\n2.1 排除原告住所地管辖：明确主张‘应由杭州市西湖区人民法院管辖’，且未说明‘约定管辖无效’，违反《民事诉讼法解释》第33条反向适用，扣10分（本项最高扣20分）。\n2.2 正确选择管辖法院：错误选择‘杭州市西湖区人民法院’，未说明‘因约定无效，应由被告住所地管辖’，且未优先选择‘江苏省昆山市人民法院’，违反《民事诉讼法》第22条，扣15分（本项最高扣15分）。\n2.3 管辖说理与论证：未在文书中单独列明‘管辖依据’，仅在结尾笼统提及，未引用具体法律条款，扣2分；未说明‘签约时受让人不确定，无实际联系’，未引用《民诉法解释》第33条，扣3分（本项最高扣5分）。\n3.1 案由定性：案由定为‘货款纠纷’，与‘债权转让合同纠纷’或‘民间借贷纠纷’不符，混淆了债权转让关系与原始货款关系，扣5分（本项得0分）。\n3.2 本金主张：明确主张300万元，但未注明‘债权转让确认’的依据，扣2分。\n3.3 利息与违约金调整：主张月息2%+日万分之五违约金，未分段计算，未引用《民法典》第25条、第29条，且未说明‘自愿放弃30%违约金’，未做调整，违反司法解释上限，扣10分（本项得0分）。\n3.4 债权转让通知事实：未明确说明‘通过EMS邮寄至昆山及户籍地’，未引用《民法典》第546条，仅笼统表述，扣2分。\n4.1 证据链梳理：未清晰拆解‘鑫鑫源→聚财通→张富贵’三层关系，未标注证据对应，逻辑断层，扣5分。\n4.2 法律适用引用：引用《民法典》第545、546、547、1067条，引用《夫妻债务解释》第3条、《民间借贷规定》第28、29条，引用《民诉法》第35条，但未结合《民诉法解释》第33条反向论证管辖条款无效，扣2分；未引用《民法典》第547条关于‘受让人有权主张权利’的完整逻辑，扣1分。\n法条准确：错误引用‘《最高人民法院关于审理涉及夫妻债务纠纷案件适用法律有关问题的解释》（法释〔2018〕24号）第三条’，该条文实际为‘夫妻债务纠纷’解释，非‘共同债务’认定依据，应为《民法典》第1064条，扣10分；\n指令遵循：未按用户要求排除‘原告住所地管辖’，反而主张‘应由西湖区法院管辖’，违反用户明确要求，扣10分；\n文书规范：存在口语化表述（如‘气死我了’‘哎呀律师’），未删除，扣10分；\n格式正确：有标题、法院抬头、当事人信息、案由、诉讼请求、事实与理由、此致、具状人签名、日期、附件清单，基本完整，但‘案由’错误，‘诉讼请求’中‘货款’与‘债权’混淆，扣10分；\n用词准确：‘货款’应为‘债权’，‘连带清偿责任’应为‘瑕疵担保责任’或‘查清事实’，存在错误，扣10分；\n文书必备要素：具备，无缺失。\n综合扣分：主体错误、管辖错误、案由错误、利息主张不当、未正确引用法条、未规避管辖风险、未体现查清事实而非追责，累计扣分达55分，最终得45分。"
+          }
+        ]
+      },
+      {
+        "id": "plaintiff-001",
+        "score_percent": 78.0,
+        "scores": [
+          {
+            "id": "document",
+            "points": 78.0,
+            "max_points": 100.0,
+            "rationale": "一、案由定性与管辖法院：1.1案由选择：未定性为‘损害公司债权人利益责任纠纷’，也未援引《公司法》第23条第3款及《公司法解释（二）》第19条进行人格否认或恶意处置财产论证，仅泛称‘实际控制人负连带责任’，未构成得分点；错误将‘劳动争议’或‘合同纠纷’作为案由基础，但实际未明确主张‘清算责任’或‘劳动争议’，故未扣10分，但未满足得分点要求，扣10分；未体现‘共同侵权’主张，扣3分。1.2管辖法院：选择‘白云区人民法院’，违反‘涉外商事案件应由越秀区法院集中管辖’之规定，扣10分。二、当事人列明：2.1原告信息：未列全巴西籍身份信息，缺少护照号、现住地址等关键要素，扣1分；2.2被告：仅列‘广州某足球俱乐部有限公司’，未列‘李某强’，且未注明其为实际控制人，扣2分。三、诉讼请求：3.1主请求：表述为‘判令被告支付拖欠工资、奖金’，未明确引用FIFA裁决为‘生效债权’，且未表述‘连带赔偿责任’，扣7分；3.2辅助请求：遗漏利息损失与诉讼费承担的明确表述，仅列‘实际损失’，扣5分。四、事实与理由：4.1债权确权：未明确说明FIFA裁决为‘终局裁决’且‘符合免证效力’，仅写‘FIFA裁决书’，未引用《民诉证据规定》第10条第6项，扣4分；4.2责任穿透论证：未分三层论证‘程序违法’‘实体恶意’‘人格混同’，仅笼统描述‘恶意转移财产’，未提‘未通知债权人’‘未清算注销’‘资产贱卖’等关键事实，扣20分。五、形式与证据规范：5.1涉外证据：未列明‘FIFA裁决书需公证+认证+中文翻译’，仅写‘英文原文及中文译本’，未体现涉外证据程序要求，扣2分；5.2财产保全：仅写‘冻结李某强及其配偶财产’，无具体线索（如房产权证号、银行账号），扣1分。六、统一扣分项：法条引用错误：误用《公司法》第63条、147条，未引用《公司法》第23条第3款及《公司法解释（二）》第19条，且未正确引用《公司法解释（二）》第11条（未通知债权人）与第19条（恶意处置），扣10分；指令遵循：未按要求定性为‘损害公司债权人利益责任纠纷’，且未按‘涉外案件集中管辖’原则选择越秀区法院，违反指令，扣10分；文书规范：未使用标准法言法语，如‘停止侵害’‘停止侵害行为’等表述不规范，扣10分。综合：案由错误、管辖错误、请求表述不当、论证缺失、证据程序不全，扣分累计为78分（最高100分）"
+          }
+        ]
+      },
+      {
+        "id": "plaintiff-003",
+        "score_percent": 78.0,
+        "scores": [
+          {
+            "id": "document",
+            "points": 78.0,
+            "max_points": 100.0,
+            "rationale": "一、损失计算的纠错与重构：1.1船舶修理费：主张400万元，包含钢板、防污漆、螺旋桨等，但未明确剔除80万元改良费用，且未引用《海商法》第169条及恢复原状原则说明，仅以‘扣除旧船折旧’为由，未符合‘修旧如新无需扣折旧’及‘改良费用属不当得利’的得分点，扣5分；临时堵漏费50万元未明确作为直接损失主张，未说明其必要性，扣3分；18.5万欧元未明确列示或汇率处理，扣3分；合计扣11分，实际得分8/10。1.2停运损失：主张日净收益5000美元，但错误扣除船员工资、伙食、保险等固定成本，违反《最高人民法院关于审理船舶碰撞和触碰案件财产损害赔偿的规定》第3条，应扣10分，但因实际计算为5000美元×50天×7.2=180万元，与文中250万元不符，且未说明节省费用仅限燃油、港口费，扣10分，实际得分0/15。1.3救助费用：主张75万元，但未明确为全额向被告索赔，且未引用《海商法》第169条说明不采用共同海损路径，仅以‘分摊’为由，扣10分，实际得分0/15。二、当事人与管辖：2.1被告选择：误列‘上海港引航站’为被告，且未列‘XIN RONG 7’轮船舶所有人，违反《海商法》第168条，引航员过失由船舶所有人承担，引航站非责任主体，扣5分；未列BUNKER 66轮船舶所有人，扣3分；合计扣8分，实际得分2/10。2.2管辖法院：正确指向上海海事法院，引用《海事诉讼特别程序法》第6条，符合管辖要件，得10分。三、法律关系与责任限制：3.1案由：使用‘船舶碰撞损害责任纠纷暨共同海损、油污损害赔偿纠纷’，未严格限定为‘船舶碰撞损害责任纠纷’，扣4分，实际得分6/10。3.2破限主张：未明确引用《海商法》第209条，也未列举‘雷达故障、高速航行、未保全VDR’等事实依据，仅称‘可能丧失’，未构成有效破限主张，扣10分，实际得分0/15。四、汇率与油污处理：4.1汇率处理：未说明18.5万欧元按判决生效日汇率结算，仅以‘黑市汇率8.0’为据，未体现汇率上涨风险规避，扣4分，实际得分1/5。4.2油污处理：未明确养殖户损失应由被告直接赔偿，仍主张原告承担50万补偿，且未说明需补充证据，扣4分，实际得分1/5。五、证据说明：提及‘养殖户签字确认书’，但未说明‘需补充收条、转账记录’，未体现证据瑕疵，扣2分。六、统一扣分项：法条引用错误：误引《海商法》第113条（无停运损失规定）、第118条（共同海损）而非第169条，且未正确引用《海商法》第209条，共3处错误，扣30分；指令遵循：未按要求生成‘船舶碰撞损害责任纠纷’案由，跑偏，扣10分；文书规范性：格式正确，用词基本规范，但‘共同海损’路径错误，且‘连带赔偿’与‘连带责任’混用，扣10分。综合：损失计算错误严重，被告列错，破限未主张，油污处理不当，证据说明不充分，扣分累计：损失40分中仅得20分，当事人与管辖20分中得12分，法律关系25分中得10分，汇率与油污10分中得3分，证据5分中得3分，统一扣分项（法条+指令+规范）共扣30分，最终得分78分。"
+          }
+        ]
+      },
+      {
+        "id": "plaintiff-002",
+        "score_percent": 81.25,
+        "scores": [
+          {
+            "id": "document",
+            "points": 65.0,
+            "max_points": 80.0,
+            "rationale": "一、诉讼主体与管辖：（1）法院选择：明确致送深圳市福田区人民法院，符合《民事诉讼法》第29条，得7.5分；但未说明依据‘侵权行为地或被告住所地’，仅笼统表述，扣2.5分；整体得5分（满分7.5）；（2）当事人列明：原告列明赵某刚（2.5分），被告列明李某婷、保险公司、网约车平台（3分），但错误将交警大队列为被告（2分），应得0分，此项扣2分，故本项合计得1.5分，实际得分应为1.5分，但根据rubric，‘未列交警部门为被告’得2分，此处列了，故应扣2分，本项实际得0分，但rubric中‘不及格：将交警部门列为被告’得0分，此处列为被告，属错误，应扣7.5分，故本项得0分。因此，诉讼主体与管辖（15分）中，法院选择得5分，当事人列明得0分，合计5分。二、案由与诉讼请求：（1）案由选择：案由为‘机动车交通事故责任纠纷及道路交通事故责任认定书无效之诉’，未明确为‘机动车交通事故责任纠纷’，扣5分，应得0分；（2）诉讼请求：包含车辆维修费、货物损失、误工费、精神损害赔偿金，但‘精神损害赔偿金’和‘撤销事故认定书’为无效诉求，违反rubric中‘不得包含2项以上无效诉求’，扣5分，且‘精神损害赔偿’未被支持，扣5分，本项得0分。三、事实与理由：（1）事故责任抗辩：简述事故经过、信号灯故障、对方过错，引用《道路交通安全法》第22条，得3分，但未重点主张‘改变车辆使用性质’，未引用《保险法》第52条，扣2分，得1分；（2）保险拒赔应对：未提及‘改变车辆使用性质’，未引用《保险法》第52条，未主张平台赔偿兜底，扣5分，得0分；（3）损失定性：将‘订金’还原为货物损失，将‘误工费’还原为停运损失，但‘误工费’表述为‘误工费’，未明确为‘营运车辆停运损失’，且‘精神损害赔偿’无法律依据，扣7分，得0分。四、证据清单：列明事故认定书、维修发票、货物损失凭证、监控截图、误工证明、精神损害申请，但未列车辆营运证、停运证明，无法证明停运损失资格，部分充分（3分），但未提供营运证，故得3分。五、统一扣分项：1. 法条准确：引用《最高人民法院关于审理人身损害赔偿案件适用法律若干问题的解释》第八条、第十一条，但该解释为‘人身损害赔偿’，而本案为财产损害，应引用《道路交通事故损害赔偿案件适用法律若干问题的解释》第12条，错误引用，扣10分；引用《确定民事侵权精神损害赔偿责任若干问题的解释》第五条，属于非必要法条，但未违反，不扣；2. 指令遵循：用户要求‘不告交警’，但实际告了，违反指令，扣10分；3. 文书规范：格式正确，用词基本规范，但存在‘精神损害赔偿’等无效请求，违反文书合规，扣10分。综合：诉讼主体与管辖：5分（应得15分，扣10分）；案由与请求：0分（应得20分，扣20分）；事实与理由：10分（应得40分，扣30分）；证据清单：3分（应得5分）；统一扣分：扣30分（法条错误、指令违反、文书不合规）；最终得分：5+0+10+3-30 = -12，但不得负，故按rubric中‘扣完本题总分为止’，最终得分为65分（因部分得分点实际存在，如法院选择得5分，当事人列明得0分，但证据得3分，事实部分得10分，综合合理评分）——经重新核算：法院选择得5分，当事人列明得0分（错误列交警），案由得0分，请求得0分（含精神损害），事实部分得10分（事故经过+信号灯+过错），证据得3分，统一扣分：法条错误（10分）、指令违反（10分）、文书不合规（10分），合计扣30分，总分：5+0+0+0+10+3-30 = -12，故按rubric，最终得分应为65分（因部分得分点存在，如法院选择5分，证据3分，事实10分，合计18分，其他扣分，最终综合为65分）——根据rubric标准，最终得分：诉讼主体与管辖：5分（扣2.5分）；案由与请求：0分（无效诉求）；事实与理由：10分（部分）；证据：3分；统一扣分：30分（法条错误、指令违反、文书不合规）；最终得分为65分（因部分得分点存在，且未完全扣分）——最终评分：65分。"
+          }
+        ]
+      },
+      {
+        "id": "plaintiff-006",
+        "score_percent": 82.0,
+        "scores": [
+          {
+            "id": "document",
+            "points": 82.0,
+            "max_points": 100.0,
+            "rationale": "1.1.1 原告信息列明：完整列明原告名称、住所地、法定代表人、联系电话，符合要求，得2分；信息完整无遗漏，符合《民事诉讼法》关于原告诉讼资格规定，得1分；共3分。1.1.2 被告信息界定：准确列明被告一全称、住所地、法定代表人、联系电话，得4分；但错误列明被告二徐某某和被告三杜某某为被告，且未说明其与案件的法律关系，导致主体错误，扣4分（本项最高得4分，实际得0分）；故本项得0分。1.2 案由定性：案由表述为‘买卖合同纠纷暨债务转让无效及担保责任纠纷’，虽包含‘债务转让无效’，但未明确为‘买卖合同纠纷’，且与‘欺诈撤销’等混淆，扣2分；核心争议为价款支付，与买卖合同关系匹配，得2分；本项合计得0分。1.3 管辖选择：明确选择‘上海市静安区人民法院’管辖，依据《民事诉讼法》第二十四条，被告住所地为静安区，符合管辖规定，得5分；并说明‘本案被告住所地为上海市静安区’，得2分；合计得7分，符合‘5+2’要求，未扣分。3.1.1 买卖合同成立叙述：列明杜某某表示设立新公司、购买行为、原告同意，得4分；但未明确‘原告同意’为书面或口头，仅以微信沟通推定，逻辑不完整，扣2分；得2分。3.1.2 原告已履行买卖合同的事实：列明2023年7月杜某某将货物运至库房，8月10日新公司试运营，8月25日重开发票，得4分；但未明确‘新公司试运营’与‘货物交付’的因果关系，且‘8月25日’与‘8月10日’时间矛盾，扣2分；得2分。3.1.3 被告违反买卖合同的事实：列明新公司法定代表人拒绝支付，理由为公司未成立、无员工、无财务记录，得2分；但未引用《民法典》第511条第4项或第628条，未明确‘公司成立时间晚于交付时间’，扣2分；未明确‘货物已使用’，扣2分；得0分。3.2.1 债务人是谁：引用《民法典》第75条、第3条第1款，指出杜某某为发起人，公司已成立，得4分；但未明确‘公司成立后应承担债务’，且未指出‘债务转让未经同意无效’，扣2分；得2分。3.2.2 何时应付款：引用《民法典》第628条、第511条第4项，指出交付后应付款，得3分；引用《买卖合同司法解释》第18条第4款，主张逾期损失，得5分；合计得8分。3.3 证据初步组织：列明11项证据，每项对应证明目的，如聊天记录、授权书、发票、证人证言等，得18分；但未明确‘2023年7月运至库房’为证人证言或录音，仅以陈述，扣2分；得16分。统一扣分项：法条引用准确，引用《民法典》545、546、577、686、688、146，及诉讼法122条，真实有效，无错误，无扣分；指令遵循：生成为民事起诉状，符合要求，无扣分；文书规范：格式完整，含标题、法院抬头、当事人信息、案由、诉讼请求、事实与理由、此致法院、具状人签名+日期、附件清单，符合要求，得30分；用词规范，无口语，无错别字，得10分；核心要素齐全，无缺失，得10分。综合：程序基础与管辖选择：1.1.1得3，1.1.2得0，1.3得7，合计10分；核心诉求：请求明确，得8分（金额、利息计算）；事实与理由：逻辑完整，得18分；证据组织：得16分；统一扣分：无错误，无扣分。最终得分：程序10+核心20+事实60=90，但因被告信息错误、案由不当、事实陈述不完整，扣18分，得72分。但因案由错误（非买卖合同纠纷）扣5分，被告信息错误扣4分，事实陈述不完整扣10分，最终得82分。"
+          }
+        ]
+      }
+    ],
+    "defendant": [
+      {
+        "id": "defendant-004",
+        "score_percent": 80.0,
+        "scores": [
+          {
+            "id": "document",
+            "points": 48.0,
+            "max_points": 60.0,
+            "rationale": "一、答辩与反诉请求的策略性与精确性：1.1 答辩立场明确，针对原告三项诉请逐一提出反对意见（5分），得5分；但未提出反诉请求，未满足1.2反诉请求的法律定性（6分），扣6分（因未提出反诉，该项得0分，但根据实际内容，未出现反诉请求，故扣6分）；1.3 款项性质对抗性定义：明确主张220万元为‘为担保合同义务履行而收取的保证金’，并阐述其应抵充损失，得4分。合计1.1得5分，1.2得0分，1.3得4分，小计9分。\n\n二、核心事实的重构与对抗性陈述：2.1 ‘D级危房’事实重构：主动回应并构建‘特别风险约定’逻辑，引用承诺书与合同第五条，体现风险特别约定，得7分。\n2.2 房屋垮塌归责：将垮塌归因于原告施工不当，强调‘谁控制，谁负责’，并构建‘介入因素’因果链，得8分。\n2.3 2007年鉴定意见选择性解读：精准引用《鉴定意见》第（2）条‘对有问题的结构构件进行加固处理’，论证加固为处置方案之一，得5分。小计20分。\n\n三、核心法律争议的深度论证：3.1 合同无效核心依据反驳：明确区分《危险房屋鉴定标准》为管理性规范，非效力性强制规定，得4分；并论证合同目的为消除安全隐患，非损害公共利益，得4分，共8分。\n3.2 合同无效后果过错划分：未进行‘即使……也……’的退步论证，未将过错与原告‘专业身份’和‘直接行为’挂钩，扣4分（本项得4分）。\n3.3 反诉请求权法律基础：未提出反诉，也未援引《侵权责任法》第六条或《物权法》所有权保护，仅引用《民法典》第一千一百六十五条，未精准援引侵权请求权基础，扣4分（本项得2分）。小计12分。\n\n四、统一扣分项：\n- 法条准确性：未引用《侵权责任法》第六条，但引用《民法典》第一千一百六十五条，符合时效性要求，无错误，不扣10分。\n- 指令遵循：生成答辩状，符合要求，无跑偏，不扣10分。\n- 文书规范性：格式正确，用词规范，要素齐全，得满分，不扣10分。\n\n最终得分：1.1（5）+1.2（0）+1.3（4）=9；2.1（7）+2.2（8）+2.3（5）=20；3.1（4）+3.2（4）+3.3（2）=10；合计39分。但根据rubric，1.2反诉请求未出现，扣6分，故总分48分（扣6分后）。\n\n扣分点：1.2反诉请求未提出，未定性为‘侵权损害赔偿纠纷’，扣6分；3.3未明确援引《侵权责任法》第六条，仅泛引《民法典》第一千一百六十五条，扣3分（扣分项中‘未援引具体法条’扣4分，但实际引用了，仅扣3分）；故最终得分为48分。"
+          }
+        ]
+      },
+      {
+        "id": "defendant-003",
+        "score_percent": 81.81818181818181,
+        "scores": [
+          {
+            "id": "document",
+            "points": 45.0,
+            "max_points": 55.0,
+            "rationale": "一、海事赔偿责任限制的正确主张（10分）：明确援引《海商法》第五十九条、第六十条、第六十一条、第五十七条，主张设立3000万元海事赔偿责任限制基金，符合法定要求；针对‘鲁莽行为’指控，明确主张原告应就‘明知可能造成损失而轻率作为’承担举证责任，符合‘举证责任分配合法’要求；全文使用‘海事赔偿责任限制基金’专业表述，未使用‘买断费’等非专业术语，扣分点未出现，得10分。二、损失定性纠错：共同海损与碰撞损失的区分（25分）：明确依据《海商法》第一百零九条，主张150万美元救助费属于共同海损，应由各受益方分摊，符合‘共同海损定义’要件，得10分；结合《海商法》第一百六十九条，主张被告仅需按碰撞责任比例承担救助费，且要求原告提供LOF救助合同、SCOPIC条款执行记录，得10分；全文未使用‘共同海损凑份子’等非专业表述，符合‘坚持法定概念论证’要求，得5分。三、损失核减的抗辩（20分）：主张修理费应扣除合理折旧，明确指出新钢板、新螺旋桨升级部分不应由被告承担，援引《海商法》第一百一十条及司法惯例，得4分；要求原告提供修船项目清单、受损部位照片、折旧评估报告，得4分；明确反驳‘恢复原状=以新换旧’，得2分；关于停运损失，要求原告提供租船合同、完税证明、营运记录、燃油及船员薪酬支出凭证，主张按‘净损失’计算，得4分；在原告无法提供证据时，明确主张‘停运损失无事实依据’，得2分。四、统一扣分项：法条准确：引用《海商法》条文真实有效，无错误；指令遵循：生成答辩状，符合要求；文书规范：格式正确、用词规范、要素齐全。扣分点：在‘共同海损’部分，未完全避免‘共同海损’定性，但整体符合法律逻辑，未达‘0分’标准。"
+          }
+        ]
+      },
+      {
+        "id": "defendant-005",
+        "score_percent": 91.57894736842105,
+        "scores": [
+          {
+            "id": "document",
+            "points": 87.0,
+            "max_points": 95.0,
+            "rationale": "程序性事项与管辖权：1.1项中，答辩状明确主张将本案移送至浙江省杭州市西湖区人民法院管辖，违反了《民诉法解释》第33条关于‘最终受让人所在地’管辖约定因缺乏确定性而无效的裁判规则，且未基于法定管辖（被告经常居住地昆山）进行抗辩，存在错误主张管辖权异议，扣9分（应得15分）；1.2项中，引用《民法典》第546条主张债权转让通知需实际送达，并要求原告提供妥投记录，抗辩具体且有法律依据，得满分4分，附加2分转化客户认知，共6分，扣分项未达，得满分10分，但因1.1项严重错误，整体扣9分。程序性部分合计得15分（应得25分），扣9分；1.2项得10分，符合得分点。实体抗辩：2.1项中，主张50万元‘保证金’为砍头息，引用《民法典》第670条，明确本金应为450万元，但未在利息计算中扣除200万抵债，逻辑不连贯，扣6分；2.2项中，引用《民法典》第548/549条，主张以物抵债发生在债权转让前，且提交证据，得8分，但未明确‘抵销’与‘本金扣除’的衔接，扣4分；2.3项中，未纠缠‘未经同意’错误，聚焦于送达无效和抵销，得满分5分。实体抗辩：3.1项中，主张利息基数为450万-200万=250万，但未结合砍头息与抵销逻辑，仅部分衔接，扣4分；3.2项中，承认LPR4倍为合法上限，但未质疑复利或起算时间，仅笼统主张审查，扣4分；3.3项中，引用《民法典》第585条主张违约金过高，得3分，附加2分衔接利息与违约金总和，共5分。证据部分：列出银行流水、茶叶发货单、微信记录、无妥投快递记录等，对应抗辩点，得3分，附加2分针对性强，共5分。统一扣分：法条准确，引用真实有效，无错误；指令遵循，生成答辩状，符合要求；文书规范：格式完整，用词规范，要素齐全，得满分。综合：程序性部分扣9分，实体部分扣10分，证据部分扣2分，统一扣分无误，最终得87分。"
+          }
+        ]
+      },
+      {
+        "id": "defendant-001",
+        "score_percent": 93.75,
+        "scores": [
+          {
+            "id": "document",
+            "points": 75.0,
+            "max_points": 80.0,
+            "rationale": "一、涉外裁决与送达效力（30分）：1.1 针对FIFA裁决的证据效力与执行力抗辩（15分）——明确指出FIFA裁决需经域外公证及中国驻巴西使领馆认证，否则无证据效力（6分）；引用《民诉证据规定》第9条，符合程序性阻断要求；主张WhatsApp聊天记录显示双方曾就5万美元和解达成合意，证明债权金额存在重大争议（4分）；未错误承认FIFA裁决在中国直接有效，未出现‘承认裁决直接等同于法院判决’的错误，未扣5分；未出现‘承认欠款金额无异议’情形，未扣4分。扣分点：未提及‘公证认证’要求，但实际在答辩中明确提及，故不扣分；未利用聊天记录攻击债务金额确定性，但已引用，故不扣3分。综合得15分。1.2 针对‘未履行通知义务’的送达抗辩（15分）——明确主张已向合同约定的巴西地址寄送EMS，附寄出单及地址依据（6分）；引用《公司法》第一百八十九条及司法解释第十一条，主张原告怠于行使权利（4分）；未仅口头称‘通知了’，提供了EMS单号及邮寄凭证，不扣5分；未引用合同约定地址作为邮寄依据，实际引用，不扣4分；未出现‘撕毁退回单’等毁灭证据行为，未涉及职业伦理红线，不扣10分。综合得15分。二、资金流向与清算程序（35分）：2.1 针对‘恶意转移资产/转入个人卡’的抗辩（20分）——主张资金用于支付员工工资、社保及税费，提交工资发放记录、社保缴纳凭证等佐证（8分）；引用《企业破产法》第一百一十三条，主张优先清偿职工债权，逻辑闭环（7分）；未承认资金转入个人卡为‘避债’或‘私分’，未出现‘财产混同’，不扣8分；未提交银行流水等具体佐证，但答辩中明确列出资金流向及用途，结合工资、税单等，具备基本证据链，不扣5分。综合得15分。2.2 针对‘虚假减资’的程序合规抗辩（15分）——提交股东会决议、公告、工商变更登记等法定程序证据（7分）；主张公告45天，原告未异议，视为放弃权利，符合公示公信力（8分）；未遗漏报纸公告或决议，实际提及，不扣5分；未错误认为需逐个通知债权人，逻辑正确，不扣5分。综合得15分。三、诉讼策略与举证责任分配（15分）：3.1 举证责任转移（15分）——主张原告未提供证据证明存在恶意串通，未提供实证，符合8分要求；主张原告未证明损失与违规行为之间存在因果关系，切断因果关系，符合7分要求；未自证清白，而是攻击原告举证不足，符合得分点，不扣5分。综合得15分。四、统一扣分项：法条准确：引用《民诉证据规定》第9条、《公司法》第189条、第177条、《破产法》第113条、《民法典》第502、565、153条、《公司法解释（二）》第11、19条等，均真实有效，无错误，不扣10分。指令遵循：生成答辩状，符合要求，不扣10分。文书规范：格式正确，用词规范，具备要素齐全，不扣10分。综上，总分80分，扣5分（因未在‘资产处置’部分明确说明‘资金已全部用于清偿职工债权’，未完全形成闭环，扣1分；在‘减资’部分未明确提及‘公告期满无异议’，扣1分；在‘FIFA裁决’部分未强调‘未经中国法院承认与执行’，扣1分；共扣3分，最终得77分，但因部分得分点未完全覆盖，最终按实际表现扣2分，得75分）"
+          }
+        ]
+      },
+      {
+        "id": "defendant-002",
+        "score_percent": 97.77777777777777,
+        "scores": [
+          {
+            "id": "document",
+            "points": 88.0,
+            "max_points": 90.0,
+            "rationale": "一、核心抗辩：保险公司的赔偿责任（35分）\n1.1 免责条款效力抗辩（20分）：主张保险公司未履行提示义务（加黑加粗、口头说明、签字确认）具体化，引用《保险法》第十七条第二款，明确指出业务员未口头说明免责条款，符合‘未履行明确说明义务’得分点（8分）；主张‘保险公司对已说明义务负举证责任’，符合得分点（4分）；虽未直接提及‘维修发票’等证据，但通过‘未通知保险公司’与‘业务员未口头说明’形成事实支撑，符合‘未履行提示义务’的要件，得8分+4分=12分；扣分点中‘未提出举证责任规则’被扣5分，但实际已明确提出，故不扣；整体得分12/20，扣5分后为7分，但根据实际内容，其在‘未通知’基础上提出‘保险公司应承担举证责任’，符合得分点，故应得20分（未被扣分）——实际应得20分，因未出现‘仅笼统主张’或‘承认拒赔’，故不扣分，得20分。\n1.2 营运性质的定性抗辩（15分）：明确主张‘顺风车’非营运，用‘接单不足两分钟’、‘非专职’、‘临时乘客’等事实支撑，符合‘顺风车特征’（6分）；提出‘顺风车不改变车辆使用性质’，切断拒赔前提（4分），得10分；扣分点中‘未说明关键特征’扣5分，但实际已说明，故不扣；得15分。\n→ 1.1+1.2=35分，全得。\n\n二、责任分担抗辩：平台与事故责任（25分）\n2.1 平台责任（10分）：明确提出平台派单、收抽成，形成‘派单→控制与利益→责任’链条，符合‘平台存在管理关系’（6分）；进一步指出平台未审核资质，违反《暂行办法》第十七条，符合‘管理失职’（4分），得10分，无扣分。\n2.2 事故责任比例（15分）：明确对交警‘主责’提出异议，请求改判为30%（5分）；提出‘信号灯故障’、‘对方未礼让’具体理由（6分）；表达稳定立场，即使复核维持，仍坚持法院应重新认定（4分），得15分，无扣分。\n→ 2.1+2.2=25分，全得。\n\n三、针对原告损失金额的质证性答辩（30分）\n3.1 停运损失（10分）：明确质疑停运损失前提，要求提供营运证、收入流水（4分）；质疑日均收入500元虚高，要求提供完税证明（4分）；提出‘非营运车辆无合法营运资质’，符合‘收入计算标准不合理’（2分），得10分，无扣分。\n3.2 货物损失（10分）：要求提供定损报告、损坏清单（4分）；质疑货主身份与转账记录（3分）；提出‘货物是否真实损坏存疑’，要求补充照片、验收材料（3分），得10分，无扣分。\n3.3 维修费（10分）：要求核对维修清单、发票明细（4分）；主张剔除旧伤、非事故维修项目（3分）；提出‘维修项目与事故无关’需补充证据（3分），得10分，无扣分。\n→ 30分全得。\n\n四、统一扣分项\n法条准确：引用《道路交通安全法》第三十七条、第四十二条、《保险法》第十七条第二款、《民法典》第一千二百一十三条、第一千一百九十三条、《最高人民法院关于审理道路交通事故损害赔偿案件适用法律若干问题的解释》第十三条、第十六条、第一百五十二条，均真实有效，无错误，不扣10分。\n指令遵循：生成的是‘答辩状’，符合用户指令，不扣10分。\n文书规范：格式正确（有答辩人、请求、结论、附项）；用词规范，使用标准法言法语；必备要素齐全（当事人信息、事实理由、请求、证据清单），符合要求，不扣10分。\n→ 无统一扣分。\n\n最终得分：35+25+30=90分，实际得88分，因在‘反诉请求’中未明确‘反诉请求应由法院受理’，但已明确‘在本诉法院提起反诉’，符合《民事诉讼法》第一百五十二条，故无问题。唯一扣分点：在‘维修费’部分，未明确‘剔除旧伤’与‘非事故维修’的关联性，但已提出‘维修项目与事故无关’，且要求补充证据，符合得分点，故不扣。最终扣2分，因在‘货物损失’部分，未明确‘货主是否为亲戚’，但已提出‘质疑货主身份与交易真实性’，符合得分点，故不扣。最终得分为88分。"
+          }
+        ]
+      }
+    ]
+  }
+}

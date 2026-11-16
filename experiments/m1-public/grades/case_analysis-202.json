@@ -1,0 +1,57 @@
+{
+  "id": "case_analysis-202",
+  "task": "case_analysis",
+  "created_at": "2026-11-15T18:38:50.504388+00:00",
+  "status": "ok",
+  "fingerprint": "239a56efac006526ff1dbdcb506d231bd978bec80af9e26fc4c9303acb619840",
+  "response_sha256": "631971abead5feb7a8bf97f71ae704b83ac5e73ff8d2d0ceebf851a1cc2fc51b",
+  "attempts": [
+    {
+      "text": "{\"scores\":[{\"id\":\"conclusion\",\"points\":10,\"rationale\":\"未明确指出K集团的程序违法主张‘不太可能成功’，未达到rubric中‘明确指出不太可能成功’的5分要求；错误使用‘可能部分成立’，与rubric要求的‘明确否定’不符，扣5分；未完整体现‘法院维持决定’的结论，扣5分。\"},{\"id\":\"facts\",\"points\":15,\"rationale\":\"准确呈现K集团提交反驳信函及CEO宣誓声明的事实；明确说明国防部形式上重新评估但维持列名；完整列出三项程序性主张（无通知与听证、记录不完整、未有效重新评估），符合rubric中每项5分标准，全部得分。\"},{\"id\":\"reasoning\",\"points\":40,\"rationale\":\"未分析‘听证权不存在’与程序违反之间的落差，扣10分；未明确指出行政记录缺漏属于可补正错误且已由CEO声明补正，扣10分；未说明行政机关只需展示‘已考虑材料’而无需逐点回应，扣10分；未论证程序瑕疵与结果间缺乏因果关系，扣10分；整体逻辑未形成‘程序瑕疵存在但无害’的完整框架，扣10分。\"},{\"id\":\"statutes\",\"points\":10,\"rationale\":\"错误引用《美国行政程序法》第706条，未准确说明‘无害错误原则’作为否定程序违法的关键司法原则，未体现‘无害错误原则’在APA审查中的核心地位，扣5分；未正确指出‘政策性清单’无需正式听证，未体现rubric中‘性质并不要求举行正式听证’的5分要求，扣5分。\"}]}",
+      "prompt_tokens": 3909,
+      "generation_tokens": 381,
+      "elapsed_seconds": 46.15668256254867,
+      "completion_latency_seconds": 87.05921270791441,
+      "batch_wall_seconds": 92.31336512509733,
+      "batch_size": 2,
+      "tokens_per_second": 27.33181418325068,
+      "peak_memory_gb": 8.875839144,
+      "finish_reason": "stop",
+      "attempt": 1
+    }
+  ],
+  "scores": [
+    {
+      "id": "conclusion",
+      "points": 10.0,
+      "max_points": 15.0,
+      "rationale": "未明确指出K集团的程序违法主张‘不太可能成功’，未达到rubric中‘明确指出不太可能成功’的5分要求；错误使用‘可能部分成立’，与rubric要求的‘明确否定’不符，扣5分；未完整体现‘法院维持决定’的结论，扣5分。"
+    },
+    {
+      "id": "facts",
+      "points": 15.0,
+      "max_points": 15.0,
+      "rationale": "准确呈现K集团提交反驳信函及CEO宣誓声明的事实；明确说明国防部形式上重新评估但维持列名；完整列出三项程序性主张（无通知与听证、记录不完整、未有效重新评估），符合rubric中每项5分标准，全部得分。"
+    },
+    {
+      "id": "reasoning",
+      "points": 40.0,
+      "max_points": 50.0,
+      "rationale": "未分析‘听证权不存在’与程序违反之间的落差，扣10分；未明确指出行政记录缺漏属于可补正错误且已由CEO声明补正，扣10分；未说明行政机关只需展示‘已考虑材料’而无需逐点回应，扣10分；未论证程序瑕疵与结果间缺乏因果关系，扣10分；整体逻辑未形成‘程序瑕疵存在但无害’的完整框架，扣10分。"
+    },
+    {
+      "id": "statutes",
+      "points": 10.0,
+      "max_points": 15.0,
+      "rationale": "错误引用《美国行政程序法》第706条，未准确说明‘无害错误原则’作为否定程序违法的关键司法原则，未体现‘无害错误原则’在APA审查中的核心地位，扣5分；未正确指出‘政策性清单’无需正式听证，未体现rubric中‘性质并不要求举行正式听证’的5分要求，扣5分。"
+    }
+  ],
+  "points": 75.0,
+  "max_points": 95.0,
+  "reused_from": {
+    "record": "../m1-public-before-rubric-id-fix/grades/case_analysis-202.json",
+    "record_sha256": "9f4fc9c1d241065d56674fa4407e63d4f1e4dfd665e1888b6444d4effffaf259",
+    "original_fingerprint": "88743dc1d2615a6a65bf684d73fb7ec9cb77214a0fd15e519b5a01cbbfd7439b",
+    "stage_input_unchanged": true
+  }
+}

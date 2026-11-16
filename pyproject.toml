@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plawbench"
+version = "0.2.0"
+description = "Reproducible rubric-based legal benchmark with native Apple Silicon inference"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+metal = ["mlx-lm==0.30.7; sys_platform == 'darwin' and platform_machine == 'arm64'", "mlx==0.32.4; sys_platform == 'darwin' and platform_machine == 'arm64'"]
+dev = ["pytest>=8,<10"]
+demo = ["playwright>=1.50,<2", "matplotlib>=3.9,<4"]
+
+[project.scripts]
+plawbench = "plawbench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+plawbench = ["report.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

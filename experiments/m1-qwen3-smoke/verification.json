@@ -1,0 +1,12 @@
+{
+  "sample_count": 4,
+  "valid_grades": 4,
+  "score_schema_and_source_maxima_revalidated": true,
+  "dataset_source_hashes_verified": true,
+  "manifest_identities_verified": true,
+  "content_hashes_verified": true,
+  "overall_recomputed": true,
+  "all_summary_fields_recomputed": true,
+  "judge_prompt_hash_verified": false,
+  "judge_prompt_check_scope": "Legacy judge protocol; prompt hash not rederived by this v2 verifier"
+}

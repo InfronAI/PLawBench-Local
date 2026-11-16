@@ -1,0 +1,8 @@
+{"time": "2026-11-15T10:30:27.150004+00:00", "stage": "generate", "completed": 1, "total": 4, "id": "case_analysis-001", "tokens": 1046, "seconds": 29.24, "finish_reason": "stop"}
+{"time": "2026-11-15T10:31:03.029212+00:00", "stage": "generate", "completed": 2, "total": 4, "id": "consultation-001", "tokens": 1576, "seconds": 35.85, "finish_reason": "stop"}
+{"time": "2026-11-15T10:31:51.130873+00:00", "stage": "generate", "completed": 3, "total": 4, "id": "plaintiff-001", "tokens": 2073, "seconds": 48.06, "finish_reason": "stop"}
+{"time": "2026-11-15T10:33:01.018295+00:00", "stage": "generate", "completed": 4, "total": 4, "id": "defendant-001", "tokens": 2839, "seconds": 69.84, "finish_reason": "stop"}
+{"time": "2026-11-15T10:34:18.445867+00:00", "stage": "judge", "completed": 1, "total": 4, "id": "case_analysis-001", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T10:34:43.314327+00:00", "stage": "judge", "completed": 2, "total": 4, "id": "consultation-001", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T10:35:22.388341+00:00", "stage": "judge", "completed": 3, "total": 4, "id": "plaintiff-001", "status": "ok", "attempts": 1}
+{"time": "2026-11-15T10:39:10.609844+00:00", "stage": "judge", "completed": 4, "total": 4, "id": "defendant-001", "status": "ok", "attempts": 1}

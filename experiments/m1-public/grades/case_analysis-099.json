@@ -1,0 +1,57 @@
+{
+  "id": "case_analysis-099",
+  "task": "case_analysis",
+  "created_at": "2026-11-15T16:36:27.477095+00:00",
+  "status": "ok",
+  "fingerprint": "239a56efac006526ff1dbdcb506d231bd978bec80af9e26fc4c9303acb619840",
+  "response_sha256": "2a2153670761bd7e282a9c27d4910408bd62f3d6fc3ec3f39bb42207db45bc4e",
+  "attempts": [
+    {
+      "text": "{\"scores\":[{\"id\":\"conclusion\",\"points\":5.0,\"rationale\":\"结论明确指出‘上海某实业公司无权请求……收购股权’，完全符合rubric中‘不能请求回购’的正向判断，且与案件事实和法条逻辑一致，得满分。\"},{\"id\":\"facts\",\"points\":25.0,\"rationale\":\"完整覆盖rubric中所有5个关键事实点，包括原持股结构、2018年8月股权转让、房产出售未经股东会决议、转让价格与评估价值、营收及账面资金变化等，均准确摘录并客观呈现，未遗漏、未添加，符合‘关键事实’要求，得满分。\"},{\"id\":\"reasoning\",\"points\":20.0,\"rationale\":\"完整覆盖两个核心分析维度：① 股东会决议与重大资产处置的关联（提及章程职权、重大资产处置需股东会决议）；② 资产比例与是否构成‘主要财产’的判断（提及房产价值占总资产比重未达50%、仍可继续经营），逻辑清晰、分层明确，符合rubric中‘分析是否应经股东会表决’和‘是否属于主要财产’的得分点，得满分。\"},{\"id\":\"statutes\",\"points\":5.0,\"rationale\":\"准确引用《公司法》第七十四条关于股东请求公司回购股权的三种情形，且明确指出本案不满足‘公司合并、分立、转让主要财产’中的‘主要财产’要件，符合rubric中‘（+5）公司法第七十四条’的完整引用与适用，且补充了《公司法》第三十七条、第一百七十七条及司法解释第十五条作为支撑，逻辑闭环，得满分。\"}]}",
+      "prompt_tokens": 4615,
+      "generation_tokens": 373,
+      "elapsed_seconds": 51.83573106257245,
+      "completion_latency_seconds": 103.66944787511602,
+      "batch_wall_seconds": 103.6714621251449,
+      "batch_size": 2,
+      "tokens_per_second": 29.01075971572394,
+      "peak_memory_gb": 8.875839144,
+      "finish_reason": "stop",
+      "attempt": 1
+    }
+  ],
+  "scores": [
+    {
+      "id": "conclusion",
+      "points": 5.0,
+      "max_points": 5.0,
+      "rationale": "结论明确指出‘上海某实业公司无权请求……收购股权’，完全符合rubric中‘不能请求回购’的正向判断，且与案件事实和法条逻辑一致，得满分。"
+    },
+    {
+      "id": "facts",
+      "points": 25.0,
+      "max_points": 25.0,
+      "rationale": "完整覆盖rubric中所有5个关键事实点，包括原持股结构、2018年8月股权转让、房产出售未经股东会决议、转让价格与评估价值、营收及账面资金变化等，均准确摘录并客观呈现，未遗漏、未添加，符合‘关键事实’要求，得满分。"
+    },
+    {
+      "id": "reasoning",
+      "points": 20.0,
+      "max_points": 20.0,
+      "rationale": "完整覆盖两个核心分析维度：① 股东会决议与重大资产处置的关联（提及章程职权、重大资产处置需股东会决议）；② 资产比例与是否构成‘主要财产’的判断（提及房产价值占总资产比重未达50%、仍可继续经营），逻辑清晰、分层明确，符合rubric中‘分析是否应经股东会表决’和‘是否属于主要财产’的得分点，得满分。"
+    },
+    {
+      "id": "statutes",
+      "points": 5.0,
+      "max_points": 5.0,
+      "rationale": "准确引用《公司法》第七十四条关于股东请求公司回购股权的三种情形，且明确指出本案不满足‘公司合并、分立、转让主要财产’中的‘主要财产’要件，符合rubric中‘（+5）公司法第七十四条’的完整引用与适用，且补充了《公司法》第三十七条、第一百七十七条及司法解释第十五条作为支撑，逻辑闭环，得满分。"
+    }
+  ],
+  "points": 55.0,
+  "max_points": 55.0,
+  "reused_from": {
+    "record": "../m1-public-before-rubric-id-fix/grades/case_analysis-099.json",
+    "record_sha256": "9edbececbca6e76fe6b2bfc020e1a9df93952d7400eee90bb0d8dc7415a0b17a",
+    "original_fingerprint": "88743dc1d2615a6a65bf684d73fb7ec9cb77214a0fd15e519b5a01cbbfd7439b",
+    "stage_input_unchanged": true
+  }
+}

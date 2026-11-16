@@ -1,0 +1,124 @@
+{
+  "scope": "Local public-data reproduction; local judge is not calibrated against human experts",
+  "coverage": {
+    "selected": 4,
+    "generated": 4,
+    "graded": 4,
+    "judge_failed": 0,
+    "generation_truncated": 0,
+    "grading_complete": true,
+    "full_public_dataset": false
+  },
+  "overall_2_5_3_percent": 82.325,
+  "tasks": {
+    "case_analysis": {
+      "n": 1,
+      "points": 45.0,
+      "max_points": 60.0,
+      "score_percent": 75.0,
+      "bootstrap_95ci": null
+    },
+    "consultation": {
+      "n": 1,
+      "points": 16.0,
+      "max_points": 16.0,
+      "score_percent": 100.0,
+      "bootstrap_95ci": null
+    },
+    "plaintiff": {
+      "n": 1,
+      "points": 78.0,
+      "max_points": 100.0,
+      "score_percent": 78.0,
+      "bootstrap_95ci": null
+    },
+    "defendant": {
+      "n": 1,
+      "points": 70.0,
+      "max_points": 80.0,
+      "score_percent": 87.5,
+      "bootstrap_95ci": null
+    }
+  },
+  "drafting": {
+    "n": 2,
+    "points": 148.0,
+    "max_points": 180.0,
+    "score_percent": 82.75,
+    "pooled_score_percent": 82.22222222222223,
+    "aggregation": "equal mean of plaintiff and defendant point-weighted rates (Table 3)"
+  },
+  "case_dimensions": {
+    "conclusion": {
+      "n": 1,
+      "points": 0.0,
+      "max_points": 5.0,
+      "score_percent": 0.0
+    },
+    "facts": {
+      "n": 1,
+      "points": 20.0,
+      "max_points": 20.0,
+      "score_percent": 100.0
+    },
+    "reasoning": {
+      "n": 1,
+      "points": 10.0,
+      "max_points": 20.0,
+      "score_percent": 50.0
+    },
+    "statutes": {
+      "n": 1,
+      "points": 15.0,
+      "max_points": 15.0,
+      "score_percent": 100.0
+    }
+  },
+  "domains": {
+    "个人生活": {
+      "n": 1,
+      "points": 45.0,
+      "max_points": 60.0,
+      "score_percent": 75.0
+    }
+  },
+  "reasoning_by_sequence": {
+    "unspecified": {
+      "n": 1,
+      "points": 10.0,
+      "max_points": 20.0,
+      "score_percent": 50.0
+    }
+  },
+  "sequence_caveat": "Explicit rubric constraints only; unspecified rows excluded from comparison. Groups differ in cases; this is not a causal ablation.",
+  "format_checks": {
+    "consultation-001": {
+      "numbered_questions": 40,
+      "within_requested_range": false
+    },
+    "plaintiff-001": {
+      "nonwhitespace_characters": 3102,
+      "within_requested_range": false
+    },
+    "defendant-001": {
+      "nonwhitespace_characters": 4242,
+      "within_requested_range": false
+    },
+    "case_analysis-001": {
+      "missing_headings": [],
+      "within_requested_range": true,
+      "check": "Exact requested section titles and order; diagnostic only"
+    }
+  },
+  "runtime": {
+    "generation_seconds": 182.99422408128157,
+    "judge_seconds": 142.48564050113782,
+    "generation_tokens": 7534,
+    "end_to_end_tokens_per_second": 41.17069835304518,
+    "peak_memory_gb": 3.892116532,
+    "generation_peak_memory_gb": 3.374096348,
+    "judge_process_peak_memory_gb": 3.892116532
+  },
+  "aggregation": "Subset rates = 100 * sum(earned points) / sum(dataset maxima); drafting = mean(plaintiff, defendant); Overall = .2 consultation + .5 case + .3 drafting",
+  "uncertainty": "Seed-42 percentile bootstrap over questions, 1000 replicates, conditional on the local judge; does not measure judge correctness."
+}

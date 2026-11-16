@@ -1,0 +1,37 @@
+{
+  "checked_valid_grades": 4,
+  "flagged_answers": 1,
+  "flagged_claims": 3,
+  "rows": [
+    {
+      "id": "case_analysis-001",
+      "flags": [
+        {
+          "dimension": "statutes",
+          "article_number": 509,
+          "points": 15.0,
+          "max_points": 15.0,
+          "affirmative_claim": "正确引用《民法典》第509条（全面履行）、第996条（违约+人格权+精神损害可并行主张）、第1183条（具有人身意义的特定物可主张精神损害赔偿）及《最高人民法院关于确定民事侵权精神损害赔偿责任若干问题的解释》第一条、第五条，覆盖全部5个得分点，每点5分，共15分，完全符合rubric要求",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 996,
+          "points": 15.0,
+          "max_points": 15.0,
+          "affirmative_claim": "正确引用《民法典》第509条（全面履行）、第996条（违约+人格权+精神损害可并行主张）、第1183条（具有人身意义的特定物可主张精神损害赔偿）及《最高人民法院关于确定民事侵权精神损害赔偿责任若干问题的解释》第一条、第五条，覆盖全部5个得分点，每点5分，共15分，完全符合rubric要求",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        },
+        {
+          "dimension": "statutes",
+          "article_number": 1183,
+          "points": 15.0,
+          "max_points": 15.0,
+          "affirmative_claim": "正确引用《民法典》第509条（全面履行）、第996条（违约+人格权+精神损害可并行主张）、第1183条（具有人身意义的特定物可主张精神损害赔偿）及《最高人民法院关于确定民事侵权精神损害赔偿责任若干问题的解释》第一条、第五条，覆盖全部5个得分点，每点5分，共15分，完全符合rubric要求",
+          "match_policy": "No exact Arabic/Chinese-number article citation found in candidate text"
+        }
+      ]
+    }
+  ],
+  "interpretation": "Potential unsupported affirmative citation claims; manually review context. This is a lexical screen, not legal verification. Scores are unchanged."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "case_analysis-100",
+  "task": "case_analysis",
+  "created_at": "2026-11-15T16:36:27.479015+00:00",
+  "status": "ok",
+  "fingerprint": "239a56efac006526ff1dbdcb506d231bd978bec80af9e26fc4c9303acb619840",
+  "response_sha256": "39a92910c50285b8489fc735fa79d54e561a1107525b10877d1ddcb31610c19d",
+  "attempts": [
+    {
+      "text": "{\"scores\":[{\"id\":\"conclusion\",\"points\":5,\"rationale\":\"结论明确指出郑锋不能请求涤除登记事项，符合题干要求的否定判断，且与案件事实和法条逻辑一致，覆盖全部得分点。\"},{\"id\":\"facts\",\"points\":25,\"rationale\":\"完整列出五个关键事实点，每个点均对应rubric中‘+5’要求，涵盖辞职行为、持股比例、召集股东会、议案未通过、实际控制权归属，全部准确、客观、无遗漏。\"},{\"id\":\"reasoning\",\"points\":20,\"rationale\":\"分步推理逻辑清晰：第一步提及穷尽内部救济（符合‘+10’要求）；第二步分析涤除条件，明确指出辞职行为有效、股东会召集程序合法、议案未获通过、决议未达二分之一表决权，符合章程要求，完整覆盖‘+10’得分点，且未添加外部假设。推理链条严密，与案件事实衔接自然。\"},{\"id\":\"statutes\",\"points\":0,\"rationale\":\"所引法条与问题无关，《公司法》第45条涉及董事会设置，与董事辞职、涤除登记事项无直接关联，未引用与‘涤除登记’或‘股东会决议效力’相关的有效条文（如第37条、第103条已正确引用），但rubric中指定法条为‘第45条’，实际应引用与股东会决议、董事任免、登记变更相关的条文，故严重偏离核心问题，未体现‘涤除登记’的法律依据，扣全分。\"}]}",
+      "prompt_tokens": 4939,
+      "generation_tokens": 344,
+      "elapsed_seconds": 51.83573106257245,
+      "completion_latency_seconds": 102.15222758287564,
+      "batch_wall_seconds": 103.6714621251449,
+      "batch_size": 2,
+      "tokens_per_second": 29.01075971572394,
+      "peak_memory_gb": 8.875839144,
+      "finish_reason": "stop",
+      "attempt": 1
+    }
+  ],
+  "scores": [
+    {
+      "id": "conclusion",
+      "points": 5.0,
+      "max_points": 5.0,
+      "rationale": "结论明确指出郑锋不能请求涤除登记事项，符合题干要求的否定判断，且与案件事实和法条逻辑一致，覆盖全部得分点。"
+    },
+    {
+      "id": "facts",
+      "points": 25.0,
+      "max_points": 25.0,
+      "rationale": "完整列出五个关键事实点，每个点均对应rubric中‘+5’要求，涵盖辞职行为、持股比例、召集股东会、议案未通过、实际控制权归属，全部准确、客观、无遗漏。"
+    },
+    {
+      "id": "reasoning",
+      "points": 20.0,
+      "max_points": 20.0,
+      "rationale": "分步推理逻辑清晰：第一步提及穷尽内部救济（符合‘+10’要求）；第二步分析涤除条件，明确指出辞职行为有效、股东会召集程序合法、议案未获通过、决议未达二分之一表决权，符合章程要求，完整覆盖‘+10’得分点，且未添加外部假设。推理链条严密，与案件事实衔接自然。"
+    },
+    {
+      "id": "statutes",
+      "points": 0.0,
+      "max_points": 5.0,
+      "rationale": "所引法条与问题无关，《公司法》第45条涉及董事会设置，与董事辞职、涤除登记事项无直接关联，未引用与‘涤除登记’或‘股东会决议效力’相关的有效条文（如第37条、第103条已正确引用），但rubric中指定法条为‘第45条’，实际应引用与股东会决议、董事任免、登记变更相关的条文，故严重偏离核心问题，未体现‘涤除登记’的法律依据，扣全分。"
+    }
+  ],
+  "points": 50.0,
+  "max_points": 55.0,
+  "reused_from": {
+    "record": "../m1-public-before-rubric-id-fix/grades/case_analysis-100.json",
+    "record_sha256": "a89a399c89c9bb53a39da6bd3078440e441641f82bd31e808c899160de5be0de",
+    "original_fingerprint": "88743dc1d2615a6a65bf684d73fb7ec9cb77214a0fd15e519b5a01cbbfd7439b",
+    "stage_input_unchanged": true
+  }
+}

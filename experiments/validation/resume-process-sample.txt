@@ -1,0 +1,30 @@
+Read-only sample of the resumed inference process, 1 second at 1 ms interval.
+This is a CPU stack sample, not a token-progress or controlled memory benchmark.
+
+Analysis of sampling Python (pid 4562) every 1 millisecond
+Process:         Python [4562]
+Path:            /opt/homebrew/*/Python.framework/Versions/3.11/Resources/Python.app/Contents/MacOS/Python
+Load Address:    0x100b1c000
+Identifier:      org.python.python
+Version:         3.11.16 (3.11.16)
+Code Type:       ARM64
+Platform:        macOS
+Parent Process:  bash [4558]
+Target Type:     live task
+
+Date/Time:       2026-11-15 21:42:36.462 +0800
+Launch Time:     2026-11-15 21:36:23.943 +0800
+OS Version:      macOS 26.6.1 (25G76)
+Report Version:  7
+Analysis Tool:   /usr/bin/sample
+
+Physical footprint:         3.2G
+Physical footprint (peak):  5.6G
+Idle exit:                  untracked
+----
+
+Selected observed operations:
++                   !     680 mlx::core::async_eval(std::vector<mlx::core::array>)  (in libmlx.dylib) + 108  [0x1081623c0]
++                   !       : | 6 mlx::core::QuantizedMatmul::eval_gpu(std::vector<mlx::core::array> const&, mlx::core::array&)  (in libmlx.dylib) + 980  [0x108d57804]
++                   !       : | 2 mlx::core::QuantizedMatmul::eval_gpu(std::vector<mlx::core::array> const&, mlx::core::array&)  (in libmlx.dylib) + 108  [0x108d5749c]
++                   !       : | 2 mlx::core::fast::ScaledDotProductAttention::eval_gpu(std::vector<mlx::core::array> const&, std::vector<mlx::core::array>&)  (in libmlx.dylib) + 6152  [0x108d340ec]

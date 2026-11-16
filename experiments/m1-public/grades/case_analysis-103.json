@@ -1,0 +1,57 @@
+{
+  "id": "case_analysis-103",
+  "task": "case_analysis",
+  "created_at": "2026-11-15T16:39:58.885804+00:00",
+  "status": "ok",
+  "fingerprint": "239a56efac006526ff1dbdcb506d231bd978bec80af9e26fc4c9303acb619840",
+  "response_sha256": "9c8cf7e9cc814a8fa79921eabbf4ea418b64c028fc557704e741599abcd78386",
+  "attempts": [
+    {
+      "text": "{\"scores\": [{\"id\":\"conclusion\",\"points\":5.0,\"rationale\":\"结论明确指出‘应判令解散无锡某乙置业有限公司’，完全符合rubric中‘判决解散’的正向判断，且与案件事实和法条依据一致，得满分。\"},{\"id\":\"facts\",\"points\":15.0,\"rationale\":\"完整覆盖rubric中所有5个关键事实点，包括公司设立、股东结构变更、董事会决议机制、两次表决未通过形成僵局、发出《僵局通知》及持续亏损等，均客观、准确、无遗漏，符合‘客观精简’要求，得满分。\"},{\"id\":\"reasoning\",\"points\":20.0,\"rationale\":\"分层推理清晰：首先分析经营困难（持续亏损、无分红），其次明确公司僵局存在（两次表决未决），再说明僵局无法解决（对方不予认可），最后归结至股东利益重大受损，符合‘分析经营状况’与‘是否应判决解散’两个10分维度，逻辑严密、结构完整，完全覆盖rubric要求，得满分。\"},{\"id\":\"statutes\",\"points\":5.0,\"rationale\":\"准确引用《公司法》第183条及《公司法司法解释（一）》第8条，符合现行有效法条，且在注释中合理解释持股比例未达10%但可支持解散的司法实践，体现对司法解释的准确理解，完全匹配rubric中‘（+5）’要求，得满分。\"}]}",
+      "prompt_tokens": 4109,
+      "generation_tokens": 329,
+      "elapsed_seconds": 54.9348028334789,
+      "completion_latency_seconds": 87.95767216663808,
+      "batch_wall_seconds": 109.8696056669578,
+      "batch_size": 2,
+      "tokens_per_second": 26.177077824738312,
+      "peak_memory_gb": 8.875839144,
+      "finish_reason": "stop",
+      "attempt": 1
+    }
+  ],
+  "scores": [
+    {
+      "id": "conclusion",
+      "points": 5.0,
+      "max_points": 5.0,
+      "rationale": "结论明确指出‘应判令解散无锡某乙置业有限公司’，完全符合rubric中‘判决解散’的正向判断，且与案件事实和法条依据一致，得满分。"
+    },
+    {
+      "id": "facts",
+      "points": 15.0,
+      "max_points": 15.0,
+      "rationale": "完整覆盖rubric中所有5个关键事实点，包括公司设立、股东结构变更、董事会决议机制、两次表决未通过形成僵局、发出《僵局通知》及持续亏损等，均客观、准确、无遗漏，符合‘客观精简’要求，得满分。"
+    },
+    {
+      "id": "reasoning",
+      "points": 20.0,
+      "max_points": 20.0,
+      "rationale": "分层推理清晰：首先分析经营困难（持续亏损、无分红），其次明确公司僵局存在（两次表决未决），再说明僵局无法解决（对方不予认可），最后归结至股东利益重大受损，符合‘分析经营状况’与‘是否应判决解散’两个10分维度，逻辑严密、结构完整，完全覆盖rubric要求，得满分。"
+    },
+    {
+      "id": "statutes",
+      "points": 5.0,
+      "max_points": 5.0,
+      "rationale": "准确引用《公司法》第183条及《公司法司法解释（一）》第8条，符合现行有效法条，且在注释中合理解释持股比例未达10%但可支持解散的司法实践，体现对司法解释的准确理解，完全匹配rubric中‘（+5）’要求，得满分。"
+    }
+  ],
+  "points": 45.0,
+  "max_points": 45.0,
+  "reused_from": {
+    "record": "../m1-public-before-rubric-id-fix/grades/case_analysis-103.json",
+    "record_sha256": "525563d93f3a90506737e67258fa4a35f8bee87f7df79c88716aafb9e2a89468",
+    "original_fingerprint": "88743dc1d2615a6a65bf684d73fb7ec9cb77214a0fd15e519b5a01cbbfd7439b",
+    "stage_input_unchanged": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "sample_count": 280,
+  "valid_grades": 280,
+  "score_schema_and_source_maxima_revalidated": true,
+  "dataset_source_hashes_verified": true,
+  "manifest_identities_verified": true,
+  "content_hashes_verified": true,
+  "overall_recomputed": true,
+  "all_summary_fields_recomputed": true,
+  "judge_prompt_hash_verified": true,
+  "reused_records_revalidated": 559,
+  "inherited_failed_attempts_revalidated": 3,
+  "judge_prompt_check_scope": "Full original-instruction context reconstructed and hashed"
+}

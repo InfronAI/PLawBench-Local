@@ -1,0 +1,20 @@
+Obtaining file:///Users/apple/Projects/PLawBench
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: plawbench
+  Building editable for plawbench (pyproject.toml): started
+  Building editable for plawbench (pyproject.toml): finished with status 'done'
+  Created wheel for plawbench: filename=plawbench-0.2.0-0.editable-py3-none-any.whl size=6904 sha256=9911cd0ba60e49668b4520d8b32bddd2e0891c650393e41f20aefe2c420bb11c
+  Stored in directory: /private/var/folders/3c/xsvsnqrs3p74vp08g1cgpxgh0000gn/T/pip-ephem-wheel-cache-nop9mzve/wheels/bc/d3/d9/501da57d01378c1de1971df64e7b580980448444fe88fa2c69
+Successfully built plawbench
+Installing collected packages: plawbench
+  Attempting uninstall: plawbench
+    Found existing installation: plawbench 0.2.0
+    Uninstalling plawbench-0.2.0:
+      Successfully uninstalled plawbench-0.2.0
+Successfully installed plawbench-0.2.0
+
+[notice] A new release of pip is available: 26.2.1 -> 26.3
+[notice] To update, run: /Users/apple/Projects/PLawBench/.venv/bin/python -m pip install --upgrade pip

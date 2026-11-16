@@ -1,0 +1,65 @@
+{
+  "report": "experiments/m1-public/report.html",
+  "report_sha256": "42a0e8d425bb2491833bfffff09a8bdae36dc317734425ae0f8998cef8fc98d6",
+  "browser": "Chromium/Chrome via Playwright",
+  "page_errors": [],
+  "coverage": {
+    "selected": 280,
+    "generated": 280,
+    "graded": 280,
+    "judge_failed": 0,
+    "generation_truncated": 1,
+    "grading_complete": true,
+    "full_public_dataset": true
+  },
+  "quality_summary": "280/280 generated · 1 token-limit stops · 0 failed judgments · 230 format flags",
+  "empty_filter_guard_checked": true,
+  "interactions": [
+    {
+      "task": "case_analysis",
+      "tab": "response",
+      "title": "case_analysis-001 · 个人生活"
+    },
+    {
+      "task": "case_analysis",
+      "tab": "grade",
+      "title": "case_analysis-001 · 个人生活"
+    },
+    {
+      "task": "consultation",
+      "tab": "question",
+      "title": "consultation-001 · mid"
+    },
+    {
+      "task": "consultation",
+      "tab": "response",
+      "title": "consultation-001 · mid"
+    },
+    {
+      "task": "consultation",
+      "tab": "rubric",
+      "title": "consultation-001 · mid"
+    },
+    {
+      "task": "plaintiff",
+      "tab": "response",
+      "title": "plaintiff-001 · 侵权责任纠纷-损害公司债权人利益责任纠纷"
+    },
+    {
+      "task": "defendant",
+      "tab": "grade",
+      "title": "defendant-001 · 侵权责任纠纷-损害公司债权人利益责任纠纷"
+    }
+  ],
+  "source": "Actual rendered report; no synthetic model output",
+  "artifacts": [
+    "demo.mp4",
+    "demo.gif",
+    "demo-poster.png"
+  ],
+  "artifact_sha256": {
+    "demo.mp4": "dceec9f055266133ccac8291b0c3b03bb77a82f773e4c67be19acb28522f5cd2",
+    "demo.gif": "888f203ee7fd5cff913fc6ae9f74d0d9810784e67258563eed4a1b095fe0a590",
+    "demo-poster.png": "490ab5e81b20f8d83aa9caa520dbf7dbae2fc589775a76c06d97420343d1a662"
+  }
+}

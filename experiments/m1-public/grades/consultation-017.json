@@ -1,0 +1,69 @@
+{
+  "id": "consultation-017",
+  "task": "consultation",
+  "created_at": "2026-11-15T20:01:51.907708+00:00",
+  "status": "ok",
+  "fingerprint": "239a56efac006526ff1dbdcb506d231bd978bec80af9e26fc4c9303acb619840",
+  "response_sha256": "ea35b56438fdec5026786848b4b8eff5db95e704ab6969b66f0313cbe067b823",
+  "attempts": [
+    {
+      "text": "{\"scores\": [{\"id\": \"q1\", \"points\": 2.0, \"rationale\": \"回答中问题1直接针对李静口述中赵大强结婚时年龄矛盾（17岁 vs 18岁），符合rubric中对时间线矛盾的核对要求，完整覆盖得分点。\"}, {\"id\": \"q2\", \"points\": 0.0, \"rationale\": \"原始回答中未提及李小燕收养时间的问题，未回应rubric q2要求，未提出‘李小燕收养时间在1992年04月02日之前还是之后’的追问，扣全分。\"}, {\"id\": \"q3\", \"points\": 0.0, \"rationale\": \"原始回答未就‘李小燕与老李是否事实上有形成抚养关系’进行追问，未涉及抚养关系事实的核实，未覆盖rubric q3得分点，扣全分。\"}, {\"id\": \"q4\", \"points\": 0.0, \"rationale\": \"原始回答未就‘老李立口头遗嘱时是否精神清醒’进行明确追问，未核实精神状态与遗嘱效力关系，未覆盖rubric q4得分点，扣全分。\"}, {\"id\": \"q5\", \"points\": 0.0, \"rationale\": \"原始回答未就‘老李是否患有阿尔茨海默氏症’进行提问，未覆盖rubric q5得分点，扣全分。\"}, {\"id\": \"q6\", \"points\": 0.0, \"rationale\": \"原始回答未就‘李建军2022年去世时是否有配偶、子女或其他直系亲属’进行明确提问，未覆盖rubric q6得分点，扣全分。\"}]}",
+      "prompt_tokens": 2750,
+      "generation_tokens": 386,
+      "elapsed_seconds": 40.833169541321695,
+      "completion_latency_seconds": 70.45720204105601,
+      "batch_wall_seconds": 81.66633908264339,
+      "batch_size": 2,
+      "tokens_per_second": 28.554585624556342,
+      "peak_memory_gb": 8.875839144,
+      "finish_reason": "stop",
+      "attempt": 1
+    }
+  ],
+  "scores": [
+    {
+      "id": "q1",
+      "points": 2.0,
+      "max_points": 2.0,
+      "rationale": "回答中问题1直接针对李静口述中赵大强结婚时年龄矛盾（17岁 vs 18岁），符合rubric中对时间线矛盾的核对要求，完整覆盖得分点。"
+    },
+    {
+      "id": "q2",
+      "points": 0.0,
+      "max_points": 2.0,
+      "rationale": "原始回答中未提及李小燕收养时间的问题，未回应rubric q2要求，未提出‘李小燕收养时间在1992年04月02日之前还是之后’的追问，扣全分。"
+    },
+    {
+      "id": "q3",
+      "points": 0.0,
+      "max_points": 3.0,
+      "rationale": "原始回答未就‘李小燕与老李是否事实上有形成抚养关系’进行追问，未涉及抚养关系事实的核实，未覆盖rubric q3得分点，扣全分。"
+    },
+    {
+      "id": "q4",
+      "points": 0.0,
+      "max_points": 3.0,
+      "rationale": "原始回答未就‘老李立口头遗嘱时是否精神清醒’进行明确追问，未核实精神状态与遗嘱效力关系，未覆盖rubric q4得分点，扣全分。"
+    },
+    {
+      "id": "q5",
+      "points": 0.0,
+      "max_points": 1.0,
+      "rationale": "原始回答未就‘老李是否患有阿尔茨海默氏症’进行提问，未覆盖rubric q5得分点，扣全分。"
+    },
+    {
+      "id": "q6",
+      "points": 0.0,
+      "max_points": 2.0,
+      "rationale": "原始回答未就‘李建军2022年去世时是否有配偶、子女或其他直系亲属’进行明确提问，未覆盖rubric q6得分点，扣全分。"
+    }
+  ],
+  "points": 2.0,
+  "max_points": 13.0,
+  "reused_from": {
+    "record": "../m1-public-before-rubric-id-fix/grades/consultation-017.json",
+    "record_sha256": "68a8a3ef590b22633619b02c133b0d631750d08d3d3452e2ce73cb34cfde76d9",
+    "original_fingerprint": "88743dc1d2615a6a65bf684d73fb7ec9cb77214a0fd15e519b5a01cbbfd7439b",
+    "stage_input_unchanged": true
+  }
+}

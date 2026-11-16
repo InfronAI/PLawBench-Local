@@ -1,0 +1,57 @@
+{
+  "id": "case_analysis-059",
+  "task": "case_analysis",
+  "created_at": "2026-11-15T15:46:58.180545+00:00",
+  "status": "ok",
+  "fingerprint": "239a56efac006526ff1dbdcb506d231bd978bec80af9e26fc4c9303acb619840",
+  "response_sha256": "1db743214e198bf2ec6bc74db9f6508b299670c9f7e4fd78072eb4ad1d52ec4f",
+  "attempts": [
+    {
+      "text": "{\"scores\":[{\"id\":\"conclusion\",\"points\":10,\"rationale\":\"直接明确指出父母出资应认定为赠与，且未将出资与借款对立，符合rubric中‘+5分（1）’和‘+5分（2）’的完整覆盖，结论准确、无遗漏。\"},{\"id\":\"facts\",\"points\":20,\"rationale\":\"完整摘录了与结论直接相关的四点事实：结婚时间、购房时间及房屋登记情况、父母出资金额及争议、分居时间，完全对应rubric中每项（+5分）的要点，客观、精简、无添加，符合要求。\"},{\"id\":\"reasoning\",\"points\":20,\"rationale\":\"严格遵循‘第一步分析出资性质认定、第二步分析出资对份额的影响’的顺序，未调换。第一步中引用无借款合意、无证据支持借款的逻辑，符合‘无证据证明借贷合意’和‘推定为赠与’的推理链条；第二步明确指出出资不改变共同财产性质，且在分割中应综合考虑比例、婚姻持续时间等因素，完整覆盖rubric中‘+10分（1）’和‘+10分（2）’的要点，逻辑清晰、结构完整。\"},{\"id\":\"statutes\",\"points\":30,\"rationale\":\"引用《民法典》第1062条、第1087条、第1063条、第1089条及《婚姻家庭编解释（一）》第29条，其中第29条为核心依据，明确指出‘结婚后父母出资为子女购买房屋，视为对夫妻双方的赠与’，完全覆盖rubric中‘+5分’每条，且第29条为关键法条，解释准确、完整，符合司法实践标准。\"}]}",
+      "prompt_tokens": 4076,
+      "generation_tokens": 395,
+      "elapsed_seconds": 47.43330552102998,
+      "completion_latency_seconds": 90.06381370918825,
+      "batch_wall_seconds": 94.86661104205996,
+      "batch_size": 2,
+      "tokens_per_second": 27.674287729445272,
+      "peak_memory_gb": 8.875839144,
+      "finish_reason": "stop",
+      "attempt": 1
+    }
+  ],
+  "scores": [
+    {
+      "id": "conclusion",
+      "points": 10.0,
+      "max_points": 10.0,
+      "rationale": "直接明确指出父母出资应认定为赠与，且未将出资与借款对立，符合rubric中‘+5分（1）’和‘+5分（2）’的完整覆盖，结论准确、无遗漏。"
+    },
+    {
+      "id": "facts",
+      "points": 20.0,
+      "max_points": 20.0,
+      "rationale": "完整摘录了与结论直接相关的四点事实：结婚时间、购房时间及房屋登记情况、父母出资金额及争议、分居时间，完全对应rubric中每项（+5分）的要点，客观、精简、无添加，符合要求。"
+    },
+    {
+      "id": "reasoning",
+      "points": 20.0,
+      "max_points": 20.0,
+      "rationale": "严格遵循‘第一步分析出资性质认定、第二步分析出资对份额的影响’的顺序，未调换。第一步中引用无借款合意、无证据支持借款的逻辑，符合‘无证据证明借贷合意’和‘推定为赠与’的推理链条；第二步明确指出出资不改变共同财产性质，且在分割中应综合考虑比例、婚姻持续时间等因素，完整覆盖rubric中‘+10分（1）’和‘+10分（2）’的要点，逻辑清晰、结构完整。"
+    },
+    {
+      "id": "statutes",
+      "points": 30.0,
+      "max_points": 30.0,
+      "rationale": "引用《民法典》第1062条、第1087条、第1063条、第1089条及《婚姻家庭编解释（一）》第29条，其中第29条为核心依据，明确指出‘结婚后父母出资为子女购买房屋，视为对夫妻双方的赠与’，完全覆盖rubric中‘+5分’每条，且第29条为关键法条，解释准确、完整，符合司法实践标准。"
+    }
+  ],
+  "points": 80.0,
+  "max_points": 80.0,
+  "reused_from": {
+    "record": "../m1-public-before-rubric-id-fix/grades/case_analysis-059.json",
+    "record_sha256": "2f9e87ab4b77ef89e098332d773cc8db2452885dd89adddd501df2b15b67cb14",
+    "original_fingerprint": "88743dc1d2615a6a65bf684d73fb7ec9cb77214a0fd15e519b5a01cbbfd7439b",
+    "stage_input_unchanged": true
+  }
+}

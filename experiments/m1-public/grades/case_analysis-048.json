@@ -1,0 +1,57 @@
+{
+  "id": "case_analysis-048",
+  "task": "case_analysis",
+  "created_at": "2026-11-15T15:33:10.948250+00:00",
+  "status": "ok",
+  "fingerprint": "239a56efac006526ff1dbdcb506d231bd978bec80af9e26fc4c9303acb619840",
+  "response_sha256": "6cc3eb674b3d809df7e3b92e55a3e6cc4e6eb0c6da629fb02586e3a3fff2abb6",
+  "attempts": [
+    {
+      "text": "{\"scores\":[{\"id\":\"conclusion\",\"points\":5.0,\"rationale\":\"结论明确指出两份自书遗嘱应认定为有效，田某4有权依据遗嘱主张继承，完全符合rubric中‘答出遗嘱有效即可得全部分数’的评分标准，且表述清晰、直接，无遗漏或偏差。\"},{\"id\":\"facts\",\"points\":25.0,\"rationale\":\"完整摘录了与案件核心相关的五组关键事实，每组5分，涵盖婚姻关系、房屋性质、遗嘱内容、子女情况、录音及鉴定困境，均客观、精炼、无添加，完全覆盖rubric中‘案情简述得分’的五个评分点，无遗漏或冗余。\"},{\"id\":\"reasoning\",\"points\":30.0,\"rationale\":\"推理过程按要求分步展开：第一步明确自书遗嘱形式要件，第二步分析遗嘱真实性与举证责任，第三步结合鉴定不能的后果与全案证据进行实质判断。其中，'第一步'与'第二步'顺序正确，符合rubric中‘必须按顺序推理才可得分’的要求，且逻辑链条完整，涵盖形式要件、举证责任、证据不足推定、生活关系背景等要素，体现严密性与实务判断力，得满分。\"},{\"id\":\"statutes\",\"points\":20.0,\"rationale\":\"引用了四条法条，每条5分，分别对应自书遗嘱形式（1134条）、举证责任（1139条）、遗嘱继承（1130条）、鉴定样本要求（9条）及诉讼证据规则（90条），均准确、贴切、与案件事实直接相关，且引用完整，符合‘法条原文’要求，无遗漏或错误。\"}]}",
+      "prompt_tokens": 5832,
+      "generation_tokens": 389,
+      "elapsed_seconds": 62.9666241875384,
+      "completion_latency_seconds": 123.25590237509459,
+      "batch_wall_seconds": 125.9332483750768,
+      "batch_size": 2,
+      "tokens_per_second": 27.062003075414896,
+      "peak_memory_gb": 8.875839144,
+      "finish_reason": "stop",
+      "attempt": 1
+    }
+  ],
+  "scores": [
+    {
+      "id": "conclusion",
+      "points": 5.0,
+      "max_points": 5.0,
+      "rationale": "结论明确指出两份自书遗嘱应认定为有效，田某4有权依据遗嘱主张继承，完全符合rubric中‘答出遗嘱有效即可得全部分数’的评分标准，且表述清晰、直接，无遗漏或偏差。"
+    },
+    {
+      "id": "facts",
+      "points": 25.0,
+      "max_points": 25.0,
+      "rationale": "完整摘录了与案件核心相关的五组关键事实，每组5分，涵盖婚姻关系、房屋性质、遗嘱内容、子女情况、录音及鉴定困境，均客观、精炼、无添加，完全覆盖rubric中‘案情简述得分’的五个评分点，无遗漏或冗余。"
+    },
+    {
+      "id": "reasoning",
+      "points": 30.0,
+      "max_points": 30.0,
+      "rationale": "推理过程按要求分步展开：第一步明确自书遗嘱形式要件，第二步分析遗嘱真实性与举证责任，第三步结合鉴定不能的后果与全案证据进行实质判断。其中，'第一步'与'第二步'顺序正确，符合rubric中‘必须按顺序推理才可得分’的要求，且逻辑链条完整，涵盖形式要件、举证责任、证据不足推定、生活关系背景等要素，体现严密性与实务判断力，得满分。"
+    },
+    {
+      "id": "statutes",
+      "points": 20.0,
+      "max_points": 20.0,
+      "rationale": "引用了四条法条，每条5分，分别对应自书遗嘱形式（1134条）、举证责任（1139条）、遗嘱继承（1130条）、鉴定样本要求（9条）及诉讼证据规则（90条），均准确、贴切、与案件事实直接相关，且引用完整，符合‘法条原文’要求，无遗漏或错误。"
+    }
+  ],
+  "points": 80.0,
+  "max_points": 80.0,
+  "reused_from": {
+    "record": "../m1-public-before-rubric-id-fix/grades/case_analysis-048.json",
+    "record_sha256": "ce7c85a918b2bc042ac989418311a7892fbf12432e36a95a4029cf1a1a547f84",
+    "original_fingerprint": "88743dc1d2615a6a65bf684d73fb7ec9cb77214a0fd15e519b5a01cbbfd7439b",
+    "stage_input_unchanged": true
+  }
+}

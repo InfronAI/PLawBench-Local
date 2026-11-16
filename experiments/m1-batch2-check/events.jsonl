@@ -1,0 +1,2 @@
+{"time": "2026-11-15T11:03:55.100568+00:00", "stage": "generate", "completed": 1, "total": 2, "id": "case_analysis-001", "tokens": 967, "seconds": 34.37, "finish_reason": "stop"}
+{"time": "2026-11-15T11:03:55.101647+00:00", "stage": "generate", "completed": 2, "total": 2, "id": "case_analysis-002", "tokens": 945, "seconds": 34.37, "finish_reason": "stop"}

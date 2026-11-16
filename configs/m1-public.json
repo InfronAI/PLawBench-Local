@@ -1,0 +1,36 @@
+{
+  "description": "All 280 public samples; local MLX candidate and judge; uncalibrated self-judge",
+  "candidate": {
+    "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+    "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+    "temperature": 0.0,
+    "max_tokens": 16384,
+    "document_max_tokens": 16384,
+    "batch_size": 4
+  },
+  "judge": {
+    "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+    "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+    "temperature": 0.0,
+    "retry_temperature": 0.2,
+    "max_tokens": 2048,
+    "retries": 2,
+    "batch_size": 2,
+    "protocol": "rubric-json-v2-full-instructions"
+  },
+  "seed": 42,
+  "consultation_level": "mid",
+  "scope": "public_release",
+  "limitations": [
+    "Not the paper's Gemini judge",
+    "Quantized model; greedy sampling differs from provider defaults",
+    "No human-judge calibration annotations",
+    "Only public 280/850 questions"
+  ],
+  "memory": {
+    "active_budget_gib": 6,
+    "allocator_cache_mib": 128,
+    "prefill_batch_size": 1,
+    "prefill_chunk_tokens": 512
+  }
+}

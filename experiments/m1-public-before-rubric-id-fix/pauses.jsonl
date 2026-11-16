@@ -1,0 +1,1 @@
+{"time": "2026-11-15T13:21:40.840485+00:00", "reason": "User requested pause", "generated": 252, "selected": 280, "graded": 0, "action": "Stopped inference process; committed checkpoints preserved; unfinished batch will be recomputed on resume"}

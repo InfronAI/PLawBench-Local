@@ -1,90 +1,219 @@
-# PLawBench: A Rubric-Based Benchmark for Evaluating LLMs in Real-World Legal Practice
+# PLawBench Local
 
-# Introduction
-PLawBench is a rubric-based benchmark designed to evaluate the performance of large language models (LLMs) in legal practice. It includes three legal tasks: legal consultation, case analysis, and legal document drafting, covering a wide range of real-world legal domains such as personal affairs, marriage and family law, intellectual property, and criminal litigation. The benchmark aims to evaluate LLMs’ practical capabilities in handling practical legal tasks.
+[English](README.md) | [简体中文](README.zh-CN.md)
 
-<div align="center">
+An Apple Silicon–optimized implementation of PLawBench for evaluating LLMs on 280 public Chinese legal scenarios, featuring local MLX inference, resumable rubric-based scoring, and interactive experiment reports.
 
-<img width="846" height="345" alt="image" src="https://github.com/user-attachments/assets/c01cf686-e5bf-4476-af0f-f879600bfdfb" />
+The original Chinese legal scenarios, generation prompts and expert rubrics are preserved.
 
-</div>
+[Paper](https://aclanthology.org/2026.acl-long.458/) · [Reproduction scope](docs/REPRODUCTION.md) · [Experiment report](experiments/m1-public/REPORT.md) · [Original project README](docs/upstream/README.md)
 
-1. In the **public legal consultation task**, we draw on situations commonly encountered by lawyers to simulate the interaction between clients and lawyers. This task tests whether the model can correctly understand users’ legal needs, thereby identifying and eliciting key facts that remain undisclosed by the parties.
-   
-2. In the **case analysis task**, each case is structured into four parts: conclusion, legal facts, reasoning, and legal provisions, with dedicated rubrics designed for each. For selected questions, we further specify particular legal reasoning paths to assess the model’s ability to conduct structured and sound legal reasoning in real-world cases.
-   
-3. In the **legal document drafting task**,  models are required to generate legal documents, such as complaints and statements of defense, based on provided scenarios. This task aims to evaluate the models' proficiency in professional legal writing.
+## Demo
 
-![https://github.com/skylenage/PLawbench/edit/main/README.md#:~:text=small.png](./small.png)
+[![Automatically looping recording of the actual experiment report](docs/assets/demo.gif)](docs/assets/demo.mp4)
 
-# Dataset Description:
+**The looping GIF above provides an automatic README preview when viewer motion settings allow it.** [Watch the MP4](docs/assets/demo.mp4) or open [the autoplay video page](docs/demo.html) locally with `open docs/demo.html`. The recording shows actual saved predictions, original rubrics and judge results.
 
-practical_case_analysis_250.jsonl consists of case analysis questions. We have open-sourced a total of 250 questions, including the questions, reference answers, scoring rubrics, and score sheets. 
+<video src="docs/assets/demo.mp4" poster="docs/assets/demo-poster.png" autoplay loop muted playsinline controls width="960">
+  <a href="docs/assets/demo.mp4">Watch the demo video</a>
+</video>
 
-public_legal_consultation_18.json consists of legal consultation questions. We have open-sourced a total of 18 questions, including the consultation scenarios and scoring rubrics.
+GitHub [sanitizes README HTML](https://github.com/github/markup), so inline video autoplay cannot be guaranteed there. The GIF fallback respects [GitHub's animation preferences](https://docs.github.com/en/account-and-profile/how-tos/account-settings/managing-accessibility-settings). HTML renderers that permit video autoplay can play the muted MP4 inline. No external video hosting is required.
 
-Defendants_Statement.json and Plantiffs_Statement.json are legal writing tasks for drafting statements of defense and complaints, respectively. We have open-sourced a total of 12 questions in total, including the writing scenarios and scoring rubrics.
+## What is preserved
 
-![https://github.com/skylenage/PLawbench/edit/main/README.md#:~:text=dataset-statistics.png](./dataset-statistics.png)
+PLawBench evaluates three stages of legal practice: eliciting missing facts in consultations, reasoning about cases, and drafting legal documents. The final ACL paper is the methodological reference. The original four data files remain byte-for-byte unchanged.
 
-# Contributions
-Our work makes three main contributions:
+| Public subset | Questions | Evaluation |
+|---|---:|---|
+| Case analysis | 250 | Conclusion, facts, reasoning, statutes |
+| Consultation | 18 | Expert question-specific point allocations |
+| Plaintiff statements | 6 | Original drafting rubric and deductions |
+| Defendant statements | 6 | Original drafting rubric and deductions |
+| **Total** | **280** | Rubric-based LLM judging |
 
-1.More realistic simulation of legal practice:We faithfully simulate real-world legal practice scenarios, with all tasks adapted from authentic cases. The benchmark organizes legal tasks into three hierarchical levels—public legal consultation, practical case analysis, and legal document generation—reflecting the full workflow of legal practi- tioners and enabling a comprehensive evaluation of LLM performance across diverse legal tasks. 
+**Scope:** the paper describes 850 questions. Only these 280 are distributed here. The saved local experiment uses a quantized Qwen3-4B candidate and local Qwen3-4B judge, so it is a public-data reproduction with an uncalibrated self-judge, not a reproduction of the paper's Gemini-judged leaderboard. Human expert calibration and unavailable data are explicitly listed in the [coverage matrix](docs/REPRODUCTION.md). A [textual audit of main-run judgments](experiments/m1-public/judge_manual_audit.json) confirmed three citation attributions absent from the corresponding answers: local scores must be treated as diagnostics, not validated legal capability measurements.
 
-In real legal practice, user queries are often vague, logically inconsistent, emotionally charged, or even intentionally incomplete. While preserving the core logic of real cases, we deliberately amplify these cognitively challenging elements—such as ambiguous descriptions, omitted key facts, and misleading details—to assess whether LLMs can effectively operate under realistic legal consultation conditions.
+The [run provenance](experiments/m1-public/normalization_migration.json) records a correction to duplicate rubric numbering in consultation-12. All 280 unchanged candidate responses and 279 unchanged judgments were verified and reused; the affected judgment was recomputed with unique IDs. Original rubric text, allocations and earlier attempts are preserved.
 
-2.Fine-Grained Reasoning Steps:Beyond evaluating final outcomes, our benchmark explicitly incorporates fine-grained legal reasoning steps into task design and evaluation. This allows us to examine whether LLMs can perform multi-stage legal reasoning, including issue identification, fact clarification, legal analysis, and conclusion validation,rather than relying on shallow pattern matching or surface-level reasoning.
+## Quick start on M1 / M2 / M3 / M4
 
-3.Task-Specific Rubrics:Our evaluation framework adopts personalized, task-specific rubrics annotated by legal experts, moving beyond purely outcome-based or form-based metrics to assess substantive legal reasoning and decision-making processes.For each type of legal task, legal experts first define a rubric framework tailored to the task’s reasoning requirements. Subsequently, they annotate case-specific rubrics for each individual legal scenario. This two-stage annotation process ensures that evaluation criteria are both principled and context-sensitive, enabling a more fine-grained,comprehensive, and realistic assessment of LLM performance in legal practice settings.
+Use native **arm64 Python 3.11**, **macOS 26 or newer**, and preferably **16 GB unified memory**. The pinned MLX/Metal wheels target macOS 26; older macOS releases and 8 GB configurations have not been validated. For limited memory, start with batch size 1. No CUDA, Docker, API key or paid service is required.
 
-# Ranking
+```bash
+# If needed: brew install python@3.11
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install -e '.[metal,dev]'
+plawbench doctor
 
+# Four actual model generations + rubric judgments + report
+plawbench run --per-task 1 --output experiments/my-smoke
+open experiments/my-smoke/report.html
+```
 
+The first inference downloads the configured public MLX model. Subsequent runs can use `--offline`. The default candidate and judge are `mlx-community/Qwen3-4B-Instruct-2507-4bit`. Model revision, file hashes, package versions, seed, token limits and input hashes are retained in each run.
 
-<div align="center">
+The exact environment used for the checked-in experiment is in [requirements-m1.lock.txt](requirements-m1.lock.txt). To reinstall it, use `python -m pip install -r requirements-m1.lock.txt` followed by `python -m pip install --no-build-isolation -e .`. The lock targets Python 3.11 on Apple Silicon.
 
-| Family | Model | Overall | Task2-Avg | Task2-Conclusion | Task2-Facts | Task2-Reasoning | Task2-Statute | Task1 | Task3-Avg | Task3-Plaintiff | Task3-Defendant |
-|--------|-------|--------:|----------:|-----------------:|------------:|---------------:|--------------:|------:|----------:|----------------:|----------------:|
-| Claude | Claude-sonnet-4-20250514 | 53.55 | 55.91 | 62.57 | 79.75 | 49.54 | 35.66 | 58.24 | 46.48 | 39.60 | 53.35 |
-| Claude | Claude-sonnet-4-5-20250929 | 65.88 | 67.57 | 67.61 | 88.32 | 64.05 | 47.22 | 70.98 | 59.67 | 52.05 | 67.29 |
-| Claude | Claude-opus-4-5-20251101 | 66.47 | **68.00** | 69.82 | 83.61 | **65.49** | **53.61** | 68.92 | 62.27 | 56.54 | 68.01 |
-| DeepSeek | DeepSeek-V3.2 | 57.97 | 64.01 | 65.56 | 82.89 | 61.64 | 43.27 | 60.12 | 46.48 | 44.43 | 48.52 |
-| DeepSeek | DeepSeek-V3.2-thinking-inner | 63.23 | 64.11 | 63.91 | 86.35 | 60.24 | 44.19 | 72.09 | 55.87 | 46.13 | 65.61 |
-| Doubao | Doubao-seed-1-6-250615 | 63.88 | 61.79 | 64.53 | 83.12 | 56.87 | 43.69 | 75.02 | 59.95 | 48.59 | 71.32 |
-| Ernie | Ernie-5.0-thinking-preview | 51.39 | 62.89 | 64.17 | 85.84 | 58.33 | 40.96 | 27.79 | 47.94 | 46.70 | 49.18 |
-| Gemini | Gemini-2.5-flash | 62.07 | 63.85 | 64.94 | 88.95 | 60.64 | 37.00 | 68.77 | 54.65 | 46.44 | 62.87 |
-| Gemini | Gemini-2.5-pro | 64.05 | 64.14 | 68.12 | 78.48 | 64.49 | 43.15 | 70.31 | 59.73 | 55.35 | 64.11 |
-| Gemini | Gemini-3.0-pro-preview | 66.35 | 64.95 | **72.03** | 77.79 | 65.00 | 46.42 | 70.17 | 66.13 | **63.84** | 68.42 |
-| GLM | Glm-4.6 | 60.49 | 61.37 | 66.34 | 77.05 | 60.00 | 42.26 | 63.19 | 57.21 | 51.65 | 62.77 |
-| GPT | GPT-4o-20240806 | 35.76 | 41.66 | 54.79 | 67.90 | 34.46 | 15.82 | 47.86 | 17.86 | 17.81 | 17.92 |
-| GPT | GPT-5-0807-global | 67.76 | 62.92 | 66.77 | 86.21 | 60.27 | 34.18 | 78.71 | 68.54 | 61.05 | **76.03** |
-| GPT | GPT-5.2-1211-global | **69.67** | 66.37 | 69.93 | 88.26 | 60.38 | 48.59 | **79.57** | **68.58** | 58.25 | 63.42 |
-| Grok | Grok-4.1-fast | 52.67 | 58.17 | 63.32 | 89.94 | 53.37 | 21.55 | 59.07 | 39.23 | 30.25 | 48.22 |
-| Kimi | Kimi-k2 | 57.27 | 60.26 | 64.62 | 80.96 | 56.66 | 40.27 | 62.73 | 48.66 | 41.78 | 55.54 |
-| Qwen | Qwen-4b-instruct-2507 | 50.53 | 53.72 | 52.61 | 89.98 | 44.77 | 23.76 | 58.49 | 39.37 | 31.08 | 47.66 |
-| Qwen | Qwen-4b-thinking-2507 | 44.80 | 52.70 | 56.61 | 89.97 | 45.97 | 26.73 | 41.88 | 39.83 | 30.22 | 49.44 |
-| Qwen | Qwen-8b | 43.11 | 49.91 | 53.65 | 77.92 | 42.72 | 27.62 | 48.96 | 30.46 | 31.27 | 29.64 |
-| Qwen | Qwen3-30b-a3b-instruct-2507 | 55.73 | 59.81 | 59.65 | 90.13 | 53.44 | 32.60 | 61.19 | 45.30 | 32.21 | 58.39 |
-| Qwen | Qwen3-30b-a3b-thinking-2507 | 50.29 | 51.19 | 57.74 | 75.43 | 44.77 | 30.60 | 52.01 | 47.63 | 39.61 | 55.65 |
-| Qwen | Qwen3-235b-a22b-instruct-2507 | 63.08 | 65.57 | 64.34 | **91.90** | 60.07 | 42.52 | 67.79 | 55.78 | 42.04 | 69.51 |
-| Qwen | Qwen3-235b-a22b-thinking-2507 | 62.82 | 64.26 | 64.39 | 88.68 | 59.93 | 41.97 | 61.32 | 61.41 | 51.95 | 70.86 |
-| Qwen | Qwen3-max | 64.75 | 67.17 | 67.52 | 90.97 | 62.75 | 45.10 | 75.76 | 53.38 | 49.33 | 57.43 |
+## Reproduce all 280 public questions
 
+```bash
+source .venv/bin/activate
+# Run under caffeinate to keep macOS awake. Use a new directory for your run.
+PLAWBENCH_OUTPUT=experiments/my-public caffeinate -i sh scripts/reproduce.sh
+# With model snapshots already cached:
+PLAWBENCH_OUTPUT=experiments/my-public sh scripts/reproduce.sh --offline
+```
 
-</div>
+This runs the full generation → judging → analysis pipeline. The [frozen configuration](configs/m1-public.json) uses a 16,384-token generation budget, generation batch size 4, judging batch size 2, seed 42 and pinned model revisions. Different candidate/judge models are loaded sequentially; an identical model is reused in memory. The MLX free cache is capped at 128 MiB and active allocations are monitored against a 6 GiB guideline; transient peaks can exceed it. Allow sufficient time for hundreds of local generations and judgments; the saved report records measured runtime.
 
+View live progress without interrupting inference: `python scripts/progress.py experiments/my-public`.
 
+Re-run the same command after interruption: finished records are reused. Changing model, dataset, selection, sampling or token settings requires a new output directory. A failed judgment remains a failure and never silently becomes a zero. Add `--retry-failed` to retry failed judgments with the same configuration.
 
+To run each stage separately:
 
+```bash
+plawbench prepare --output experiments/staged
+plawbench generate --output experiments/staged --batch-size 4 \
+  --max-tokens 16384 --document-max-tokens 16384 \
+  --model-revision 50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b
+plawbench judge --output experiments/staged --batch-size 2 \
+  --judge-revision 50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b
+plawbench report --output experiments/staged
+```
 
-<img width="1030" height="550" alt="image" src="https://github.com/user-attachments/assets/da7b97d5-2366-4365-b3a6-0a72f820d96c" />
+`--tasks case_analysis consultation plaintiff defendant` selects subsets; `--per-task N` selects the first N items of each requested subset. Use the same selection and `--consultation-level` on every stage. `--data-dir /path/to/data` or `PLAWBENCH_DATA` supports running outside the checkout. Run `plawbench --help` for all commands.
 
+<!-- local-results:start -->
+## Saved local result
 
-<img width="1020" height="554" alt="image" src="https://github.com/user-attachments/assets/1b19cdb0-f06c-4462-94ab-7c673cf70906" />
+**Local Qwen3-4B self-judge; uncalibrated diagnostic scores.**
 
-<img width="1010" height="540" alt="image" src="https://github.com/user-attachments/assets/ce1ff51a-7e1c-4959-b6c3-f325b1694852" />
+| Subset | n | Score % |
+|---|---:|---:|
+| Consultation | 18 | 67.86 |
+| Case analysis | 250 | 82.22 |
+| Plaintiff statement | 6 | 76.87 |
+| Defendant statement | 6 | 91.88 |
 
-<img width="1021" height="544" alt="image" src="https://github.com/user-attachments/assets/3018f991-aa06-425b-801f-70d225e2d239" />
+Overall (2:5:3): **79.99%**.
 
+All 280 answers graded. [Read the findings and limitations](docs/EXPERIMENT_RESULTS.md).
 
+Saved generation time: 185.98 minutes; all judge attempts: 357.05 minutes. Peak reported MLX allocation: 8.88 GB. Timings exclude model setup and unfinished interrupted batches.
+
+![Local diagnostic scores](docs/assets/results.png)
+
+<!-- local-results:end -->
+
+## Data flow
+
+```mermaid
+flowchart LR
+    A[Four unchanged source datasets] --> B[Schema validation and stable IDs]
+    B --> C[Original generation prompts]
+    B --> R[Expert rubrics and fixed point totals]
+    C --> D[Candidate model · MLX / Metal]
+    D --> E[Predictions and runtime checkpoints]
+    E --> F[Judge model]
+    R --> F
+    F --> G{Valid scores for every rubric?}
+    G -->|No| H{Retries left?}
+    H -->|Yes| F
+    H -->|No| X[Save explicit failure]
+    X --> I[Point-weighted aggregation and coverage]
+    G -->|Yes| I
+    I --> J[JSON / CSV / Markdown / HTML]
+    J --> K[Recorded demo · MP4 and GIF]
+```
+
+Rubrics are supplied only to the judge. The original generation prompt includes a worked example that overlaps a released case; this inherited contamination risk is documented in [data quality notes](docs/DATA_QUALITY.md).
+
+## Execution and project structure
+
+```mermaid
+flowchart TD
+    CLI[CLI / scripts/reproduce.sh] --> Doctor[Check native arm64 and Metal]
+    Doctor --> Load[data.py · normalize and audit]
+    Load --> Manifest[Pin configuration and model hashes]
+    Manifest --> Resume{Checkpoint exists?}
+    Resume -->|Yes| Verify{Configuration and hashes match?}
+    Verify -->|Yes| Reuse[Reuse saved output]
+    Verify -->|No| Stop[Stop · use a new output directory]
+    Resume -->|No| Generate[backends.py · bounded Metal batch]
+    Reuse --> Judge[pipeline.py + scoring.py · judge and validate]
+    Generate --> Judge
+    Judge --> Analyze[analysis.py · scores / domains / sequence / uncertainty]
+    Analyze --> Report[Self-contained evidence browser and artifacts]
+```
+
+```text
+PLawBench/
+├── *.json / *.jsonl          # Original public datasets, unchanged
+├── src/plawbench/            # Loader, original prompts, MLX, scoring, CLI, analysis
+├── configs/                 # Documented experiment configuration
+├── scripts/                 # Full reproduction and demo recording
+├── tests/                   # Data, scoring, resume, batching and statistics checks
+├── experiments/             # Real outputs, raw judge attempts, manifests and reports
+├── docs/                    # Reproduction scope, data audit, diagrams and media
+│   └── upstream/            # Original README and scripts for provenance
+├── prompt_generate.py       # Import-safe legacy prompt export entry point
+└── prompt_zh.py             # Completed evaluator compatibility facade
+```
+
+## Scores, analysis and evidence
+
+For each subset or case dimension, the scoring rate is `100 × Σ earned points / Σ dataset maximum points`. Drafting is the equal mean of the plaintiff and defendant subset rates, as reflected in Table 3; the pooled drafting rate is also saved separately. Overall follows final-paper Table 3: `0.2 × consultation + 0.5 × case analysis + 0.3 × drafting`. This is neither a simple average of question percentages nor a sample-count-weighted overall score.
+
+Each completed run contains:
+
+- `predictions/` and `predictions.jsonl`: actual responses, token counts, stop reasons and timing.
+- `grades/` and `grades.jsonl`: raw judge attempts, validation errors, accepted scores and rationales.
+- `generation_manifest.json`, `judge_manifest.json`, `dataset_manifest.json`: configuration, provenance and source hashes.
+- `summary.json`, `scores.csv`, `REPORT.md`, `report.html`: coverage, task/dimension/domain results, explicit sequence groups and seeded bootstrap intervals.
+- `samples.json`: exact normalized inputs and rubrics; the candidate receives only `messages`.
+
+Sequence groups are conservatively inferred from explicit rubric wording, with ambiguous cases retained as `unspecified`. Their comparison is observational, not a causal ablation. Bootstrap intervals measure sampling variability conditional on the local judge; they do not validate its legal expertise. A rubric score is not an assurance of legal correctness.
+
+Human-judge calibration is implemented but requires real annotations:
+
+```bash
+plawbench calibrate --human human-scores.jsonl --judge judge-scores.jsonl --output calibration.json
+```
+
+See [the annotation format](docs/REPRODUCTION.md#human-judge-calibration). No human scores are synthesized.
+
+## Validation and troubleshooting
+
+```bash
+python -m pytest -q
+python prompt_generate.py --output experiments/export/prompts.jsonl
+```
+
+- **Metal unavailable:** verify `uname -m` and `python -c 'import platform; print(platform.machine())'` both show `arm64`; avoid Rosetta Python.
+- **Memory pressure:** start a new run with `--batch-size 1`. Do not run multiple model processes concurrently.
+- **Offline model missing:** run once with network access, then use `--offline`. Models stay in the Hugging Face cache, outside Git.
+- **Incomplete scoring:** inspect `grades/*.json`, then use the same judge command with `--retry-failed`. Missing/invalid scores are excluded, coverage is reported, and Overall is withheld until the selected run is complete.
+- **Package download trouble:** retry your package index; the core loader, analysis and tests do not need MLX. `pip install --no-build-isolation -e .` works when build dependencies are already installed.
+
+## Regenerate the figures and video
+
+The checked-in media plays without dependencies. To record new results:
+
+```bash
+brew install ffmpeg
+python -m pip install -e '.[demo]'
+python -m playwright install chromium ffmpeg
+python scripts/plot_results.py --run experiments/m1-public
+make demo
+```
+
+The recorder drives the actual HTML report, verifies the interactions, records browser errors and saves a receipt alongside MP4, GIF and poster files. `make demo` also verifies the looping GIF and muted video autoplay in the local demo page under the browser’s default policy.
+
+## Attribution
+
+Original benchmark: Shi et al., [PLAWBENCH: A Rubric-Based Benchmark for Evaluating LLMs in Real-World Legal Practice](https://aclanthology.org/2026.acl-long.458/), ACL 2026, DOI `10.18653/v1/2026.acl-long.458`.
+
+Inference uses [MLX LM](https://github.com/ml-explore/mlx-lm) and the [MLX Qwen3-4B model conversion](https://huggingface.co/mlx-community/Qwen3-4B-Instruct-2507-4bit). The [MIT license](LICENSE) covers this adaptation’s new code and documentation. The upstream checkout did not include a license file; the original data and code retain their upstream terms and are not relicensed here. Consult upstream authors and individual model licenses before redistribution.

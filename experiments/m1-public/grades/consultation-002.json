@@ -1,0 +1,81 @@
+{
+  "id": "consultation-002",
+  "task": "consultation",
+  "created_at": "2026-11-15T19:46:34.346755+00:00",
+  "status": "ok",
+  "fingerprint": "239a56efac006526ff1dbdcb506d231bd978bec80af9e26fc4c9303acb619840",
+  "response_sha256": "2cb492b374deefcc6ae06bb9288052d60c8eacfb72200d29399e6409898e5cb2",
+  "attempts": [
+    {
+      "text": "{\"scores\":[{\"id\":\"q1\",\"points\":0,\"rationale\":\"响应中未回答事故认定书中关于责任划分及致伤机理的原文表述，未提供对应问题，未满足得分点要求。\"},{\"id\":\"q2\",\"points\":0,\"rationale\":\"响应中未回答交警对石块大小、位置及车辆与孩子位置关系的勘验记录具体内容，未提供对应问题，未满足得分点要求。\"},{\"id\":\"q3\",\"points\":0,\"rationale\":\"响应中未回答行车记录仪是否完整记录事故过程及车速，交警是否调取该录像，未提供对应问题，未满足得分点要求。\"},{\"id\":\"q4\",\"points\":0,\"rationale\":\"响应中未回答事发时孩子所处的具体位置（站台 / 人行道 / 机动车道）是什么，未提供对应问题，未满足得分点要求。\"},{\"id\":\"q5\",\"points\":0,\"rationale\":\"响应中未回答保险合同中关于车辆使用性质的约定，及保险公司拒赔所依据的具体条款，未提供对应问题，未满足得分点要求。\"},{\"id\":\"q6\",\"points\":0,\"rationale\":\"响应中未回答‘顺路捎人收油钱’的具体情况，未提供对应问题，未满足得分点要求。\"},{\"id\":\"q7\",\"points\":0,\"rationale\":\"响应中未回答事故发生时陈帅的驾照状态是否为正常，未提供对应问题，未满足得分点要求。\"},{\"id\":\"q8\",\"points\":0,\"rationale\":\"响应中未回答陈帅所购车险的具体险种（含交强险、商业三者险）有哪些，未提供对应问题，未满足得分点要求。\"}]}",
+      "prompt_tokens": 2481,
+      "generation_tokens": 366,
+      "elapsed_seconds": 38.37720685405657,
+      "completion_latency_seconds": 66.61818633321673,
+      "batch_wall_seconds": 76.75441370811313,
+      "batch_size": 2,
+      "tokens_per_second": 28.585850253340798,
+      "peak_memory_gb": 8.875839144,
+      "finish_reason": "stop",
+      "attempt": 1
+    }
+  ],
+  "scores": [
+    {
+      "id": "q1",
+      "points": 0.0,
+      "max_points": 3.0,
+      "rationale": "响应中未回答事故认定书中关于责任划分及致伤机理的原文表述，未提供对应问题，未满足得分点要求。"
+    },
+    {
+      "id": "q2",
+      "points": 0.0,
+      "max_points": 3.0,
+      "rationale": "响应中未回答交警对石块大小、位置及车辆与孩子位置关系的勘验记录具体内容，未提供对应问题，未满足得分点要求。"
+    },
+    {
+      "id": "q3",
+      "points": 0.0,
+      "max_points": 2.0,
+      "rationale": "响应中未回答行车记录仪是否完整记录事故过程及车速，交警是否调取该录像，未提供对应问题，未满足得分点要求。"
+    },
+    {
+      "id": "q4",
+      "points": 0.0,
+      "max_points": 2.0,
+      "rationale": "响应中未回答事发时孩子所处的具体位置（站台 / 人行道 / 机动车道）是什么，未提供对应问题，未满足得分点要求。"
+    },
+    {
+      "id": "q5",
+      "points": 0.0,
+      "max_points": 3.0,
+      "rationale": "响应中未回答保险合同中关于车辆使用性质的约定，及保险公司拒赔所依据的具体条款，未提供对应问题，未满足得分点要求。"
+    },
+    {
+      "id": "q6",
+      "points": 0.0,
+      "max_points": 2.0,
+      "rationale": "响应中未回答‘顺路捎人收油钱’的具体情况，未提供对应问题，未满足得分点要求。"
+    },
+    {
+      "id": "q7",
+      "points": 0.0,
+      "max_points": 2.0,
+      "rationale": "响应中未回答事故发生时陈帅的驾照状态是否为正常，未提供对应问题，未满足得分点要求。"
+    },
+    {
+      "id": "q8",
+      "points": 0.0,
+      "max_points": 1.0,
+      "rationale": "响应中未回答陈帅所购车险的具体险种（含交强险、商业三者险）有哪些，未提供对应问题，未满足得分点要求。"
+    }
+  ],
+  "points": 0.0,
+  "max_points": 18.0,
+  "reused_from": {
+    "record": "../m1-public-before-rubric-id-fix/grades/consultation-002.json",
+    "record_sha256": "5521c8e2f802ed134b0ab71a676f29ca5eb12cb018ed8efd34423f46010c98d7",
+    "original_fingerprint": "88743dc1d2615a6a65bf684d73fb7ec9cb77214a0fd15e519b5a01cbbfd7439b",
+    "stage_input_unchanged": true
+  }
+}

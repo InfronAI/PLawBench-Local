@@ -1,0 +1,5 @@
+{
+  "reason": "Initial batch-size 4 run made no completed checkpoints after >10 min; sampled process footprint 11.5 GB and severe host swapping. Terminated own process to reduce memory pressure.",
+  "completed_predictions": 0,
+  "action": "Bound MLX allocation/cache and revalidate with smaller batches."
+}
